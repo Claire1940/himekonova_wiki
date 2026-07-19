@@ -55,8 +55,12 @@ function main() {
   let total = 0
 
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    // content 目录不存在（新站/主题重构清空阶段）：生成空清单而非退出，
+    // 避免 CI 构建因缺 content/ 而 exit(1) 失败；后续 Part8 接入文章后重跑自动填充。
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    console.warn(`[content-manifest] content 目录不存在，已生成空清单: ${path.relative(ROOT, OUT_FILE)}`)
+    return
   }
 
   const locales = fs
