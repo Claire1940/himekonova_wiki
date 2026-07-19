@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Himeko Nova Wiki - Builds, Skills & Lore",
+      "description": "Himeko Nova Wiki covers character builds, skills, lore, weapons, team guides and updates for Himeko Nova players across Honkai Impact 3rd tips.",
+      "keywords": "Himeko Nova, Honkai Impact 3rd, builds, skills, lore, weapons, guides",
+      "ogTitle": "Himeko Nova Wiki - Builds, Skills & Lore",
+      "ogDescription": "Himeko Nova Wiki covers character builds, skills, lore, weapons, team guides and updates for Himeko Nova players across Honkai Impact 3rd tips.",
+      "twitterTitle": "Himeko Nova Wiki - Builds, Skills & Lore",
+      "twitterDescription": "Himeko Nova Wiki covers character builds, skills, lore, weapons, and team guides for Honkai Impact 3rd players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Anime Sci-Fi Character Guide",
+    "title": "Himeko Nova Wiki",
+    "description": "Complete Himeko Nova character guide featuring skills, builds, weapons, lore, team compositions, upgrade materials and gameplay tips for Honkai Impact 3rd players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Honkai Impact 3rd",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "10M+",
+        "label": "Honkai Impact 3rd Players"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Multiple",
+        "label": "Himeko Builds"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "New",
+        "label": "Redeem Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Regular",
+        "label": "Game Updates"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Himeko Nova?",
+    "description": "Join the Honkai Impact 3rd community on HoYoLAB and Reddit for Himeko builds, updates, and discussions!",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Honkai Impact 3rd"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Himeko Nova Wiki",
+    "description": "Your complete resource hub for Himeko Nova character builds, skills, weapons, lore, and team guides for Honkai Impact 3rd.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "HoYoLAB",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Official Site",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Himeko Nova Wiki. Not affiliated with HoYoverse or the developers of Honkai Impact 3rd.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
