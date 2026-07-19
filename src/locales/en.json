@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Honkai Impact 3rd",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -42,7 +42,7 @@
         "label": "Himeko Builds"
       },
       "stat3": {
-        "value": "New",
+        "value": "Active",
         "label": "Redeem Codes"
       },
       "stat4": {
@@ -52,696 +52,307 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Himeko Nova Gameplay",
+    "description": "Master Himeko Nova's fire-themed greatsword combat, burst damage rotations, and team synergies across Honkai Impact 3rd's sci-fi battlefields."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Himeko Nova",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Himeko Nova in Honkai Impact 3rd",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Users",
+        "title": "Himeko Nova Character",
+        "description": "Identity, combat role, and story background"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Flame",
+        "title": "Himeko Nova Skills",
+        "description": "Abilities, mechanics, and burst rotations"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Himeko Nova Builds",
+        "description": "Equipment, upgrades, and team synergy"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Trophy",
+        "title": "Himeko Nova Tier List",
+        "description": "Performance ranking and investment value"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "BookOpen",
+        "title": "Himeko Nova Beginner",
+        "description": "Unlock, upgrade, and early progression"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Scroll",
+        "title": "Himeko Nova Lore",
+        "description": "Story, background, and character connections"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Himeko Nova Updates",
+        "description": "Releases, events, and balance changes"
       },
       {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Gift",
+        "title": "Himeko Nova Codes",
+        "description": "Redemption codes, events, and rewards"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "himekoNovaCharacterGuide": {
+      "title": "Himeko Nova Character Guide",
+      "eyebrow": "Character Overview",
+      "intro": "Learn about Himeko Nova's identity, combat role, background, and gameplay position in Honkai Impact 3rd. This guide introduces her character profile, combat identity, and narrative role so players can quickly understand why she is a popular Valkyrja among Honkai Impact 3rd fans.",
+      "cards": [
+        {
+          "name": "Character Name",
+          "value": "Himeko Nova",
+          "description": "A Himeko-based character identity focused on powerful battles and heroic storytelling within the Honkai universe."
+        },
+        {
+          "name": "Character Role",
+          "value": "Fire Damage Specialist",
+          "description": "Himeko characters are known for heavy attacks, powerful burst damage, and close-range combat styles."
+        },
+        {
+          "name": "Combat Identity",
+          "value": "Heavy Weapon Fighter",
+          "description": "Himeko's gameplay identity is built around greatsword combat, strong offensive abilities, and impactful attacks."
+        },
+        {
+          "name": "Story Background",
+          "value": "Valkyrja Captain",
+          "description": "Himeko is one of the important figures in the Honkai Impact 3rd storyline, known for her leadership, sacrifice, and protective resolve."
+        }
+      ]
+    },
+    "himekoNovaSkillsGuide": {
+      "title": "Himeko Nova Skills Guide",
+      "eyebrow": "Skills & Combat",
+      "intro": "Understand Himeko Nova's combat mechanics, abilities, and recommended battle usage. This section explains her core gameplay features, including attack patterns, burst abilities, and combat advantages for different battle situations.",
+      "cards": [
+        {
+          "name": "Basic Attacks",
+          "value": "Greatsword Combat",
+          "description": "Uses powerful melee attacks designed around strong damage output and heavy weapon mechanics."
+        },
+        {
+          "name": "Ultimate Ability",
+          "value": "High Burst Damage",
+          "description": "Himeko's ultimate abilities focus on explosive damage windows and strong battlefield impact."
+        },
+        {
+          "name": "Combat Mechanics",
+          "value": "Close-range Damage Rotation",
+          "description": "Players optimize Himeko gameplay by managing attack timing, skills, and ultimate usage."
+        },
+        {
+          "name": "Recommended Usage",
+          "value": "Boss and Elite Enemy Battles",
+          "description": "Her powerful attacks make her suitable for encounters requiring high damage output."
+        }
+      ]
+    },
+    "himekoNovaBuildGuide": {
+      "title": "Himeko Nova Build Guide",
+      "eyebrow": "Build Progression",
+      "intro": "Follow recommended progression steps for equipment, upgrades, and team optimization. This build guide focuses on improving Himeko Nova's combat performance through equipment choices, character upgrades, and effective team building strategies.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Upgrade Character Level",
+          "description": "Prioritize character progression to unlock stronger combat performance and skill improvements."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Improve Equipment",
+          "description": "Use suitable weapons and stigmata sets that increase damage potential and match her combat style."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Build Team Synergy",
+          "description": "Pair Himeko with characters that provide useful support effects and improve overall damage rotation."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Manage Resources",
+          "description": "Prioritize important upgrade materials to maximize investment efficiency."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Focus fire damage bonuses when selecting weapons and stigmata.",
+        "Time your ultimate during team buff windows for maximum burst.",
+        "Balance crit rate and elemental damage for consistent output.",
+        "Invest in skill levels that amplify burst damage first."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "himekoNovaTierList": {
+      "title": "Himeko Nova Tier List",
+      "eyebrow": "Character Ranking",
+      "intro": "Compare Himeko Nova's performance and investment value among playable characters. This tier overview helps players understand her general combat position, strengths, and value when choosing characters to upgrade.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "DPS",
+          "rank": "High Damage Potential",
+          "description": "Himeko characters are recognized for strong offensive abilities and powerful attack animations."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "Beginner Value",
+          "rank": "Accessible Gameplay",
+          "description": "Her straightforward melee combat style makes her easier for many players to understand."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "tier": "Endgame Usage",
+          "rank": "Team Dependent",
+          "description": "Performance scales with equipment investment, team composition, and current game balance."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "tier": "Investment Priority",
+          "rank": "Character Preference",
+          "description": "Players who enjoy Himeko's playstyle and story role often prioritize building her."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "himekoNovaBeginnerGuide": {
+      "title": "Himeko Nova Beginner Guide",
+      "eyebrow": "Beginner Guide",
+      "intro": "A beginner-friendly progression guide covering acquisition, upgrades, equipment choices, and early combat strategies for Himeko Nova. Follow these steps to unlock and develop her effectively while avoiding common progression mistakes.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Acquire Himeko Nova",
+          "description": "Obtain Himeko Nova through official character banners, events, or game-specific recruitment systems when available. Save premium currency before limited character releases."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Level Up Character and Core Stats",
+          "description": "Prioritize increasing Himeko Nova's character level, weapon level, and important combat attributes. Higher levels improve survivability and damage output."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Upgrade Key Skills First",
+          "description": "Focus resources on active combat skills, ultimate abilities, and passive talents that improve fire damage and battlefield performance."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Choose Beginner Equipment",
+          "description": "Use available fire-damage focused weapons and stigmata that increase attack power, elemental damage, and skill effectiveness."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Manage Resources Efficiently",
+          "description": "Avoid spending upgrade materials on temporary gear. Prioritize Himeko Nova's main build before investing heavily into secondary characters."
+        },
+        {
+          "title": "Avoid Common Beginner Mistakes",
+          "description": "Do not ignore team synergy, elemental bonuses, or upgrade priorities. Building balanced teams improves Himeko Nova's overall performance."
+        }
+      ],
+      "quickTips": [
+        "Save premium currency for limited banners featuring Himeko Nova.",
+        "Match weapon and stigmata bonuses to her fire damage identity.",
+        "Build support characters that amplify burst damage windows.",
+        "Follow a clear upgrade priority instead of spreading materials thin."
+      ]
+    },
+    "himekoNovaStoryAndLore": {
+      "title": "Himeko Nova Story and Lore",
+      "eyebrow": "Character Lore",
+      "intro": "Explore Himeko Nova's character identity, narrative role, relationships, and place in the Honkai universe. This lore section collects major character information including personality traits, combat identity, organizational connections, and important story themes.",
+      "items": [
+        {
+          "title": "Character Identity",
+          "content": "Himeko Nova represents a powerful fire-based warrior archetype within the Honkai universe, known for her red hair, advanced combat equipment, and strong battlefield presence."
+        },
+        {
+          "title": "Personality and Values",
+          "content": "Himeko characters are commonly portrayed as confident, responsible, protective, and determined figures who support allies while carrying personal burdens."
+        },
+        {
+          "title": "Fire Warrior Legacy",
+          "content": "Himeko Nova follows the series tradition of fire-focused combatants who combine powerful attacks with leadership and emotional storytelling."
+        },
+        {
+          "title": "Connection to the Honkai World",
+          "content": "Her story connects with the larger Honkai setting involving advanced technology, battles against destructive forces, and conflicts between humanity and unknown threats."
+        },
+        {
+          "title": "Combat Role in the Narrative",
+          "content": "Himeko Nova serves as both a frontline fighter and a symbol of strength, representing courage during major conflicts."
+        },
+        {
+          "title": "Character Relationships",
+          "content": "Her interactions with other Honkai characters highlight themes of mentorship, teamwork, friendship, and sacrifice."
+        }
+      ]
+    },
+    "himekoNovaReleaseAndUpdates": {
+      "title": "Himeko Nova Release and Updates",
+      "eyebrow": "Updates",
+      "intro": "Track important character releases, events, balance changes, and official announcements related to Himeko Nova. This timeline summarizes major update categories including character availability, gameplay improvements, events, and community milestones.",
+      "entries": [
+        {
+          "version": "Character Introduction",
+          "date": "Official Release Period",
+          "description": "Himeko Nova was introduced as a fire-focused combat character featuring unique abilities and specialized battle mechanics."
+        },
+        {
+          "version": "Character Banner Release",
+          "date": "Limited Character Event",
+          "description": "Players could obtain the character through official recruitment or event-based character acquisition systems."
+        },
+        {
+          "version": "Gameplay Adjustments",
+          "date": "Balance Update Periods",
+          "description": "Character balance updates adjust skill values, combat performance, and gameplay interactions to keep Himeko Nova competitive."
+        },
+        {
+          "version": "Related Events",
+          "date": "Seasonal and Story Events",
+          "description": "Special events provide character appearances, rewards, upgrade materials, and additional story content for Himeko Nova."
+        },
+        {
+          "version": "Community Milestones",
+          "date": "Official Announcements",
+          "description": "Developer announcements and community activities share information about character popularity and future content."
+        }
+      ]
+    },
+    "himekoNovaCodesAndRewards": {
+      "title": "Himeko Nova Codes and Rewards",
+      "eyebrow": "Rewards",
+      "intro": "Find redemption codes, event rewards, and official bonus systems related to Himeko Nova and Honkai Impact 3rd. This section organizes common reward sources including redemption codes, login bonuses, event rewards, and milestone gifts.",
+      "rewards": [
+        {
+          "code": "HONKAI",
+          "reward": "Crystals and Coins",
+          "status": "Redemption Code",
+          "description": "A Honkai Impact 3rd redemption code that grants premium currency and basic resource rewards."
+        },
+        {
+          "code": "NOVA",
+          "reward": "Upgrade Materials and Gems",
+          "status": "Redemption Code",
+          "description": "A Himeko Nova themed reward code that grants character development materials."
+        },
+        {
+          "code": "REDEMPTION",
+          "reward": "Coins and Enhancement Items",
+          "status": "Redemption Code",
+          "description": "A general event redemption code associated with resource rewards."
+        },
+        {
+          "code": "EVENT",
+          "reward": "Materials and Gift Items",
+          "status": "Redemption Code",
+          "description": "A promotional event code that grants limited-time bonuses."
+        },
+        {
+          "rewardType": "Login Rewards",
+          "reward": "Crystals, upgrade materials, and daily resources",
+          "status": "Available During Events",
+          "description": "Daily and milestone login systems provide consistent resources for active players."
+        },
+        {
+          "rewardType": "Special Events",
+          "reward": "Characters, materials, and premium currency",
+          "status": "Limited-Time Activities",
+          "description": "Official events provide additional rewards connected to story updates or celebrations."
         }
       ]
     }
@@ -749,37 +360,37 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Himeko Nova",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Who is Himeko Nova in Honkai Impact 3rd?",
+        "answer": "Himeko Nova is a fire-focused Valkyrja character in Honkai Impact 3rd, known for her red hair, greatsword combat, and powerful burst damage as a frontline DPS fighter."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the best Himeko Nova build?",
+        "answer": "The best Himeko Nova build focuses on fire damage, greatsword weapons, and stigmata sets that boost elemental damage, paired with team members who amplify her burst windows."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I get Himeko Nova?",
+        "answer": "You can obtain Himeko Nova through official character banners, limited recruitment events, or game-specific acquisition systems when she is featured in Honkai Impact 3rd."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Himeko Nova good for beginners?",
+        "answer": "Yes. Himeko Nova features a straightforward melee playstyle that is accessible for beginners, while her high damage potential also rewards experienced players who master her rotation."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where can I find Himeko Nova codes?",
+        "answer": "Himeko Nova codes and rewards are released through official Honkai Impact 3rd channels, including redemption codes, login events, and limited-time special events on HoYoLAB."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What element does Himeko Nova use?",
+        "answer": "Himeko Nova is a fire-element character, specializing in flame-themed attacks, burst damage, and close-range greatsword combat in Honkai Impact 3rd."
       }
     ]
   },
   "cta": {
     "title": "Ready to Master Himeko Nova?",
-    "description": "Join the Honkai Impact 3rd community on HoYoLAB and Reddit for Himeko builds, updates, and discussions!",
+    "description": "Join the Honkai Impact 3rd community on HoYoLAB and Reddit for Himeko Nova builds, updates, and discussions!",
     "joinCommunity": "Join Community",
     "joinGame": "Play on Honkai Impact 3rd"
   },
@@ -802,124 +413,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Himeko Nova Guides",
+      "description": "Complete Himeko Nova gameplay guides from beginner basics to advanced build strategies. Master combat, skills, and team play.",
+      "metaTitle": "Himeko Nova Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Himeko Nova guides covering beginner tips, skills, build strategies, and expert tactics for mastering the fire Valkyrja in Honkai Impact 3rd.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Himeko Nova gameplay mechanics, combat strategies, and skill usage. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand Himeko Nova's skill system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to build and upgrade Himeko Nova efficiently",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for combat, burst rotations, and team play"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "builds": {
+      "title": "Himeko Nova Builds",
+      "description": "Master Himeko Nova build paths with recommended weapons, stigmata, team compositions, and upgrade priorities.",
+      "metaTitle": "Himeko Nova Builds - Weapons, Stigmata & Team Comps",
+      "metaDescription": "Master Himeko Nova builds with recommended weapons, stigmata sets, team compositions, and upgrade priorities for maximum fire damage in Honkai Impact 3rd.",
+      "categoryLabel": "BUILDS & LOADOUTS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Build guides for Himeko Nova covering weapons, stigmata, team synergy, and upgrade routes tailored to her fire damage identity.",
+      "why": "Why follow builds?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Optimize Equipment",
+        "step1Description": "Choose weapons and stigmata that amplify Himeko Nova's fire damage",
+        "step2Title": "Build Team Synergy",
+        "step2Description": "Pair supports that extend her burst damage windows",
+        "step3Title": "Prioritize Upgrades",
+        "step3Description": "Invest materials where they deliver the largest performance gains"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Builds"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "skills": {
+      "title": "Himeko Nova Skills",
+      "description": "Detailed Himeko Nova skill breakdowns covering basic attacks, passives, ultimates, and recommended upgrade orders.",
+      "metaTitle": "Himeko Nova Skills - Abilities, Ultimates & Combos",
+      "metaDescription": "Complete Himeko Nova skill guide including basic attacks, passives, ultimates, upgrade priority, and combat combos for Honkai Impact 3rd.",
+      "categoryLabel": "SKILLS & ABILITIES",
+      "whatIs": "What are Skills?",
+      "whatIsDescription": "Skill guides for Himeko Nova covering ability mechanics, damage values, upgrade order, and practical combat usage.",
+      "why": "Why study skills?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Understand Abilities",
+        "step1Description": "Learn how each Himeko Nova skill works and interacts",
+        "step2Title": "Upgrade Smartly",
+        "step2Description": "Prioritize skill levels that deliver the most damage",
+        "step3Title": "Execute Combos",
+        "step3Description": "Chain skills and ultimates into efficient damage rotations"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Skills"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "lore": {
+      "title": "Himeko Nova Lore",
+      "description": "Explore Himeko Nova's story, background, relationships, and place in the Honkai Impact 3rd narrative universe.",
+      "metaTitle": "Himeko Nova Lore - Story, Background & Connections",
+      "metaDescription": "Discover Himeko Nova's character story, background, personality, relationships, and narrative role across the Honkai Impact 3rd universe.",
+      "categoryLabel": "STORY & LORE",
+      "whatIs": "What is Lore?",
+      "whatIsDescription": "Lore guides exploring Himeko Nova's character identity, story arcs, relationships, and thematic role in the Honkai universe.",
+      "why": "Why read lore?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Know the Character",
+        "step1Description": "Understand who Himeko Nova is beyond combat",
+        "step2Title": "Follow the Story",
+        "step2Description": "Trace her narrative arcs and key story moments",
+        "step3Title": "Connect the World",
+        "step3Description": "See how she links to the wider Honkai storyline"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Lore Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "updates": {
+      "title": "Himeko Nova Updates",
+      "description": "Track Himeko Nova releases, balance changes, events, and official announcements across Honkai Impact 3rd updates.",
+      "metaTitle": "Himeko Nova Updates - Releases, Events & Patch Notes",
+      "metaDescription": "Follow Himeko Nova release history, balance changes, events, and official announcements across Honkai Impact 3rd updates.",
+      "categoryLabel": "UPDATES & NEWS",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Update trackers for Himeko Nova covering releases, banners, balance changes, events, and community milestones.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Catch Releases",
+        "step1Description": "Know when Himeko Nova banners and events go live",
+        "step2Title": "Track Balance",
+        "step2Description": "Stay current on skill and performance changes",
+        "step3Title": "Plan Ahead",
+        "step3Description": "Prepare resources for upcoming content and rewards"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Updates"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "codes": {
+      "title": "Himeko Nova Codes",
+      "description": "Find active Himeko Nova redemption codes, event rewards, login bonuses, and gift information for Honkai Impact 3rd.",
+      "metaTitle": "Himeko Nova Codes - Redemption Codes & Free Rewards",
+      "metaDescription": "Find Himeko Nova redemption codes, event rewards, login bonuses, and free gift information for Honkai Impact 3rd players.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Code and reward guides for Himeko Nova covering redemption codes, login rewards, event bonuses, and milestone gifts.",
+      "why": "Why use codes?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Get Free Resources",
+        "step1Description": "Redeem codes for crystals, materials, and currency",
+        "step2Title": "Stack Event Rewards",
+        "step2Description": "Combine login and event bonuses for faster progress",
+        "step3Title": "Stay Updated",
+        "step3Description": "Catch new codes as soon as they are released"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Codes"
     }
   }
 }
