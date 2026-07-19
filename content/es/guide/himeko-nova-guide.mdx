@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Himeko Nova: mejores builds, reliquias y composiciones de equipo",
+  description: "Domina a Himeko Nova con nuestra guía de 2026. Conoce los mejores conjuntos de reliquias, conos de luz y sinergias de equipo para los estados de Sentencia y Diezmo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Master+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Himeko Nova"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de Himeko Nova**: Concéntrate en utilizar la mecánica única de Habilidad de Apoyo para activar turnos adicionales y un daño en área masivo.
+- **Estilo de juego de modo dual**: Cambia entre **Sentencia** (enfoque en Definitiva/un solo objetivo) y **Diezmo** (enfoque en Habilidad/daño en área) según la composición de tu equipo.
+- **Mejores reliquias**: El conjunto de **Navegante** es indiscutiblemente el mejor para su ranura, proporcionando enormes mejoras de DAÑO y ATQ que se acumulan con las Habilidades de Apoyo.
+- **Mejores compañeros**: Incluye siempre al menos a un **Compañero Trazacaminos** (Sunday, Dan PT, RMC o Welt) para habilitar sus mecánicas principales.
+- **Prioridad de Cono de Luz**: Su S1 característico proporciona una reducción de DEF esencial y regeneración de energía, superando significativamente a las opciones F2P.
+</Callout>
+
+<Section icon={Map} title="Himeko Nova: Dominando las mecánicas de la Habilidad de Apoyo">
+
+Himeko Nova introduce un sistema de combate revolucionario al juego a través de su **Territorio de Trazacaminos**. A diferencia de los atacantes tradicionales, su conjunto de habilidades gira en torno a la **Habilidad de Apoyo**, un tipo de habilidad completamente nuevo que permite a los aliados ordenar al Trazacaminos que ataque. Esta **guía de Himeko Nova** detallará cómo optimizar estas interacciones para maximizar tu daño por segundo (DPS) en el desafiante contenido de fin de juego de 2026.
+
+**Puntos clave del video:**
+- Desglose detallado de los activadores de los estados de **Sentencia** y **Diezmo**.
+- Análisis del conjunto de reliquias de **Navegante** y por qué supera a todas las alternativas.
+- Estrategias integrales de creación de equipos con Sunday y Dan PT.
+- Comparación entre el Cono de Luz característico S1 y las opciones F2P.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="¡La MEJOR guía de Himeko Nova! | Mejores builds, reliquias, equipos" />
+
+El núcleo de la jugabilidad de Himeko Nova es su Habilidad, que otorga a todos los aliados un uso de la **Habilidad de Apoyo**. Cuando un aliado usa este botón, el Trazacaminos realiza un ataque en área seguido de tres golpes de rebote. Crucialmente, si un **Compañero Trazacaminos** usa la Habilidad de Apoyo, recibe un turno adicional inmediato, lo que convierte de manera efectiva a la Habilidad de Apoyo en una acción gratuita que recarga los recursos de energía únicos de Himeko.
+
+<Callout type="tip" title="Consejo de mecánica profesional">
+Himeko Nova no consume un uso de Habilidad de Apoyo en su propio turno. En su lugar, su Habilidad de Apoyo reemplaza su acción de Habilidad estándar, infligiendo mayor daño y más golpes de rebote sin agotar los usos compartidos del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sentencia vs. Diezmo: Selección estratégica del modo">
+
+Himeko Nova funciona en dos estados distintos, determinados por qué Compañero Trazacaminos activa la Habilidad de Apoyo. Elegir el estado adecuado para el encuentro actual es la diferencia entre una batalla difícil y una victoria en 0 ciclos.
+
+| Estado | Unidades de Activación | Mejoras Principales | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Sentencia** | Dan PT, MC, Sunday | +100% DAÑO, +100% DAÑO de Definitiva | Jefes de un solo objetivo, pocos enemigos |
+| **Diezmo** | Welt, March, Evernight | +100% Daño Crítico, +100% Daño Crítico de Habilidad | Pura Ficción, oleadas de alta densidad |
+
+<CardGrid cols={2}>
+  <Card title="El estado de Sentencia">
+    - **Activador**: Se activa por los "nuevos" miembros del Expreso Astral.
+    - **Escalado**: Multiplicadores masivos de DAÑO bruto.
+    - **Usos gratuitos**: Obtiene Habilidades de Apoyo adicionales después de que los aliados usen 2 Definitivas.
+    - **Enfoque**: Se combina mejor con **Sunday** o **Sparkle** para composiciones de hipercarry.
+  </Card>
+  <Card title="El estado de Diezmo">
+    - **Activador**: Se activa por los miembros "clásicos" del Expreso Astral.
+    - **Escalado**: Se centra en la saturación de Daño Crítico para todo el equipo.
+    - **Usos gratuitos**: Obtiene Habilidades de Apoyo adicionales después de que los aliados golpeen a 9 enemigos.
+    - **Enfoque**: Ideal para partidas sin personajes de mantenimiento (sustainless) con **Welt** o **Blade**.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de rotación">
+Solo puedes activar dos Habilidades de Apoyo gratuitas por activación de estado. Este contador se reinicia cada vez que Himeko Nova usa su Definitiva. Asegúrate de consumir tus cargas gratuitas antes de lanzar su Definitiva para evitar desperdiciar daño.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejor equipamiento: Reliquias y Ornamentos Planos">
+
+Para Himeko Nova, la selección de equipamiento es relativamente sencilla porque su conjunto característico es significativamente más fuerte que las alternativas genéricas. En 2026, el conjunto de **Navegante** sigue siendo el estándar de oro para cualquier **guía de Himeko Nova**.
+
+| Tipo de Conjunto | Nombre | Efecto de 2 piezas | Efecto de 4 piezas/Plano |
+| :--- | :--- | :--- | :--- |
+| **Reliquia (BiS)** | **Navegante** | +12% ATQ | +54% DAÑO para Habilidades y Definitivas |
+| **Reliquia (Alt)** | **Caminante de las Olas** | +12% ATQ | Requiere un tiempo específico de la Definitiva basado en turnos |
+| **Plano (BiS)** | **Estrella Caída** | +8% Prob. Crítica | +32% Daño Crítico con 2 Compañeros Trazacaminos |
+| **Plano (Alt)** | **Bananadiversión** | +8% Prob. Crítica | +36% Daño Crítico (más fácil de mantener) |
+
+<Callout type="success" title="Optimización de estadísticas">
+Dado que Himeko Nova obtiene enormes cantidades de Daño Crítico y % de DAÑO de su propio conjunto de habilidades y del estado de Diezmo, priorizar la **Probabilidad Crítica** en el torso y el **% de ATQ** en las botas/cuerda suele ser la forma más eficiente de equilibrar sus estadísticas.
+</Callout>
+
+### Estadísticas principales recomendadas
+
+| Pieza de Equipo | Estadística Principal Recomendada | Subestadísticas Prioritarias |
+| :--- | :--- | :--- |
+| **Torso** | **Prob. Crítica** | Daño Crítico, % de ATQ, VEL |
+| **Botas** | **% de ATQ** (con adelantadores) / **VEL** (en solitario) | Prob. Crítica, Daño Crítico, % de ATQ |
+| **Esfera** | **% de ATQ** o % de DAÑO de Fuego | Prob. Crítica, Daño Crítico, VEL |
+| **Cuerda de Enlace** | **% de ATQ** o Regeneración de Energía | Prob. Crítica, Daño Crítico, % de ATQ |
+
+</Section>
+
+<Section icon={Shield} title="Lista de niveles de Conos de Luz y objetivos de estadísticas">
+
+El Cono de Luz característico de Himeko Nova (S1) es excepcionalmente poderoso, ya que proporciona no solo daño, sino también una utilidad crítica como la reducción de defensa y la regeneración de energía.
+
+| Cono de Luz | Rango | Métricas de rendimiento clave |
+| :--- | :--- | :--- |
+| **Característico S1** | **S+** | 32% de reducción de DEF, +6 de Energía por Apoyo, +60% DAÑO |
+| **El de Herta (Amphoreus)** | **A** | Sólida alternativa F2P con buenas estadísticas base |
+| **Noche en el cosmos** | **B** | Excelente para Pura Ficción, pierde efectividad contra un solo objetivo |
+| **Cono del Pase de Batalla** | **C** | Tiene dificultades para mantenerse al día con los niveles de poder de 2026 |
+
+<Steps>
+  <Step num="1" title="Alcanzar consistencia crítica">
+    Apunta a un **100% de Probabilidad Crítica** en combate. Dado que Himeko carece de rastros innatos de Probabilidad Crítica, un torso de Probabilidad Crítica es casi obligatorio a menos que juegues con potenciadores potentes como Sunday.
+  </Step>
+  <Step num="2" title="Equilibrar ATQ y % de DAÑO">
+    Dado que su estado de Sentencia proporciona un 200% de DAÑO, las esferas de % de ATQ a menudo superan a las esferas de % de DAÑO de Fuego debido a los rendimientos decrecientes en los multiplicadores de % de DAÑO.
+  </Step>
+  <Step num="3" title="Ajuste de velocidad">
+    Si se empareja con **Sunday** o **Sparkle**, mantén a Himeko en su **VEL base** para maximizar las estadísticas de % de ATQ. Para jugar en solitario, apunta al umbral de **134 de VEL**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestión de energía">
+Si no estás utilizando su Cono de Luz S1 característico, puede ser necesaria una **Cuerda de Regeneración de Energía** para asegurar que su Definitiva esté disponible cada 3 turnos, especialmente en rotaciones centradas en el estado de Sentencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de equipo: Arquetipos de Compañeros Trazacaminos">
+
+Construir el equipo adecuado es la parte más crítica de cualquier **guía de Himeko Nova**. Debes equilibrar la necesidad de Compañeros Trazacaminos con la necesidad de potentes soportes de Armonía.
+
+| Arquetipo de Equipo | Ranura 1 (DPS) | Ranura 2 (Soporte) | Ranura 3 (Sub-DPS/Soporte) | Ranura 4 (Mantenimiento) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hiper Sentencia** | Himeko Nova | Sunday | Sparkle | Dan PT |
+| **Área sin Mantenimiento** | Himeko Nova | RMC | Welt | Blade |
+| **F2P Amigable** | Himeko Nova | RMC | Siete de Marzo (Cacería) | Huohuo |
+
+### El núcleo Sunday/Sparkle
+Este es el techo de daño más alto de Himeko. **Sunday** y **Sparkle** proporcionan un avance de acción constante. Al usar a **Dan PT** en la cuarta ranura, te aseguras de que cada rotación active el estado de **Sentencia**, otorgando a Himeko los multiplicadores masivos de Definitiva que necesita para eliminar a los jefes.
+
+### El núcleo sin mantenimiento de Welt/Blade
+En esta configuración, te concentras en el estado de **Diezmo**. **Welt** proporciona ralentizaciones y retrasos de acción, mientras que **Blade** actúa como un sub-DPS resistente. Este equipo se basa en el gran volumen de ataques para activar constantemente Habilidades de Apoyo gratuitas.
+
+<Callout type="tip" title="Estrategia de estado dual">
+En combates donde cambia el número de enemigos (por ejemplo, jefes que invocan esbirros), puedes alternar de estado. Comienza en **Diezmo** para limpiar rápidamente a los esbirros, luego cambia a **Sentencia** usando una Habilidad de Apoyo de Dan PT antes de que Himeko lance su Definitiva para acabar con el jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Eidolones y hitos de progresión">
+
+Aunque Himeko Nova es formidable en E0S1, sus Eidolones proporcionan algunos de los picos de poder más significativos vistos en 2026.
+
+<Checklist
+  id="himeko-eidolon-goals"
+  title="Hitos clave de progresión:"
+  items={[
+    "E1: Aumenta las cargas de Habilidad de Apoyo gratuitas a 3 y facilita la activación de estados.",
+    "E2: Restablece 2 Habilidades de Apoyo de aliados cada turno y otorga a cualquier aliado un turno adicional.",
+    "E4: Comparte su mejora del 20% de PEN de RES a todos los tipos con todo el equipo.",
+    "E6: Aumenta el límite de Energía de Origen a 6 y añade un multiplicador en área del 160% a su Definitiva."
+  ]}
+/>
+
+<Callout type="success" title="Consejo de inversión">
+Si tienes que elegir entre E1 y S1, **S1 (Cono de Luz característico)** suele ser la mejor inversión debido a la enorme reducción de DEF y la ayuda con la energía. Sin embargo, **E2** cambia las reglas del juego y permite una creación de equipos mucho más flexible.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Realmente necesito un Compañero Trazacaminos en el equipo?",
+    answer: "Sí. Sin uno, no puedes entrar en los estados de Sentencia o Diezmo, perdiendo hasta un 200% de mejoras de DAÑO o Daño Crítico y la mecánica del turno adicional."
+  },
+  {
+    question: "¿Qué estado es mejor para uso general?",
+    answer: "Sentencia suele ser más fácil de usar para jefes, mientras que Diezmo destaca en Pura Ficción. Para la mayoría de los jugadores, un equipo centrado en Sentencia con Sunday o RMC es el más constante."
+  },
+  {
+    question: "¿Puede Himeko Nova funcionar como sub-DPS?",
+    answer: "Está diseñada como DPS principal. Aunque sus Habilidades de Apoyo pueden activarse en otros turnos, requiere un tiempo significativo en el campo y apoyo del equipo para restablecer sus cargas y acumular energía."
+  },
+  {
+    question: "¿Es obligatorio el conjunto de reliquias de Navegante?",
+    answer: "Aunque no es estrictamente obligatorio, es aproximadamente entre un 15% y un 20% más fuerte que cualquier otro conjunto debido a la facilidad con la que Himeko mantiene las acumulaciones de la mejora del 54% de DAÑO."
+  }
+]} />
+
+</Section>

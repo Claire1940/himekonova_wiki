@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova: Weekly Boss Material & Progression Guide",
+  description: "Master Himeko Nova's progression with this guide on weekly boss materials, optimal team synergies, and efficient resource farming strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-20",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Himeko Nova** requires specific weekly boss materials to maximize her Erudition-path combat potential.
+- **Team Synergy** is driven by her unique talent, which grants buffs based on Astral Express members.
+- **Skill Management** allows for multiple skill activations per turn, optimizing her damage output.
+- **Farming Efficiency** relies on prioritizing weekly boss resets to secure necessary upgrade components.
+- **Optimal Teams** currently focus on pairing her with Sunday and other Express crew members.
+</Callout>
+
+<Section icon={Map} title="Understanding Himeko Nova's Kit">
+
+Himeko Nova enters the battlefield as a powerful Fire-type Erudition unit. Unlike standard characters, her kit revolves around a unique skill-enhancement system that allows her to perform multiple attacks within a single turn, provided you have sufficient skill points.
+
+**Video Highlights:**
+- Detailed breakdown of Himeko Nova's unique three-skill button mechanic.
+- Analysis of her talent-based team synergy system with Astral Express members.
+- Preliminary insights into her best-in-slot team compositions for current endgame content.
+
+<YouTubeEmbed videoId="Q5Z153F1o0I" title="HIMEKO NOVA IS FINALLY HERE - MASSIVE KIT REVIEW" />
+
+Her playstyle deviates from the traditional ultimate-reliant DPS model. Instead, she excels as a skill-damage dealer. Her weapon and animations shift dynamically based on the skill sequence you choose, making her one of the most mechanically engaging units in the current meta.
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize managing your skill points before entering your turn with Himeko Nova. Using her skills in the correct order is essential to trigger the enhancement bonuses that maximize her damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Material & Resource Requirements">
+
+Upgrading Himeko Nova requires a precise farming route for weekly boss materials. As an Erudition character, she relies on specific drops that are typically gated behind weekly lockouts.
+
+| Material Type | Source | Priority |
+| :--- | :--- | :--- |
+| **Weekly Boss Drop** | Echo of War | High |
+| **Path Materials** | Erudition Calyx | High |
+| **Elite Drops** | Overworld Bosses | Medium |
+| **Common Mats** | Standard Enemies | Low |
+
+<Callout type="warning" title="Resource Management">
+Do not spread your resources thin. Focus on maxing out her primary skill buttons first, as these are the core components of her damage scaling.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimal Team Building Strategies">
+
+Himeko Nova's talent is the cornerstone of her team viability. By including members of the Astral Express in her party, she gains unique, powerful buffs. The following table outlines the synergy potential of common teammates.
+
+| Teammate | Synergy Type | Buff Quality |
+| :--- | :--- | :--- |
+| **Sunday** | Support/Nova Flare | Excellent |
+| **DHBP** | Sustain/Buff | High |
+| **Welt** | Debuff/Speed | Good |
+| **Trailblazer** | Utility/Special | Variable |
+
+<CardGrid cols={3}>
+  <Card title="The Express Core">
+    - Includes Sunday and DHBP
+    - Maximizes talent value
+    - Balanced sustain and damage
+  </Card>
+  <Card title="Speed-Focused">
+    - Pairs with Welt
+    - High crit damage potential
+    - Ideal for burst phases
+  </Card>
+  <Card title="Utility Hybrid">
+    - Pairs with Remembrance TB
+    - Reduced skill point usage
+    - High tactical flexibility
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression Roadmap">
+
+Follow this systematic approach to ensure your Himeko Nova is ready for high-difficulty challenges.
+
+<Steps>
+  <Step num="1" title="Material Farming">
+    Clear your weekly boss encounters early in the week to accumulate necessary materials for ascension and trace leveling.
+  </Step>
+  <Step num="2" title="Relic Optimization">
+    Farm the latest relic sets introduced in patch 4.3, specifically those targeting ultimate and skill damage, to push her DPS potential.
+  </Step>
+  <Step num="3" title="Talent Calibration">
+    Experiment with different Astral Express team members to identify which buff configuration best suits your current playstyle.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Performance Milestone">
+Once you have secured her best-in-slot relic set and leveled her traces, Himeko Nova will rival the top-tier hyper-carries currently dominating the meta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does Himeko Nova's skill system work?",
+    answer: "Himeko Nova can use three unique skills in a single turn. Each skill consumes a point, and subsequent skills in the same turn are automatically enhanced."
+  },
+  {
+    question: "Is Himeko Nova dependent on Astral Express team members?",
+    answer: "Her talent provides specific, powerful buffs when Astral Express members are present. While she can function in other teams, her optimal damage is achieved with an Express-heavy setup."
+  },
+  {
+    question: "What is the best way to farm weekly boss materials for her?",
+    answer: "Focus on clearing the specific Echo of War stages that drop Erudition-path materials. Plan your weekly stamina usage to ensure you don't miss the reset."
+  }
+]} />
+
+<Checklist
+  id="himeko-nova-tasks"
+  title="Weekly Preparation Checklist:"
+  items={[
+    "Complete all weekly Echo of War runs",
+    "Max out daily Erudition material farming",
+    "Verify team composition for maximum talent buffs",
+    "Review current relic stats for crit optimization"
+  ]}
+/>
+
+</Section>

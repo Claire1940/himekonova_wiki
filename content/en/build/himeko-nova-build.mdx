@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova Build: 2026 Optimization & Team Synergy Guide",
+  description: "Master the Himeko Nova build with our expert guide on relic sets, light cone choices, and optimal team compositions for 2026 meta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Build",
+  date: "2026-07-20",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Himeko Nova build** success relies on maximizing assist skill frequency through team synergy.
+- Prioritize **Talent and Ultimate** levels to ensure consistent high-damage output during combat.
+- Utilize **Express Crew** members to trigger special effects and maintain damage buffs.
+- Always aim for **100% crit rate** as your secondary stats, as her kit provides ample crit damage.
+- The **signature light cone** is the most significant quality-of-life upgrade for her energy management.
+</Callout>
+
+<Section icon={Sparkles} title="Character Overview & Combat Mechanics">
+
+Himeko Nova stands out as a unique damage dealer who thrives on the power of synergy. Her core gameplay revolves around the "Assist Skill," a powerful tool that triggers based on specific conditions related to your teammates.
+
+**Video Highlights:**
+- Detailed explanation of Verdict and Decimation special effects.
+- How to perform efficient speed tuning for turn-based damage.
+- Insights into why her signature light cone is a top-tier priority.
+
+<YouTubeEmbed videoId="W7z8yJo2384" title="SHE IS UNSTOPPABLE! Best Himeko Nova Guide & Build" />
+
+To master her, you must understand the two distinct modes: **Verdict** (buffs for Express Crew) and **Decimation** (high-risk, high-reward scaling). Failing to press the assist skill button at the right moment can result in significant DPS loss, so treat it as a core rhythmic mechanic rather than an optional ability.
+
+<Callout type="tip" title="Pro Tip">
+Always use her technique before entering battle to immediately refresh her skill and grant an initial assist skill charge.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Relics and Planar Ornaments">
+
+Selecting the right gear is crucial for scaling damage. While new sets are available, she remains flexible with older equipment, allowing you to repurpose high-stat pieces you may already own.
+
+| Gear Type | Recommended Set | Key Stat Priority |
+| :--- | :--- | :--- |
+| Relic Set | As Navigator | Crit Rate/Damage |
+| Planar Ornament | Fallen Star Anchorage | Attack % / Fire DMG |
+| Body | Crit Rate | Crit Rate > Crit DMG |
+| Boots | Attack % | Attack % > Speed |
+
+<CardGrid cols={3}>
+  <Card title="As Navigator">
+    Optimal for maximizing skill and ultimate damage with high uptime.
+  </Card>
+  <Card title="Fallen Star Anchorage">
+    Provides essential crit rate and damage buffs when paired with Express Crew.
+  </Card>
+  <Card title="Genius/Wastelander">
+    Solid alternatives if you have superior sub-stats on these older sets.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Stat Optimization">
+Aim for 100% Crit Rate. Since your supports will saturate her with Crit Damage, prioritize consistency to ensure every assist skill hits for maximum value.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Team Rotation">
+
+Speed tuning is the difference between a good and a great performance. By aligning Himeko Nova with characters like Sunday and Sparkle, you can trigger assist skills on almost every turn.
+
+<Steps>
+  <Step num="1" title="Initial Setup">
+    Start the battle using Himeko's technique to ensure her skill buff is active immediately.
+  </Step>
+  <Step num="2" title="Action Forward">
+    Use Sparkle to pull Himeko forward, ensuring she takes as many turns as possible to generate energy.
+  </Step>
+  <Step num="3" title="Assist Skill Trigger">
+    Time your ally's turn (specifically Express Crew members) to trigger the assist skill charge.
+  </Step>
+  <Step num="4" title="Ultimate Execution">
+    Once energy reaches 150, activate her ultimate to reset charges and deal massive area-of-effect damage.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Light Cone Comparison">
+
+Not all light cones are created equal. While the signature option is ideal, free-to-play alternatives remain viable for most content.
+
+| Light Cone | Tier | Key Benefit |
+| :--- | :--- | :--- |
+| A Star That Lights the Night | S+ | Energy regen + Def ignore |
+| Today Is Another Peaceful Day | A | Consistent damage boost |
+| The Seriousness of Breakfast | B | Accessible F2P option |
+| Eternal Calculus | B | Reliable stat scaling |
+
+<Callout type="warning" title="Energy Warning">
+Non-signature light cones lack the energy regeneration bonus. If you are not using the signature, you must compensate with an energy regeneration rope or a dedicated battery support.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Follow this checklist to ensure your Himeko Nova is optimized for end-game challenges.
+
+<Checklist
+  id="himeko-build-goals"
+  title="Build Milestones:"
+  items={[
+    "Level up Talent to maximum priority",
+    "Reach 100% Crit Rate with buffs",
+    "Speed tune supports to 160+ for optimal turn cycling",
+    "Unlock E2 for the double assist skill charge capacity"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Himeko Nova worth building for F2P players?",
+    answer: "Yes, she is highly effective even without her signature light cone, provided you have a well-optimized team of Express Crew members."
+  },
+  {
+    question: "What is the best team for Himeko Nova?",
+    answer: "The consensus for peak performance is Himeko Nova, Sunday, Sparkle, and Dan Heng, which allows for near-infinite assist skill cycling."
+  },
+  {
+    question: "How important are Eidolons?",
+    answer: "Her E1 and E2 are game-changing, providing massive damage increases and quality-of-life improvements to her assist skill charges."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova: Worth It? 2026 Pull Analysis & Investment Guide",
+  description: "Analyze if Himeko Nova is worth your Jades in 2026. Get expert insights on her DPS potential, Eidolon value, and optimal team compositions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Himeko+Nova+Pull+Guide",
+  date: "2026-07-20",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Himeko Nova** is a high-multiplier DPS requiring specific team synergy for peak performance.
+- **Vertical investment** (E1/E2) significantly improves her rotation flow and damage consistency.
+- **Astral Express teammates** are essential for maximizing her unique assist skill mechanics.
+- **Pull status** depends on your current roster needs and existing top-tier DPS coverage.
+- **Signature Light Cone** provides excellent value but may be prioritized behind key Eidolons.
+</Callout>
+
+<Section icon={Target} title="Understanding Himeko Nova Mechanics">
+
+Himeko Nova functions as a heavy-hitting DPS who relies on two distinct combat modes: Verdict and Decimation. Mastering these modes is critical for optimizing her damage output in any encounter.
+
+**Video Highlights:**
+- Breakdown of Verdict and Decimation mode mechanics.
+- Explanation of the unique assist skill and its interaction with Astral Express allies.
+- Analysis of why E1 and E2 are game-changing upgrades for her rotation.
+
+<YouTubeEmbed videoId="3TbIHJK59jc" title="should you PULL Himeko Nova?? Pull analysis | Honkai Star Rail" />
+
+Verdict mode focuses on personal damage amplification, while Decimation provides team-wide critical damage buffs. Transitioning between these modes effectively allows her to adapt to different combat scenarios, though it requires precise team management.
+
+<Callout type="tip" title="Strategic Insight">
+Always ensure your team composition supports the activation requirements of your preferred mode. Without the right trigger characters, Himeko Nova's performance may feel inconsistent.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Performance & Investment Analysis">
+
+Evaluating Himeko Nova requires looking beyond base stats. Her vertical investment path is one of the most rewarding in the current meta, particularly for players looking to maximize her ceiling.
+
+| Investment Level | Damage Increase | Key Benefit |
+| :--- | :--- | :--- |
+| E0 | Baseline | Standard high-burst output |
+| E1 | 20-30% | Smoother rotation/QoL |
+| E2 | 40-50% | Massive damage/Team flexibility |
+| S1 LC | High | Defense ignore/Energy sustain |
+
+<CardGrid cols={3}>
+  <Card title="Verdict Mode">
+    - Focuses on personal damage
+    - Ultimate damage boost
+    - Ideal for boss encounters
+  </Card>
+  <Card title="Decimation Mode">
+    - Team-wide crit support
+    - Triggered by ally hits
+    - Better for multi-target
+  </Card>
+  <Card title="Astral Synergy">
+    - Required for extra turns
+    - Unlocks full rotation potential
+    - Best with specific allies
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Playstyle Warning">
+Himeko Nova can feel clunky at E0 without her preferred teammates. Ensure you have access to core supporting units before committing your resources.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Team Building Strategy">
+
+Building a team around Himeko Nova centers on her interaction with Astral Express members. Before E2, these characters are vital for maintaining her assist skill uptime.
+
+| Character | Role | Synergy Level |
+| :--- | :--- | :--- |
+| Welt | Support/Sub-DPS | Essential |
+| Sunday | Support | High |
+| March 7th | Sustain/Utility | High |
+| Sparkle | Buffer | High (Investment dependent) |
+
+<Steps>
+  <Step num="1" title="Identify Core Support">
+    Select a primary support capable of triggering her assist skills consistently.
+  </Step>
+  <Step num="2" title="Optimize Mode Choice">
+    Choose between Verdict or Decimation based on whether your team needs burst or sustained crit support.
+  </Step>
+  <Step num="3" title="Manage Energy">
+    Time your ultimates to ensure Himeko Nova's assist charges are always available for critical rotations.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pro Team Tip">
+Pairing her with E4 Welt provides a substantial damage increase and is considered a staple in her strongest compositions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Worth It or Not?">
+
+Deciding to pull for Himeko Nova comes down to your current account status and future-proofing goals. Use this table to decide if she fits your roster.
+
+| Criteria | Pull If | Skip If |
+| :--- | :--- | :--- |
+| Account Needs | You lack a top-tier Fire DPS | You have 3+ fully built DPS |
+| Resource Level | You can invest in E1/E2 | You are saving for future supports |
+| Team Setup | You have core Astral allies | You lack her preferred teammates |
+
+<Checklist
+  id="pull-checklist"
+  title="Pulling Checklist:"
+  items={[
+    "Assess your current DPS coverage",
+    "Verify availability of Astral Express teammates",
+    "Check resources for E1/E2 investment",
+    "Reserve Jades for future support units"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Himeko Nova worth pulling at E0?",
+    answer: "She is a capable DPS at E0, but her gameplay is significantly smoother and more powerful with at least E1 or E2 investment."
+  },
+  {
+    question: "Do I need her signature Light Cone?",
+    answer: "Her signature Light Cone is excellent for damage, but investing in her Eidolons often yields a higher performance return."
+  },
+  {
+    question: "Can I use non-Astral Express characters with her?",
+    answer: "Yes, but they only provide the full benefit of her extra turn mechanic once you unlock E2."
+  },
+  {
+    question: "What is the best mode for Himeko Nova?",
+    answer: "Verdict is generally stronger for high-damage bursts, while Decimation is superior for supporting your team's overall crit damage output."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,13 @@
       "twitterDescription": "Himeko Nova Wiki covers character builds, skills, lore, weapons, and team guides for Honkai Impact 3rd players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "build": "Build",
+    "teams": "Teams",
+    "materials": "Materials",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -412,18 +418,18 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Himeko Nova Guides",
-      "description": "Complete Himeko Nova gameplay guides from beginner basics to advanced build strategies. Master combat, skills, and team play.",
+      "description": "Complete Himeko Nova gameplay guides from beginner basics to advanced strategies. Master her kit, mechanics, and combat rotations.",
       "metaTitle": "Himeko Nova Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Himeko Nova guides covering beginner tips, skills, build strategies, and expert tactics for mastering the fire Valkyrja in Honkai Impact 3rd.",
+      "metaDescription": "Complete Himeko Nova guides covering beginner tips, kit mechanics, build strategies, and expert tactics for mastering the fire DPS character.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering Himeko Nova gameplay mechanics, combat strategies, and skill usage. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Himeko Nova's skill system and avoid common beginner mistakes",
+        "step1Description": "Understand Himeko Nova's kit and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to build and upgrade Himeko Nova efficiently",
         "step3Title": "Master Strategies",
@@ -432,105 +438,85 @@
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "builds": {
+    "build": {
       "title": "Himeko Nova Builds",
-      "description": "Master Himeko Nova build paths with recommended weapons, stigmata, team compositions, and upgrade priorities.",
-      "metaTitle": "Himeko Nova Builds - Weapons, Stigmata & Team Comps",
-      "metaDescription": "Master Himeko Nova builds with recommended weapons, stigmata sets, team compositions, and upgrade priorities for maximum fire damage in Honkai Impact 3rd.",
+      "description": "Master Himeko Nova builds with recommended relics, planar sets, stat priorities, and trace upgrade paths for maximum fire damage.",
+      "metaTitle": "Himeko Nova Builds - Relics, Stats & Trace Priorities",
+      "metaDescription": "Master Himeko Nova builds with recommended relic sets, planar ornaments, stat priorities, and trace upgrade paths for maximum fire damage output.",
       "categoryLabel": "BUILDS & LOADOUTS",
       "whatIs": "What are Builds?",
-      "whatIsDescription": "Build guides for Himeko Nova covering weapons, stigmata, team synergy, and upgrade routes tailored to her fire damage identity.",
+      "whatIsDescription": "Build guides for Himeko Nova covering relic sets, planar ornaments, main stats, substats, and trace priorities tailored to her fire damage identity.",
       "why": "Why follow builds?",
       "whySteps": {
-        "step1Title": "Optimize Equipment",
-        "step1Description": "Choose weapons and stigmata that amplify Himeko Nova's fire damage",
-        "step2Title": "Build Team Synergy",
-        "step2Description": "Pair supports that extend her burst damage windows",
-        "step3Title": "Prioritize Upgrades",
-        "step3Description": "Invest materials where they deliver the largest performance gains"
+        "step1Title": "Optimize Gear",
+        "step1Description": "Choose relics and planar sets that amplify Himeko Nova's fire damage",
+        "step2Title": "Hit Stat Breakpoints",
+        "step2Description": "Reach the right speed, crit rate, and crit damage targets",
+        "step3Title": "Prioritize Traces",
+        "step3Description": "Invest trace materials where they deliver the largest performance gains"
       },
       "featured": "Featured & Essential",
       "all": "All Builds"
     },
-    "skills": {
-      "title": "Himeko Nova Skills",
-      "description": "Detailed Himeko Nova skill breakdowns covering basic attacks, passives, ultimates, and recommended upgrade orders.",
-      "metaTitle": "Himeko Nova Skills - Abilities, Ultimates & Combos",
-      "metaDescription": "Complete Himeko Nova skill guide including basic attacks, passives, ultimates, upgrade priority, and combat combos for Honkai Impact 3rd.",
-      "categoryLabel": "SKILLS & ABILITIES",
-      "whatIs": "What are Skills?",
-      "whatIsDescription": "Skill guides for Himeko Nova covering ability mechanics, damage values, upgrade order, and practical combat usage.",
-      "why": "Why study skills?",
+    "teams": {
+      "title": "Himeko Nova Teams",
+      "description": "Build the best Himeko Nova team comps with premium, F2P, and hypercarry options. Find ideal supports and synergy partners for every mode.",
+      "metaTitle": "Himeko Nova Teams - Best Team Comps & Synergy",
+      "metaDescription": "Discover the best Himeko Nova team compositions including premium, F2P, and hypercarry teams with ideal supports and synergy for every game mode.",
+      "categoryLabel": "TEAM COMPS",
+      "whatIs": "What are Teams?",
+      "whatIsDescription": "Team composition guides for Himeko Nova covering premium, F2P, and hypercarry lineups, plus synergy with supports like Welt, Blade, Sunday, and Evernight.",
+      "why": "Why plan teams?",
       "whySteps": {
-        "step1Title": "Understand Abilities",
-        "step1Description": "Learn how each Himeko Nova skill works and interacts",
-        "step2Title": "Upgrade Smartly",
-        "step2Description": "Prioritize skill levels that deliver the most damage",
-        "step3Title": "Execute Combos",
-        "step3Description": "Chain skills and ultimates into efficient damage rotations"
+        "step1Title": "Maximize Synergy",
+        "step1Description": "Pair supports that extend Himeko Nova's burst damage windows",
+        "step2Title": "Cover All Modes",
+        "step2Description": "Use the right comp for Memory, Apocalyptic, and endgame content",
+        "step3Title": "F2P Friendly Options",
+        "step3Description": "Build effective teams without relying on premium-only units"
       },
       "featured": "Featured & Essential",
-      "all": "All Skills"
+      "all": "All Teams"
     },
-    "lore": {
-      "title": "Himeko Nova Lore",
-      "description": "Explore Himeko Nova's story, background, relationships, and place in the Honkai Impact 3rd narrative universe.",
-      "metaTitle": "Himeko Nova Lore - Story, Background & Connections",
-      "metaDescription": "Discover Himeko Nova's character story, background, personality, relationships, and narrative role across the Honkai Impact 3rd universe.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is Lore?",
-      "whatIsDescription": "Lore guides exploring Himeko Nova's character identity, story arcs, relationships, and thematic role in the Honkai universe.",
-      "why": "Why read lore?",
+    "materials": {
+      "title": "Himeko Nova Materials",
+      "description": "Track every Himeko Nova ascension and trace material, farming routes, prefarm lists, and weekly boss drops needed to max her kit.",
+      "metaTitle": "Himeko Nova Materials - Ascension, Trace & Farming Guide",
+      "metaDescription": "Complete Himeko Nova materials guide covering ascension materials, trace materials, upgrade costs, farming routes, prefarm lists, and weekly boss drops.",
+      "categoryLabel": "MATERIALS & FARMING",
+      "whatIs": "What are Materials?",
+      "whatIsDescription": "Material guides for Himeko Nova listing ascension materials, trace materials, upgrade costs, efficient farming routes, prefarm plans, and weekly boss drops.",
+      "why": "Why track materials?",
       "whySteps": {
-        "step1Title": "Know the Character",
-        "step1Description": "Understand who Himeko Nova is beyond combat",
-        "step2Title": "Follow the Story",
-        "step2Description": "Trace her narrative arcs and key story moments",
-        "step3Title": "Connect the World",
-        "step3Description": "See how she links to the wider Honkai storyline"
+        "step1Title": "Plan Ahead",
+        "step1Description": "Prefarm materials before Himeko Nova's banner goes live",
+        "step2Title": "Farm Efficiently",
+        "step2Description": "Follow optimized routes to save stamina and time",
+        "step3Title": "Max Her Kit",
+        "step3Description": "Gather weekly boss drops to fully upgrade traces and ascension"
       },
       "featured": "Featured & Essential",
-      "all": "All Lore Articles"
+      "all": "All Materials"
     },
-    "updates": {
-      "title": "Himeko Nova Updates",
-      "description": "Track Himeko Nova releases, balance changes, events, and official announcements across Honkai Impact 3rd updates.",
-      "metaTitle": "Himeko Nova Updates - Releases, Events & Patch Notes",
-      "metaDescription": "Follow Himeko Nova release history, balance changes, events, and official announcements across Honkai Impact 3rd updates.",
-      "categoryLabel": "UPDATES & NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Update trackers for Himeko Nova covering releases, banners, balance changes, events, and community milestones.",
-      "why": "Why follow updates?",
+    "weapons": {
+      "title": "Himeko Nova Weapons",
+      "description": "Compare the best Himeko Nova light cones including her signature option, F2P alternatives, and synergy rankings for maximum damage.",
+      "metaTitle": "Himeko Nova Light Cones - Best Weapons & Options",
+      "metaDescription": "Find the best Himeko Nova light cones including her signature weapon, top F2P alternatives, and ranked options for maximum fire damage output.",
+      "categoryLabel": "LIGHT CONES",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Light cone guides for Himeko Nova covering her signature weapon, the best F2P alternatives, and ranked options by synergy and damage ceiling.",
+      "why": "Why choose carefully?",
       "whySteps": {
-        "step1Title": "Catch Releases",
-        "step1Description": "Know when Himeko Nova banners and events go live",
-        "step2Title": "Track Balance",
-        "step2Description": "Stay current on skill and performance changes",
-        "step3Title": "Plan Ahead",
-        "step3Description": "Prepare resources for upcoming content and rewards"
+        "step1Title": "Unlock Damage Ceiling",
+        "step1Description": "Her signature light cone delivers the highest damage potential",
+        "step2Title": "Strong F2P Options",
+        "step2Description": "Free and accessible light cones keep Himeko Nova competitive",
+        "step3Title": "Match Your Build",
+        "step3Description": "Pick a light cone that fits your relic and team setup"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
-    },
-    "codes": {
-      "title": "Himeko Nova Codes",
-      "description": "Find active Himeko Nova redemption codes, event rewards, login bonuses, and gift information for Honkai Impact 3rd.",
-      "metaTitle": "Himeko Nova Codes - Redemption Codes & Free Rewards",
-      "metaDescription": "Find Himeko Nova redemption codes, event rewards, login bonuses, and free gift information for Honkai Impact 3rd players.",
-      "categoryLabel": "CODES & REWARDS",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Code and reward guides for Himeko Nova covering redemption codes, login rewards, event bonuses, and milestone gifts.",
-      "why": "Why use codes?",
-      "whySteps": {
-        "step1Title": "Get Free Resources",
-        "step1Description": "Redeem codes for crystals, materials, and currency",
-        "step2Title": "Stack Event Rewards",
-        "step2Description": "Combine login and event bonuses for faster progress",
-        "step3Title": "Stay Updated",
-        "step3Description": "Catch new codes as soon as they are released"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Codes"
+      "all": "All Weapons"
     }
   }
 }

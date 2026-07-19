@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Himeko Nova: Mejores Builds, Equipos y Mecánicas",
+  description: "Domina a Himeko Nova con esta guía para principiantes. Aprende sus mecánicas únicas de estado dual, mejores reliquias, conos de luz y las mejores composiciones de equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Himeko+Nova+Beginner+Guide",
+  date: "2026-07-20",
+  author: "Equipo de Wiki de Himeko Nova",
+  keywords: "Himeko Nova, guía, build, equipos, reliquias, Honkai Star Rail"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Esta **guía para principiantes de Himeko Nova** se centra en dominar su estilo de juego de estado dual mediante el uso de Habilidades de Asistencia.
+- **Estados duales**: Activa Veredicto para infligir un daño bruto masivo o Diezmo para obtener potenciadores de daño crítico para todo el equipo.
+- **Mejor conjunto de reliquias**: Equipa el conjunto de 4 piezas de Navegante Isee lo Ve para maximizar los multiplicadores de Habilidad y Definitiva.
+- **Mejor Cono de Luz**: Su opción insignia S1 proporciona ignorar defensa, regeneración de energía y aumentos masivos de daño.
+- **Requisito de equipo**: Siempre incluye al menos un Compañero trazacaminos para desbloquear turnos extra y transiciones de estado.
+</Callout>
+
+<Section icon={Map} title="Introducción a Himeko Nova y Mecánicas Principales">
+
+Himeko Nova introduce un estilo de juego dinámico en la vía de la Erudición, utilizando un sistema único de estado dual que gira en torno a su Territorio del Trazacaminos Estelar personalizado. A diferencia de los atacantes tradicionales que dependen únicamente de rotaciones de habilidades estándar, Himeko Nova comanda el campo de batalla otorgando a sus compañeros Habilidades de Asistencia especializadas. Estas habilidades no solo infligen un daño de área de efecto sustancial, sino que también activan poderosos estados de combate dependiendo de qué compañero las active. Comprender cómo gestionar estos estados es el primer paso para desbloquear su enorme potencial de daño.
+
+**Puntos destacados del video:**
+- Desglose detallado del estilo de juego único de estado dual de Himeko Nova.
+- Análisis del Territorio del Trazacaminos Estelar y la economía de las Habilidades de Asistencia.
+- Recomendaciones de conjuntos de reliquias y ornamentos planares óptimos.
+- Demostración de composiciones de equipo de alto nivel con Sunday y Sparkle.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="¡La MEJOR guía de Himeko Nova! | Mejores Builds, Reliquias, Equipos" />
+
+Cuando Himeko Nova está activa en el campo, despliega el Territorio del Trazacaminos Estelar. Esto invoca al Trazacaminos Estelar, una entidad independiente que acumula aura y otorga a todos los aliados un uso de Habilidad de Asistencia. Cuando un aliado usa esta Habilidad de Asistencia, el Trazacaminos Estelar realiza un ataque de rebote que golpea a todos los enemigos en el campo. Debido a que esta acción cuenta como si Himeko usara una Habilidad, activa fácilmente las bonificaciones de reliquias y los multiplicadores de talento. En el propio turno de Himeko, el uso de la Habilidad de Asistencia no consume cargas y actúa como su acción principal, infligiendo daño potenciado con un mayor número de rebotes.
+
+<Callout type="tip" title="Consejo de rotación de habilidades">
+No olvides usar la Habilidad normal de Himeko Nova una vez cada tres turnos. Esta acción le otorga el potenciador de Navegante, que restaura automáticamente las cargas de Habilidad de Asistencia de los aliados al comienzo de sus turnos, al tiempo que proporciona una mejora constante de estadísticas a todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Veredicto vs. Diezmo: Maestría del Estado Dual">
+
+El núcleo del ciclo de combate de Himeko Nova reside en la transición entre dos estados distintos: Veredicto y Diezmo. Estos estados se activan cuando un Compañero trazacaminos específico usa una Habilidad de Asistencia en su turno. Elegir qué estado priorizar depende totalmente de la alineación enemiga y de la composición actual de tu equipo.
+
+| Estado | Compañeros Activadores | Potenciadores Principales | Condición de Habilidad de Asistencia Gratuita |
+|---|---|---|---|
+| **Veredicto** | Trazacaminos, Dan Heng, Sunday | +100% Daño, +100% Daño de Definitiva | Los compañeros lanzan Definitivas 2 veces |
+| **Diezmo** | Siete de Marzo, Evernight, Welt, Himeko | +100% Daño CRIT, +100% Daño CRIT de Habilidad | Los aliados golpean a los enemigos 9 veces |
+
+El estado de Veredicto está diseñado para encuentros contra un solo objetivo o pocos objetivos. Al emparejar a Himeko con Sunday o Dan Heng, ella obtiene multiplicadores de daño bruto masivos que amplifican su Definitiva. Por otro lado, el estado de Diezmo es perfecto para contenido basado en oleadas como Pura Ficción. Cuando lo activan personajes como Welt o Siete de Marzo, todo el equipo recibe un aumento masivo de daño crítico, lo que permite que las unidades sub-DPS contribuyan con un daño significativo.
+
+<Callout type="warning" title="Restricción de economía de turnos en E0">
+En E0, solo los Compañeros trazacaminos reciben un turno extra inmediato después de usar una Habilidad de Asistencia debido a su pasiva A4. Si usas unidades que no son compañeros para activar la Habilidad de Asistencia, perderás valiosas acciones de turno.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía para principiantes de Himeko Nova: Reliquias, Ornamentos y Estadísticas">
+
+Seleccionar el equipo adecuado es crucial para maximizar el escalado de Himeko Nova. Debido a que recibe bonificaciones masivas de daño crítico y daño bruto de sus estados internos, equilibrar sus estadísticas base requiere una planificación cuidadosa.
+
+### Mejores Conjuntos de Reliquias y Ornamentos Planares
+
+| Tipo de Equipo | Conjunto Recomendado | Bonificaciones Clave | Calificación de Rendimiento |
+|---|---|---|---|
+| **Reliquia** | Navegante Isee lo Ve | +12% ATQ, +54% Daño en Habilidades y Definitivas | Excelente (El mejor) |
+| **Reliquia** | Caminante de las Olas / Erudito | Mezcla de bonificaciones de ATQ y Daño de Definitiva | Bueno (Solo transición) |
+| **Ornamento** | Estrella Caída | +8% Prob. CRIT, +32% Daño CRIT con Compañero trazacaminos | Excelente (El mejor) |
+| **Ornamento** | Bananamusement | Alto escalado pasivo de Daño CRIT | Muy bueno (Alternativa) |
+| **Ornamento** | Arena Rutilante | +8% Prob. CRIT, potencia daño básico y de habilidad | Decente (Equipos de Diezmo) |
+
+### Estadísticas Principales y Secundarias Recomendadas
+
+| Pieza | Estadística Principal | Estadísticas Secundarias Deseadas |
+|---|---|---|
+| **Cuerpo** | Prob. CRIT | Daño CRIT, ATQ%, VEL |
+| **Botas** | ATQ% (Build lenta) o VEL (Punto de ruptura 134/135) | Prob. CRIT, Daño CRIT, ATQ% |
+| **Esfera** | ATQ% o Daño de Fuego% | Prob. CRIT, Daño CRIT, VEL |
+| **Cuerda** | ATQ% (Estándar) o Recarga de Energía (Confort S0) | Prob. CRIT, Daño CRIT, ATQ% |
+
+<CardGrid cols={3}>
+  <Card title="Build de DPS Lento">
+    - **Enfoque**: Máximo daño bruto
+    - **Botas**: ATQ%
+    - **Sinergia**: Funciona mejor con apoyos que adelantan acciones como Sunday o Sparkle.
+  </Card>
+  <Card title="Build de DPS Rápido">
+    - **Enfoque**: Generación de turnos autosuficiente
+    - **Botas**: VEL (punto de ruptura 134+)
+    - **Sinergia**: Ideal para equipos que carecen de mecánicas directas de adelanto de acción.
+  </Card>
+  <Card title="Build de Utilidad de Energía">
+    - **Enfoque**: Consistencia al lanzar la Definitiva
+    - **Cuerda**: Cuerda de unión de regeneración de energía
+    - **Sinergia**: Ayuda a suavizar las rotaciones cuando se juega sin su Cono de Luz insignia.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Objetivos de umbral de estadísticas">
+Apunta a más de 3500 de ATQ, 100% de Prob. CRIT en combate (80-90% en la ficha del personaje dependiendo de los potenciadores de apoyo) y entre 130% y 150% de Daño CRIT base antes de aplicar los potenciadores de todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Opciones de Cono de Luz y Prioridad de Obtención">
+
+El Cono de Luz insignia de Himeko Nova es excepcionalmente poderoso y ofrece varias características de utilidad que son difíciles de reemplazar con las opciones estándar de Erudición. Sin embargo, existen alternativas viables si juegas con un presupuesto limitado.
+
+| Cono de Luz | Rareza | Efectos Clave | Rendimiento |
+|---|---|---|---|
+| **Insignia S1** | 5 estrellas | +32% Ignorar DEF, +6 Energía en Asistencia, +60% Daño Hab/Def | Nivel S (Muy recomendado) |
+| **Cono de Herta** | 5 estrellas | Altas estadísticas base, escalado general de daño de Erudición | Nivel A (Mejor opción F2P) |
+| **Noche en la Vía Láctea** | 5 estrellas | Escalado de ATQ basado en el número de enemigos, alto pico de daño | Nivel B (Solo Pura Ficción) |
+| **Hoy es otro día de paz**| 4 estrellas | Aumento de daño constante basado en la energía máxima | Nivel B (Opción del Pase de Batalla) |
+
+Para optimizar los recursos de tu cuenta, sigue esta ruta de mejora estructurada al decidir cómo gastar tus tiradas en su banner.
+
+<Steps>
+  <Step num="1" title="Obtener a Himeko Nova E0">
+    Asegura primero el personaje base. Sus mecánicas principales, incluidas las transiciones de estado dual y las Habilidades de Asistencia, son totalmente funcionales en E0.
+  </Step>
+  <Step num="2" title="Adquirir el Cono de Luz Insignia (S1)">
+    El cono insignia proporciona un masivo 32% de ignorar defensa y una regeneración de energía crucial, lo que facilita enormemente sus requisitos de equipo.
+  </Step>
+  <Step num="3" title="Tirar por el Eidolon 1 (E1)">
+    El E1 aumenta sus usos extra de Habilidad de Asistencia por Definitiva de 2 a 3, al tiempo que reduce las condiciones de activación tanto para Veredicto como para Diezmo.
+  </Step>
+  <Step num="4" title="Desbloquear el Eidolon 2 (E2)">
+    El E2 es su mejora más fuerte, aumentando los usos de Habilidad de Asistencia de los aliados a 2 por turno y permitiendo que cualquier personaje obtenga el beneficio del turno extra.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Insignia vs. Eidolones">
+Si tienes recursos limitados y debes elegir entre E1 o S1, prioriza su Cono de Luz insignia. El confort de energía y el ignorar defensa ofrecen un salto de rendimiento inmediato mucho mayor que el E1 por sí solo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Composiciones de Equipo y Rotaciones">
+
+Construir un equipo alrededor de Himeko Nova requiere equilibrar sus requisitos de estado. Debes incluir al menos un Compañero trazacaminos para habilitar sus turnos extra y potenciadores de estado.
+
+### Arquetipos de Equipos de Nivel Superior
+
+| Tipo de Equipo | Personaje 1 (DPS) | Personaje 2 (Apoyo) | Personaje 3 (Apoyo/Sub-DPS) | Personaje 4 (Sustento) |
+|---|---|---|---|---|
+| **Veredicto Hypercarry** | Himeko Nova | Sunday | Sparkle | Dan Heng PT |
+| **Diezmo AoE** | Himeko Nova | Welt | Blade | Huohuo |
+| **Diezmo sin Sustento**| Himeko Nova | Trazacaminos del Recuerdo| Blade | Welt |
+
+<Checklist
+  id="team-building-rules"
+  title="Lista de verificación para la creación de equipos:"
+  items={[
+    "Asegúrate de que al menos un Compañero trazacaminos esté en el equipo para permitir las transiciones de estado.",
+    "Equipa a los apoyos con conjuntos planares de Vonwacq para permitir la configuración temprana del estado antes del primer turno de Himeko.",
+    "Ajusta el enfoque de estado de tu equipo al contenido (Veredicto para jefes, Diezmo para oleadas).",
+    "Asegúrate de que tus adelantadores de acción sean significativamente más rápidos que Himeko Nova."
+  ]}
+/>
+
+En una configuración de Veredicto Hypercarry, tu rotación comienza con Sunday o Dan Heng PT usando su Habilidad de Asistencia para activar inmediatamente el estado de Veredicto. Esto aumenta el daño de la Definitiva de Himeko en un 100%. Sparkle luego usa su habilidad para adelantar a Himeko, permitiéndole lanzar su Habilidad de Asistencia potenciada. Una vez que la Definitiva de Himeko esté completamente cargada, ejecuta su secuencia de Energía de Origen: Pulso de Aniquilación seguido de tres Rayos de Partículas, y termina con un Pulso final para un daño masivo contra un solo objetivo.
+
+<Callout type="tip" title="Optimización del equipo de apoyo">
+Equipar a tus unidades de apoyo con el conjunto de reliquias Águila del Crepúsculo les permite adelantar sus acciones después de lanzar sus Definitivas, asegurando que puedan regenerar cargas de Habilidad de Asistencia antes del próximo turno de Himeko.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Las Habilidades de Asistencia cuentan como usos de Habilidad normales para Himeko Nova?",
+    answer: "Sí, las Habilidades de Asistencia activadas por los aliados cuentan como si Himeko Nova estuviera usando una Habilidad. Esto le permite mantener las acumulaciones máximas en equipos como el conjunto de reliquias Navegante Isee lo Ve sin necesidad de lanzar su Habilidad estándar en cada turno."
+  },
+  {
+    question: "¿Puedo jugar con Himeko Nova sin ningún Compañero trazacaminos?",
+    answer: "No se recomienda jugar sin al menos un Compañero trazacaminos. Hacerlo evita que Himeko Nova entre en los estados de Veredicto o Diezmo, reduciendo su potencial de daño a más de la mitad y desactivando sus mecánicas de turno extra."
+  },
+  {
+    question: "¿Es esta guía para principiantes de Himeko Nova adecuada para jugadores completamente F2P?",
+    answer: "Sí, esta guía destaca opciones viables para jugadores gratuitos, como usar el Cono de Luz de Erudición de la Tienda de Herta y emparejarla con compañeros accesibles como Siete de Marzo o el Trazacaminos del Recuerdo."
+  },
+  {
+    question: "¿Cómo funciona su sistema de energía de Definitiva?",
+    answer: "Himeko Nova utiliza una barra de Energía personalizada que se carga durante el combate. Cuando activa su Definitiva, gana 3 de Energía de Origen. Debes consumir estas acumulaciones usando Pulso de Aniquilación a su máxima capacidad para activar sus multiplicadores de daño pasivo de A6."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Himeko Nova es un personaje increíblemente gratificante de dominar. Al equilibrar sus estados duales, equiparla con el conjunto Navegante y emparejarla con Compañeros trazacaminos clave, puedes superar fácilmente el contenido final más desafiante en 2026.
+</Callout>
+
+</Section>

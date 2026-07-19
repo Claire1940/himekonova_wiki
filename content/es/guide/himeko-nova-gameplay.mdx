@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Himeko Nova: Guía de Build de Daño de Fuego y Rotación de Habilidades",
+  description: "Domina la jugabilidad de Himeko Nova con nuestra guía de 2026. Aprende las builds óptimas de daño de fuego, rotaciones de habilidades y composiciones de equipo para Honkai Impact 3rd.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Himeko+Nova+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Himeko Nova",
+  keywords: "himeko nova, jugabilidad, daño de fuego, guía, build, honkai impact 3rd"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jugabilidad de Himeko Nova**: Se centra en **daño de fuego** de alto impacto y ataques pesados con mandoble.
+- **Mecánica Principal**: Gestionar el tiempo de ataque y las ventanas de ráfaga para maximizar la **Brecha Elemental**.
+- **Mejor Build**: Prioriza las armas insignia y los sets de estigmas que potencian el **Daño de Fuego** y el Daño Total.
+- **Composición de Equipo**: Combínala con soportes que proporcionen **agrupación elemental** y amplificación de daño.
+- **Estrategia Principal**: Usa secuencias de ataque básico para generar energía antes de desatar una **Definitiva** de gran ráfaga.
+</Callout>
+
+<Section icon={Map} title="Resumen de la Jugabilidad de Himeko Nova">
+
+Himeko Nova se erige como una piedra angular para las estrategias ofensivas basadas en fuego en el meta actual de 2026. Como Especialista en Daño de Fuego, su identidad se forja mediante el uso de mandobles pesados y ráfagas elementales devastadoras. Comprender la **jugabilidad de himeko nova** requiere un cambio de atacantes rápidos y ágiles a un estilo de combate más deliberado e impactante, donde cada golpe conlleva un peso significativo y un potencial destructivo.
+
+Su papel dentro del universo de Honkai sigue siendo el de una Capitana Valkyrja, una figura mentora cuyo estilo de combate refleja su liderazgo y resiliencia. En batalla, funciona como un DPS principal (Damage Dealer) o un poderoso sub-DPS dependiendo del equipo específico y la sinergia de equipo proporcionada. Los jugadores deben dominar su rotación de corto alcance para limpiar eficazmente los pisos altos del abismo y los encuentros con jefes.
+
+<CardGrid cols={2}>
+  <Card title="Identidad de Combate">
+    - **Armamento Pesado**: Utiliza mandobles para ataques de alto aturdimiento.
+    - **Maestría de Fuego**: Todas las habilidades activas imbuyen los ataques con propiedades de fuego.
+    - **Especialista en Ráfagas**: Gran dependencia de la Definitiva para un daño masivo en área (AoE).
+  </Card>
+  <Card title="Rol Estratégico">
+    - **DPS Principal**: Fuente principal de daño en equipos temáticos de fuego.
+    - **Rompe Escudos**: Excelente para agotar los escudos elementales enemigos.
+    - **Líder de Primera Línea**: Gran cantidad de PV y pasivas defensivas para la supervivencia.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Identidad del Personaje">
+Himeko Nova representa un poderoso arquetipo de guerrera de fuego, conocida por su cabello rojo, equipo de combate avanzado y una fuerte presencia en el campo de batalla. Sus interacciones resaltan temas de tutoría y sacrificio.
+</Callout>
+
+| Atributo | Valor | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Tipo de Daño** | Fuego Elemental | Ignora la defensa física, escala con % de Daño de Fuego |
+| **Clase de Arma** | Mandoble | Alto aturdimiento, velocidad de ataque lenta, gran alcance |
+| **Rango de Ataque** | Cercano a Medio | Requiere posicionamiento pero ofrece un amplio barrido horizontal |
+| **Necesidades de Energía** | Altas | Requiere soportes de regeneración de SP o rotaciones eficientes |
+
+</Section>
+
+<Section icon={Swords} title="Dominando las Habilidades y Rotaciones de Himeko Nova">
+
+El núcleo de una **jugabilidad de himeko nova** efectiva reside en la ejecución rítmica de su conjunto de habilidades. A diferencia de los personajes que simplemente presionan botones al azar, Himeko recompensa a los jugadores que comprenden el "peso" de sus ataques. Su secuencia de ataque básico consiste en golpes pesados que cargan el "Medidor Nova", que luego puede consumirse para maniobras mejoradas imbuidas en fuego.
+
+Su habilidad Definitiva es la pieza central de su kit, ofreciendo una ventana de daño de ráfaga alta que puede incinerar oleadas enteras de enemigos. Sincronizar esta Definitiva con los potenciadores de los soportes es crítico para el rendimiento en el contenido de alto nivel.
+
+### Desglose de Habilidades y Mecánicas
+
+| Nombre de Habilidad | Tipo | Efecto Clave |
+| :--- | :--- | :--- |
+| **Tajo Ardiente** | ATQ Básico | Secuencia de 4 golpes de mandoble, genera SP y Medidor Nova |
+| **Ignición Nova** | Especial/Combo | Consume el medidor para un ataque de fuego giratorio con efecto de agrupación |
+| **Ascenso del Fénix** | Definitiva | Golpe descendente masivo que inflige más de 2500% de Daño de Fuego |
+| **Guardia de Llama** | Evasión | Activa Fractura Temporal y otorga un potenciador de Daño de Fuego |
+
+<Callout type="tip" title="Secreto de Rotación">
+Realiza siempre la secuencia completa de Ataque Básico antes de usar tu Especial/Combo. El último golpe de la secuencia proporciona un aumento significativo a la siguiente instancia de Daño de Fuego, maximizando la eficiencia de tu ráfaga.
+</Callout>
+
+### Rotación de Combate Óptima
+Para maximizar la salida de daño, sigue esta secuencia específica durante los encuentros con jefes:
+1. **Configuración de Soporte**: Usa tus personajes de soporte para agrupar enemigos y aplicar Vulnerabilidad al Fuego.
+2. **Generación de Medidor**: Ejecuta dos ciclos completos de **Tajo Ardiente** para llenar el Medidor Nova.
+3. **Fase de Ignición**: Activa **Ignición Nova** para triturar los escudos de fuego enemigos.
+4. **El Remate**: Una vez que los potenciadores de soporte estén activos, desata la Definitiva **Ascenso del Fénix** para la máxima ráfaga.
+
+</Section>
+
+<Section icon={Target} title="Guía de Build de Himeko Nova: Equipo y Mejoras">
+
+Construir a Himeko Nova para el contenido de alto nivel de 2026 requiere un enfoque en equilibrar el Daño de Fuego, el Daño Total y la Recuperación de SP. Aunque su equipo insignia proporciona el techo más alto, varias opciones F2P (Free-to-Play) le permiten seguir siendo competitiva en la mayoría de los modos de juego.
+
+<Steps>
+  <Step num="1" title="Priorizar Nivel de Personaje">
+    Asegúrate de que Himeko esté al nivel máximo para maximizar su ATQ y PV base. Esto proporciona la base para todo el escalado elemental.
+  </Step>
+  <Step num="2" title="Selección de Arma">
+    Equipa un mandoble con estadísticas base altas y pasivas de Daño de Fuego. El arma insignia "Nova Star" es el estándar de oro para esta build.
+  </Step>
+  <Step num="3" title="Optimización de Estigmas">
+    Busca sets de estigmas que proporcionen "Brecha Elemental" o "Daño de Fuego al golpear". Los sets que se activan al usar la Definitiva son particularmente efectivos.
+  </Step>
+  <Step num="4" title="Gestión de Recursos">
+    Enfoca tus materiales de mejora primero en su Definitiva y talentos pasivos, ya que estos proporcionan las mayores ganancias porcentuales en la salida total.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Inversión">
+Evita gastar materiales de mejora raros en armas temporales de "transición". Es mejor ahorrar recursos para su mandoble insignia o alternativas fabricables de alto nivel.
+</Callout>
+
+### Sets de Equipo Recomendados
+
+| Ranura | Opción Insignia | Alternativa F2P | Enfoque de Estadísticas |
+| :--- | :--- | :--- | :--- |
+| **Arma** | Nova Star | Crimson Edge | Daño de Fuego / Regen. SP |
+| **Estigma (T)** | Himeko: Nova (T) | Thales (T) | Multiplicador de Daño Total |
+| **Estigma (M)** | Himeko: Nova (M) | Shakespeare (M) | Bono de Daño de Fuego |
+| **Estigma (B)** | Himeko: Nova (B) | Leeuwenhoek (B) | Vulnerabilidad al Fuego |
+
+</Section>
+
+<Section icon={Shield} title="Mejor Sinergia de Equipo para la Maestría de Fuego">
+
+Ninguna Valkyrie lucha sola. El rendimiento de Himeko Nova depende en gran medida de la capacidad de sus compañeras para proporcionar reducción elemental y energía. En el meta actual de 2026, el arquetipo de equipo "Aliento de Fuego" es la forma más efectiva de utilizar su kit.
+
+<CardGrid cols={3}>
+  <Card title="El Agrupador">
+    **Rol**: Soporte
+    **Enfoque**: Control de Masas
+    **Sinergia**: Atrae a los enemigos al rango de la Definitiva de Himeko.
+  </Card>
+  <Card title="El Potenciador">
+    **Rol**: Soporte
+    **Enfoque**: Brecha Elemental
+    **Sinergia**: Aumenta el daño de fuego recibido por los enemigos.
+  </Card>
+  <Card title="La Batería">
+    **Rol**: Sub-DPS
+    **Enfoque**: Generación de SP
+    **Sinergia**: Asegura que Himeko pueda usar su Definitiva en cada rotación.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Elección del Meta">
+Emparejar a Himeko Nova con un personaje de soporte de fuego dedicado puede aumentar el daño de su Definitiva hasta en un 40% mediante la acumulación de Brecha Elemental.
+</Callout>
+
+### Comparación de Mejores Compañeras
+
+| Personaje | Rol | Calificación de Sinergia | Contribución Clave |
+| :--- | :--- | :--- | :--- |
+| **Azure Empyrea** | Soporte | ★★★★★ | Brecha Elemental y Agrupación |
+| **Herrscher of Truth** | Soporte | ★★★★★ | Potenciador de Daño de Fuego y Regen. SP |
+| **Ai-chan (Chrono)** | Soporte | ★★★★☆ | Aplicación de Ignición y aumento de Daño de Fuego |
+| **Sakura (Fire)** | Sub-DPS | ★★★☆☆ | Daño secundario y resonancia de fuego |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Guía de Farmeo">
+
+To reach the peak of **jugabilidad de himeko nova**, consistent farming and resource allocation are necessary. Use the following checklist to track your character development milestones.
+
+<Checklist
+  id="himeko-progression"
+  title="Objetivos de Desarrollo de Himeko Nova:"
+  items={[
+    "Alcanzar el Nivel de Personaje 80+",
+    "Desbloquear todos los nodos de Talento Pasivo",
+    "Adquirir y mejorar al máximo el Arma Insignia",
+    "Completar el set de 3 piezas de estigmas Himeko: Nova",
+    "Alcanzar el Rango SSS mediante el farmeo de fragmentos"
+  ]}
+/>
+
+### Ubicaciones de Farmeo de Materiales
+
+| Tipo de Material | Fuente Primaria | Prioridad Diaria/Semanal |
+| :--- | :--- | :--- |
+| **Fragmentos de Personaje** | Expediciones de Aventura | Alta (Diaria) |
+| **EXP de Arma** | Raids de Jefes Semanales | Media (Semanal) |
+| **Materiales de Estigmas** | Universal Mirage (Fuego) | Alta (Diaria) |
+| **Materiales de Habilidad** | Etapas de Materiales Diarios | Media (Diaria) |
+
+<Callout type="info" title="Consejo de Farmeo">
+Prioriza las etapas de "Universal Mirage" que se centran en estigmas de tipo fuego. Incluso si no obtienes la pieza que necesitas, los materiales de fabricación pueden usarse para forjar poderosas alternativas F2P.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes sobre Himeko Nova">
+
+<FAQ items={[
+  {
+    question: "¿Es la jugabilidad de Himeko Nova adecuada para principiantes?",
+    answer: "Sí. Su estilo de combate cuerpo a cuerpo directo y sus mecánicas de armas pesadas la hacen más fácil de entender en comparación con personajes complejos basados en combos. Sin embargo, dominar sus tiempos es clave para el contenido de alto nivel."
+  },
+  {
+    question: "¿Cuál es la estadística más importante para Himeko Nova?",
+    answer: "El Daño de Fuego y la Brecha Elemental son sus estadísticas más críticas. Debido a que inflige daño puramente elemental, las estadísticas tradicionales de crítico físico son menos efectivas que los multiplicadores elementales puros."
+  },
+  {
+    question: "¿Puedo jugar con Himeko Nova sin su arma insignia?",
+    answer: "Aunque su arma insignia 'Nova Star' proporciona un impulso masivo, es viable con mandobles de fuego fabricables como el Crimson Edge para el contenido de mitad de juego."
+  },
+  {
+    question: "¿Cómo genero SP rápidamente para su Definitiva?",
+    answer: "Utiliza su secuencia completa de ataque básico y emparéjala con soportes como Herrscher of Truth que proporcionan regeneración de SP a todo el equipo."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Mantén siempre un ojo en el estado de "Ignición" de tus enemigos. Himeko inflige daño adicional a los objetivos incendiados, por lo que usar un soporte que pueda aplicar Ignición de manera confiable aumentará significativamente tu DPS general.
+</Callout>
+
+</Section>

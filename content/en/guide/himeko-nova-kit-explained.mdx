@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "himeko nova kit explained: 2026 Mechanics & Build Guide",
+  description: "Master the dual-mode mechanics of Himeko Nova. Learn how to optimize Verdict and Decimation states, Assist Skills, and the best 2026 team compositions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Kit+Explained",
+  date: "2026-07-20",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **himeko nova kit explained**: Features a unique **Assist Skill** mechanic that grants extra turns to Trailblaze Companions.
+- **Dual Modes**: Switch between **Verdict** (Ultimate DMG focus) and **Decimation** (Crit DMG focus) based on your team.
+- **Ultimate Rotation**: Use the **Pulse-Beam-Pulse** sequence to maximize Source Energy multipliers.
+- **Best Build**: The **Navigator** relic set is mandatory for maintaining the 54% DMG and 12% ATK buffs.
+- **Team Synergy**: Requires at least one **Trailblaze Companion** (Sunday, Dan Heng, etc.) to unlock her full potential.
+</Callout>
+
+<Section icon={Zap} title="Himeko Nova Core Mechanics & Assist Skills">
+
+Himeko Nova introduces a revolutionary playstyle to the Erudition path, focusing on the **Starblazer Territory**. When she is active on the field, she summons the Starblazer, which acts as an independent entity providing the team with **Assist Skill** charges. This mechanic adds a dedicated button to the UI, allowing allies to command the Starblazer to perform AoE and bounce attacks.
+
+**Video Highlights:**
+- Breakdown of the **Starblazer Territory** and how it generates aura.
+- Explanation of the **Assist Skill** button and how it interacts with Himeko's turn.
+- Why **Trailblaze Companions** are essential for the A4 "Extra Turn" passive.
+- Comparison of the two combat states: **Verdict** and **Decimation**.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="The BEST Guide to Himeko Nova! | Best Builds, Relics, Teams" />
+
+The Assist Skill is the heart of the **himeko nova kit explained** here. Normally, the team shares one use of this skill, which resets at the start of Himeko's turn. If Himeko uses the Assist Skill herself, she does not consume the charge, effectively replacing her standard Skill action. Crucially, the A4 Trace allows any **Trailblaze Companion** who uses an Assist Skill to gain an immediate extra turn, preventing any loss in action economy.
+
+| Feature | Description | Benefit |
+| :--- | :--- | :--- |
+| **Starblazer Territory** | Field effect summoned by Himeko | Enables the Assist Skill button for the team |
+| **Assist Skill** | AoE attack followed by 3 bounces | Counts as Himeko using a Skill for relic buffs |
+| **A4 Trace** | Immediate turn for Trailblaze units | Allows for massive combo chains and energy gain |
+| **Navigator Buff** | 3-turn buff from Himeko's Skill | Increases ally DMG and resets Assist charges |
+
+<Callout type="tip" title="Pro Tip: Assist Management">
+Always use your Assist Skill on a **Trailblaze Companion's** turn rather than a generic support. This triggers the immediate extra turn, allowing your support to buff Himeko and then immediately use the Starblazer for extra damage and energy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dual Combat States: Verdict vs. Decimation">
+
+Himeko Nova's versatility comes from her ability to enter two distinct states based on which ally activates the Assist Skill. Choosing the right state is critical for clearing high-difficulty content like Pure Fiction or Memory of Chaos in 2026.
+
+<CardGrid cols={2}>
+  <Card title="Verdict State">
+    - **Trigger**: MC, Dan Heng, or Sunday.
+    - **Buffs**: +100% Total DMG and +100% Ultimate DMG.
+    - **Free Assists**: Launches a free Assist Skill after allies use 2 Ultimates.
+    - **Best for**: Single-target bosses and elite enemies.
+  </Card>
+  <Card title="Decimation State">
+    - **Trigger**: March 7th, Evernight, Welt, or Base Himeko.
+    - **Buffs**: +100% Crit DMG (Allies) and +100% Skill Crit DMG.
+    - **Free Assists**: Launches a free Assist Skill after hitting 9 enemies.
+    - **Best for**: Multi-target waves and Pure Fiction.
+  </Card>
+</CardGrid>
+
+The **Verdict** state is generally preferred for hypercarry setups where Himeko's Ultimate provides the bulk of the team's damage. Conversely, **Decimation** excels in teams with sub-DPS units like Welt or Blade, as the massive Crit DMG buffs apply to the entire team. Note that Himeko can only trigger free Assist Skills twice per state activation, but this limit resets every time she uses her Ultimate.
+
+| State | Primary Buff | Trigger Condition | Ideal Scenario |
+| :--- | :--- | :--- | :--- |
+| **Verdict** | **Ultimate DMG** | MC / Dan Heng / Sunday | Boss Fights / Elites |
+| **Decimation** | **Crit DMG** | Welt / March / Evernight | Pure Fiction / Mob Waves |
+
+<Callout type="info" title="State Swapping">
+In complex fights, you can run a "Dual State" team (e.g., Sunday and Welt). Start in Decimation to clear the first wave of mobs, then have Sunday trigger the Assist Skill to swap Himeko into Verdict before she unleashes her Ultimate on the boss.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ultimate Rotation and Energy Management">
+
+Himeko's Ultimate is a cinematic sequence where she beams the squad into the Starblazer. While it looks complex, the optimal rotation is fixed for 99% of combat scenarios. Understanding **Source Energy** is the key to maximizing her multipliers.
+
+<Steps>
+  <Step num="1" title="Initial Pulse">
+    Activate the Ultimate to enter the Starblazer state. Start with an **Annihilation Pulse** to deal initial AoE damage.
+  </Step>
+  <Step num="2" title="Source Energy Accumulation">
+    Use **Particle Beam** three times. Each beam builds one stack of Source Energy (up to a cap of 3 at E0).
+  </Step>
+  <Step num="3" title="Enhanced Pulse">
+    Once at 3 stacks, use **Annihilation Pulse** again. The A6 Trace provides a massive DMG multiplier increase when consuming max stacks.
+  </Step>
+  <Step num="4" title="The Final Hit">
+    After the sequence, Himeko automatically performs a Final Hit. If she kills an enemy, she can continue the damage chain, similar to Acheron's mechanics.
+  </Step>
+</Steps>
+
+Himeko uses standard Energy rather than a custom resource, but her high cost makes Energy Regeneration Rate (ERR) ropes a viable niche choice if you lack her signature Light Cone. Her Technique is also vital; it auto-kills weak mobs and ensures she uses her Skill at the start of every wave, setting up her Assist charges immediately.
+
+| Ability | Type | Energy Gain | Special Effect |
+| :--- | :--- | :--- | :--- |
+| **Skill** | Buff/Reset | 30 | Resets Assist Skill & grants Navigator |
+| **Particle Beam** | Ult Action | 5 | Builds Source Energy stacks |
+| **Annihilation Pulse** | Ult Action | 10 | Consumes stacks for massive DMG |
+| **Technique** | Field/Buff | N/A | Auto-Skill at wave start |
+
+<Callout type="warning" title="Energy Trap">
+Avoid using Annihilation Pulse with 0 or 1 stack of Source Energy. The damage loss is significant. Always follow the 3-beam sequence unless the enemy is at 1% HP and you need to end the turn quickly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best 2026 Builds: Relics & Light Cones">
+
+To fully utilize the **himeko nova kit explained**, you must farm the specific sets released alongside her. Her damage scales heavily with ATK and Crit, but she lacks innate Crit Rate, making it the most important sub-stat to focus on.
+
+### Recommended Relic Sets
+The **Navigator** set is her undisputed Best-in-Slot (BiS). Since Assist Skills count as Skill usage, she maintains the 54% DMG and 12% ATK stacks with 100% uptime.
+
+<Checklist
+  id="himeko-build-goals"
+  title="Build Milestones (In-Combat):"
+  items={[
+    "Reach 100% Crit Rate (including ally buffs)",
+    "Achieve 3,500+ ATK (using ATK boots/rope)",
+    "Maintain 150%+ Crit DMG",
+    "Speed: Base (96) for Advancer teams or 134 for solo"
+  ]}
+/>
+
+### Light Cone Comparison
+Her signature Light Cone, **S1**, is overloaded with stats, providing 32% DEF Ignore and 6 Energy per Assist Skill. This significantly alleviates her energy issues.
+
+| Light Cone | Tier | Key Bonus | Verdict |
+| :--- | :--- | :--- | :--- |
+| **Signature S1** | **S+** | 32% DEF Ignore + 60% DMG | The absolute best for Energy and DMG |
+| **The Herta S5** | **A** | High ATK% + AoE Buffs | Best F2P alternative from Amphoreus |
+| **Milky Way S1** | **B** | ATK per enemy on field | Only recommended for Pure Fiction |
+| **Battle Pass S5** | **B-** | DMG based on Energy cost | Struggles compared to new 2026 cones |
+
+<Callout type="success" title="Build Advice">
+If you are choosing between E1 or S1, **pull for S1 first**. The 32% DEF Ignore and the energy gain are more impactful for her consistency than the extra Assist charge from E1. However, E2 is a larger upgrade than S1 if you have the resources.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Top Team Compositions & Synergies">
+
+Himeko Nova cannot function at peak efficiency without **Trailblaze Companions**. You must include at least one of the following: Sunday, Dan Heng (any form), MC (Remembrance), Welt, or March 7th.
+
+### 1. The Verdict Hypercarry (Sunday & Sparkle)
+This is Himeko's strongest single-target team. Sunday and Sparkle provide constant Action Advance, allowing Himeko to reset her Assist Skills frequently. Dan Heng PT is often slotted as the third member to trigger Verdict and provide extra turns.
+
+### 2. The Sustainless "Slow" Team (Welt & Blade)
+By using Welt to delay enemies and Blade to tank hits, you can run Himeko at base Speed with an ATK% boot. This team focuses on the **Decimation** state, utilizing the massive Crit DMG buffs to allow Welt and Blade to contribute significant sub-DPS.
+
+| Team Archetype | Slot 1 | Slot 2 | Slot 3 |
+| :--- | :--- | :--- | :--- |
+| **Hypercarry** | Sunday | Sparkle | Dan Heng PT |
+| **F2P Friendly** | RMC | March 7th | Huohuo |
+| **Dual-State** | Sunday | Welt | Huohuo / Cerydra |
+| **Sustainless** | Welt | Blade | RMC |
+
+<Callout type="tip" title="Vonwacq Strategy">
+Equip your Trailblaze supports (like Sunday or RMC) with the **Vonwacq** planar set. This ensures they act before Himeko in the first wave, allowing them to use the Assist Skill immediately and put Himeko into a combat state before her first turn.
+</Callout>
+
+</Section>
+
+<Section icon={Star} title="Eidolon Value & FAQ">
+
+Himeko Nova's eidolons are among the most powerful in Honkai: Star Rail. E2 is the "sweet spot" for high-end players, as it allows *any* ally to gain an extra turn from Assist Skills, not just Trailblaze Companions.
+
+| Eidolon | Level | Impact |
+| :--- | :--- | :--- |
+| **E1** | **High** | Increases extra Assist charges to 3; lowers state requirements |
+| **E2** | **Massive** | 2 Assist uses per turn; any ally gets extra turns; 1.3x DMG |
+| **E4** | **Medium** | Team-wide 20% All-Type RES PEN |
+| **E6** | **God-Tier** | Source Energy cap to 6; massive Ult & Assist DMG buff |
+
+<FAQ items={[
+  {
+    question: "Do I need to pull Himeko Nova if I have Acheron?",
+    answer: "Yes, because Himeko Nova specializes in the Assist Skill mechanic which works differently from Acheron's debuff stacks. She is much stronger in teams with Trailblaze Companions and offers better dual-mode flexibility for different content types."
+  },
+  {
+    question: "Is the Navigator relic set better than the Quantum set?",
+    answer: "Yes. Even against Quantum-weak enemies, the 54% DMG and 12% ATK from the Navigator set outperform the DEF ignore of the Quantum set because Himeko can maintain the Navigator stacks permanently via Assist Skills."
+  },
+  {
+    question: "Can I use Himeko Nova without a Trailblaze Companion?",
+    answer: "It is not recommended. Without a Trailblaze Companion, you lose the extra turn mechanic (A4) and the Verdict/Decimation state buffs, effectively cutting her damage output by more than 50%."
+  },
+  {
+    question: "Which state is better: Verdict or Decimation?",
+    answer: "Use Verdict for bosses (Sunday/Dan Heng) to boost Ultimate DMG. Use Decimation (Welt/March) for waves of enemies to boost team-wide Crit DMG."
+  }
+]} />
+
+<Callout type="info" title="Final Verdict">
+Himeko Nova is a Tier 0 Erudition unit for 2026. Her unique Assist Skill mechanic rewards players who understand team rotations and faction synergies. Focus on her S1 or E2 for the best investment returns.
+</Callout>
+
+</Section>

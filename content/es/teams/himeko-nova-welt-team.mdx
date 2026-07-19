@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Equipo de Himeko Nova y Welt: Guía de Configuración del Modo Exterminio",
+  description: "Domina el equipo de Himeko Nova y Welt en Honkai Star Rail. Aprende las mejores builds, artefactos, rotaciones y estrategias de Pura Ficción para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Welt+Team",
+  date: "2026-07-20",
+  author: "Equipo de Wiki de Himeko Nova",
+  keywords: "himeko nova, welt, honkai star rail, modo exterminio, pura ficción, guía de equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Configuración Principal**: El **equipo de Himeko Nova y Welt** utiliza a Welt como un apoyo de utilidad de alta velocidad para generar energía y cargas.
+- **Mecánica Central**: El Modo Exterminio activa una devastadora habilidad de asistencia gratuita para todo el equipo una vez que el contador de cargas llega a nueve.
+- **Rol de Sub-DPS**: Blade actúa como un daño secundario ideal, aprovechando las bonificaciones de daño de habilidad y daño crítico para todo el equipo.
+- **Enfoque de Combate**: Prioriza la velocidad en Welt para maximizar el tiempo de actividad de las penalizaciones y acelerar la acumulación de cargas en Pura Ficción.
+</Callout>
+
+<Section icon={Sparkles} title="Resumen del Equipo y Sinergia Central">
+
+La integración de Welt en una composición de Himeko Nova representa una de las configuraciones de doble DPS más innovadoras en el meta de 2026. Al alejar a Welt de una build tradicional de daño puro y convertirlo en un rol de sustain de utilidad de alta velocidad, los jugadores pueden desbloquear una regeneración de energía y acumulación de cargas sin precedentes. Esta sinergia permite que Himeko Nova active constantemente su Modo Exterminio, transformando las batallas estándar en bucles recursivos de devastadores ataques de área de efecto.
+
+**Puntos Destacados del Video:**
+- Demostración de la extrema sinergia al usar a Welt como apoyo de alta velocidad para acelerar las mecánicas de carga.
+- Exhibición de los bucles de asistencia recursivos que permiten a Himeko Nova ignorar las limitaciones tradicionales del orden de turno.
+- Análisis del rol de Blade como un sub-DPS de bajo consumo de PE que prospera bajo las bonificaciones de daño del equipo.
+- Desglose de la transición entre el Modo Veredicto y el Modo Exterminio dependiendo de la configuración del enemigo.
+
+<YouTubeEmbed videoId="xjNTBkXQkPI" title="Usé a Himeko Nova con WELT SUSTAIN y son realmente increíbles. - Honkai: Star Rail" />
+
+En el corazón de este equipo se encuentra el sistema de doble postura de Himeko Nova. Mientras que el Modo Veredicto sigue siendo la opción estándar para encuentros de un solo objetivo como la Memoria del Caos, el Modo Exterminio reina en escenarios multi-objetivo. Cuando está activo, el Modo Exterminio aplica una bonificación masiva a todo el equipo para el Daño de Habilidad y el Daño Crítico. Cada acción realizada por tus aliados genera cargas. Una vez que el contador de cargas llega a nueve, Himeko Nova las consume inmediatamente para lanzar una habilidad de asistencia gratuita de alto daño que puede limpiar oleadas enteras al instante.
+
+| Personaje | Rol | Función Clave | Contribución de Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Himeko Nova** | DPS Principal | Limpia oleadas con Modo Exterminio | Activa ataques adicionales de área masivos |
+| **Welt** | Sustain/Apoyo | Retrasa enemigos, aplica ralentización | Proporciona turnos extra y generación de energía |
+| **Blade** | Sub-DPS | Inflige daño de viento/área constante | Se beneficia de los buffs de daño de Exterminio |
+| **Lingsha** | Sanador/Sustain | Cura a todo el equipo y limpia estados | Invoca un ayudante para cargas adicionales |
+
+<Callout type="tip" title="Estrategia de Selección de Postura">
+Analiza siempre la alineación enemiga antes de entrar en combate. Si la etapa presenta jefes élite con mucha vida y pocos secuaces, cambia a Himeko Nova al Modo Veredicto. Para contenido basado en oleadas como Pura Ficción, el Modo Exterminio es innegociable debido a sus mecánicas de carga recursiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Build y Configuración de Equipo">
+
+Para maximizar la eficiencia del **equipo de Himeko Nova y Welt**, las builds de tus personajes deben centrarse fuertemente en el ajuste de velocidad y la regeneración de energía. Welt requiere una build poco convencional para funcionar eficazmente como pseudo-sustain. En lugar de centrarse puramente en el Daño Imaginario y estadísticas críticas, su equipo debe priorizar la Velocidad (VEL) y el Acierto de Efecto (EHR) para garantizar penalizaciones constantes de Aprisionamiento en el equipo enemigo.
+
+<CardGrid cols={2}>
+  <Card title="Equipamiento de Himeko Nova">
+    - **Set de Artefactos**: 4 piezas de Gran Duque sobre el Campo de Llamas
+    - **Set de Ornamentos**: 2 piezas de Duran, Dinastía de Lobos Corredores
+    - **Estadísticas Principales**: Pecho de Prob. CRIT / Daño CRIT, Botas de VEL, Esfera de Daño Fuego, Cuerda de ATQ%
+    - **Sub-estadísticas**: Daño CRIT > Prob. CRIT > ATQ% > Velocidad
+  </Card>
+  <Card title="Equipamiento de Welt Sustain">
+    - **Set de Artefactos**: 4 piezas de Yermo de los Bandidos del Desierto
+    - **Set de Ornamentos**: 2 piezas de Talia, Reino del Bandidaje
+    - **Estadísticas Principales**: Pecho de Acierto de Efecto, Botas de VEL, Esfera de HP%, Cuerda de Recuperación de Energía
+    - **Sub-estadísticas**: Velocidad > Acierto de Efecto > HP% > DEF%
+  </Card>
+  <Card title="Equipamiento de Blade Sub-DPS">
+    - **Set de Artefactos**: 4 piezas de Discípulo Longevo
+    - **Set de Ornamentos**: 2 piezas de Salsotto Inerte
+    - **Estadísticas Principales**: Pecho de Daño CRIT, Botas de VEL, Esfera de HP%, Cuerda de HP%
+    - **Sub-estadísticas**: Prob. CRIT > Daño CRIT > HP% > Velocidad
+  </Card>
+  <Card title="Equipamiento de Apoyo Sustain">
+    - **Set de Artefactos**: 4 piezas de Mensajero del Espacio Hackeado
+    - **Set de Ornamentos**: 2 piezas de Flota de los Eternos
+    - **Estadísticas Principales**: Pecho de Curación Realizada, Botas de VEL, Esfera de HP%, Cuerda de Recuperación de Energía
+    - **Sub-estadísticas**: Velocidad > HP% > RES a efecto > DEF%
+  </Card>
+</CardGrid>
+
+El objetivo principal de Welt en esta composición es retrasar las acciones enemigas con tanta frecuencia que tu equipo esencialmente tome el doble de turnos. Esta ventaja constante de acciones se traduce directamente en una generación de cargas más rápida para el Modo Exterminio de Himeko Nova. Blade actúa como un sub-DPS altamente eficiente porque su habilidad consume mínimos Puntos de Habilidad (PE), dejando amplios recursos para que Welt use su habilidad y definitiva constantemente.
+
+| Personaje | VEL Objetivo | Prob. CRIT Objetivo | Opción de Cono de Luz | Cono de Luz Alternativo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Himeko Nova** | 134+ VEL | 70%+ Prob. CRIT | Escapada Terrenal | El Reposo de los Genios |
+| **Welt** | 145+ VEL | N/A (Foco EHR) | En el Nombre del Mundo | Antes de que Comience la Misión |
+| **Blade** | 135+ VEL | 80%+ Prob. CRIT | La Orilla Inalcanzable | Promesa Secreta |
+| **Lingsha** | 140+ VEL | N/A (Foco Cura) | ¿Qué es Real? | Sentimiento Compartido |
+
+<Callout type="warning" title="Cuello de Botella de Velocidad">
+Asegúrate de que la velocidad de Welt sea estrictamente superior a la de Blade. Si Blade actúa antes de que Welt aplique sus penalizaciones de ralentización, la eficiencia de tu rotación caerá, resultando en menos generación de cargas durante el ciclo inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Combate Paso a Paso">
+
+Ejecutar la rotación perfecta con el **equipo de Himeko Nova y Welt** requiere una gestión cuidadosa de tus Puntos de Habilidad y los tiempos de las Definitivas. Dado que usas a Welt como un apoyo de utilidad, debes equilibrar su consumo de PE con las necesidades ofensivas de Himeko Nova.
+
+<Steps>
+  <Step num="1" title="Aplicación Inicial de Penalizaciones">
+    Comienza la batalla usando la Técnica de Welt para retrasar las acciones enemigas. En su primer turno, usa la Habilidad de Welt para aplicar el estado de Ralentización a los objetivos principales, reduciendo su velocidad y generando energía inmediata.
+  </Step>
+  <Step num="2" title="Activación de la Postura de Blade">
+    Activa la Habilidad de Blade para entrar en su estado potenciado. Debido a que este estado dura tres turnos y solo consume un PE inicialmente, Blade generará cargas para Himeko Nova a través de sus ataques básicos sin agotar tu reserva de PE.
+  </Step>
+  <Step num="3" title="Iniciación del Modo Exterminio">
+    Usa la Habilidad de Himeko Nova en enemigos agrupados. Esta acción, combinada con las ralentizaciones de Welt y los ataques de Blade, empujará rápidamente tu contador de cargas hacia nueve. Al alcanzarlo, Himeko Nova lanzará automáticamente su habilidad de asistencia gratuita.
+  </Step>
+  <Step num="4" title="Ejecución del Bucle de Definitivas">
+    Encadena la Definitiva de Welt inmediatamente después de que comience el turno de un enemigo para activar el Aprisionamiento. Esto maximiza la duración del retraso, permitiendo que Himeko Nova y Blade tomen turnos consecutivos y activen otro bucle de asistencia recursivo.
+  </Step>
+</Steps>
+
+Gestionar la economía de Puntos de Habilidad es el aspecto más crítico de esta rotación. Si Welt consume demasiados puntos, Himeko Nova se verá obligada a usar ataques básicos, ralentizando severamente su generación de cargas. Usa la tabla a continuación para monitorear y ajustar tu flujo de PE durante un encuentro estándar de tres ciclos.
+
+| Ciclo de Turno | PE Himeko Nova | PE Welt | PE Blade | PE Apoyo | Balance Neto de PE |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Ciclo 1** | Consume 1 PE | Consume 1 PE | Consume 1 PE (Buff) | Genera 1 PE | -2 PE (Configuración inicial) |
+| **Ciclo 2** | Consume 1 PE | Genera 1 PE | Genera 1 PE (Básico) | Genera 1 PE | +2 PE (Fase de recuperación) |
+| **Ciclo 3** | Consume 1 PE | Consume 1 PE | Genera 1 PE (Básico) | Genera 1 PE | 0 PE (Rotación equilibrada) |
+
+<Callout type="warning" title="Vulnerabilidad al Control de Masas">
+Blade es muy susceptible a las penalizaciones de Control de Masas (CC) como Congelación o Aprisionamiento. Si Blade es incapacitado, no puede activar sus ataques adicionales, lo que detiene tu generación de cargas. Asegúrate de que tu personaje de sustain en la cuarta ranura tenga capacidades activas de limpieza de CC.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rendimiento en Pura Ficción e Hitos">
+
+El **equipo de Himeko Nova y Welt** brilla con más fuerza en Pura Ficción. La afluencia constante de enemigos débiles de baja vida favorece directamente al Modo Exterminio de Himeko Nova. Debido a que cada enemigo derrotado devuelve energía a tu equipo, Welt puede spamear su Definitiva, manteniendo a los enemigos permanentemente bloqueados mientras Himeko Nova limpia oleadas enteras antes de que puedan actuar.
+
+Para lograr una puntuación perfecta de 40,000 en la Etapa 4 de Pura Ficción, debes apuntar a alcanzar hitos de combate específicos. Usa la lista de verificación a continuación para seguir tu progreso.
+
+<Checklist
+  id="pure-fiction-milestones"
+  title="Hitos de Combate en Pura Ficción:"
+  items={[
+    "Activar la habilidad de asistencia de Himeko Nova al menos dos veces por oleada",
+    "Mantener a toda la línea frontal enemiga Ralentizada o Aprisionada por Welt",
+    "Mantener el estado potenciado de Blade sin que su HP baje del 20%",
+    "Limpiar las dos primeras oleadas dentro del primer ciclo de combate",
+    "Acumular una puntuación mínima acumulada de 35,000 puntos en la primera mitad"
+  ]}
+/>
+
+En Pura Ficción, el escalado de daño de este equipo puede alcanzar niveles absurdos. Con la selección adecuada de bendiciones (específicamente aquellas que mejoran el daño de ataques adicionales o activan daño al retrasar la acción enemiga), el daño acumulado de los bucles de asistencia de Himeko Nova puede superar fácilmente varios millones por oleada.
+
+| Dificultad de Etapa | Puntuación Recomendada | Ciclos Promedio Usados | Amenaza Clave a Evitar | Tasa de Éxito |
+| :--- | :--- | :--- | :--- | :--- |
+| **Etapa 3** | 40,000+ puntos | 1-2 Ciclos | Control de Masas (Congelar) | 95% |
+| **Etapa 4 (Jefe)** | 35,000+ puntos | 2-3 Ciclos | Avance de acción de Élite rápido | 85% |
+
+<Callout type="success" title="Bendiciones Ideales de Pura Ficción">
+Al seleccionar bendiciones de etapa para Pura Ficción, prioriza siempre aquellas que activan daño adicional cuando se retrasa la acción de un enemigo. Esto multiplica directamente la efectividad de la Definitiva de Welt y las mecánicas de Aprisionamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Para ayudarte a optimizar completamente esta composición avanzada, hemos recopilado las preguntas más comunes sobre las mecánicas del equipo, inversión en equipo y viabilidad en combate.
+
+<FAQ items={[
+  {
+    question: "¿Por qué debería usar a Welt como sustain en lugar de un personaje defensivo tradicional?",
+    answer: "Usar a Welt como un apoyo de utilidad de alta velocidad te permite retrasar las acciones enemigas tan severamente que rara vez llegan a atacar. Esto reduce la necesidad de curación pesada mientras acelera drásticamente la acumulación de cargas de Himeko Nova mediante la manipulación constante de turnos."
+  },
+  {
+    question: "¿Cómo rinde el equipo de Himeko Nova y Welt contra jefes de un solo objetivo?",
+    answer: "Aunque este equipo sobresale en escenarios multi-objetivo como Pura Ficción, su rendimiento contra un solo objetivo es moderado. Para contenido centrado en jefes como Sombra Apocalíptica o Memoria del Caos, recomendamos encarecidamente cambiar a Himeko Nova al Modo Veredicto."
+  },
+  {
+    question: "¿Puedo reemplazar a Blade con otro sub-DPS en este equipo?",
+    answer: "Sí. Aunque Blade es ideal debido a su bajísimo consumo de Puntos de Habilidad, puedes sustituirlo por otros personajes sub-DPS autosuficientes como Jingliu o incluso un buffer dedicado como Hanya para aumentar aún más la velocidad de Welt."
+  },
+  {
+    question: "¿Cuál es el requisito de velocidad mínima para Welt en esta configuración?",
+    answer: "Welt debe tener un mínimo de 145 de Velocidad para asegurar que pueda superar consistentemente a los enemigos élite y aplicar sus penalizaciones de Ralentización antes de que actúen, asegurando la ventaja de acción de tu equipo."
+  }
+]} />
+
+<Callout type="info" title="Perspectivas Futuras">
+En el meta de 2026, el **equipo de Himeko Nova y Welt** sigue siendo increíblemente fuerte para contenido basado en oleadas. Mientras que los nuevos personajes pueden ofrecer un apoyo más especializado, la utilidad universal de los retrasos de acción de Welt asegura que este equipo seguirá siendo altamente viable durante muchos parches por venir.
+</Callout>
+
+</Section>

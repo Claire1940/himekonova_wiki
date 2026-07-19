@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Himeko Nova: Guía de Optimización y Sinergia de Equipo para 2026",
+  description: "Domina la build de Himeko Nova con nuestra guía experta sobre conjuntos de reliquias, opciones de conos de luz y composiciones de equipo óptimas para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Build",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Himeko Nova"
+}
+
+<Callout type="info" title="Guía rápida">
+- El éxito de la **build de Himeko Nova** radica en maximizar la frecuencia de la habilidad de asistencia mediante la sinergia del equipo.
+- Prioriza los niveles del **Talento y la Habilidad Definitiva** para garantizar un daño elevado y constante durante el combate.
+- Utiliza a los miembros de la **Tripulación del Expreso** para activar efectos especiales y mantener las mejoras de daño.
+- Apunta siempre a un **100% de probabilidad de crítico** en tus estadísticas secundarias, ya que su kit proporciona suficiente daño crítico.
+- El **cono de luz de firma** es la mejora de calidad de vida más importante para su gestión de energía.
+</Callout>
+
+<Section icon={Sparkles} title="Resumen del personaje y mecánicas de combate">
+
+Himeko Nova destaca como una atacante única que prospera gracias al poder de la sinergia. Su estilo de juego principal gira en torno a la "Habilidad de asistencia", una poderosa herramienta que se activa bajo condiciones específicas relacionadas con tus compañeros de equipo.
+
+**Puntos clave del video:**
+- Explicación detallada de los efectos especiales de Veredicto y Diezmo.
+- Cómo realizar un ajuste de velocidad eficiente para el daño por turnos.
+- Análisis de por qué su cono de luz de firma es una prioridad de primer nivel.
+
+<YouTubeEmbed videoId="W7z8yJo2384" title="¡ES IMPARABLE! La mejor guía y build de Himeko Nova" />
+
+Para dominarla, debes entender sus dos modos distintos: **Veredicto** (mejoras para la Tripulación del Expreso) y **Diezmo** (escalado de alto riesgo y alta recompensa). No presionar el botón de la habilidad de asistencia en el momento adecuado puede resultar en una pérdida significativa de DPS, así que trátalo como una mecánica rítmica esencial en lugar de una habilidad opcional.
+
+<Callout type="tip" title="Consejo profesional">
+Usa siempre su técnica antes de entrar en combate para restablecer inmediatamente su habilidad y otorgar una carga inicial de la habilidad de asistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores reliquias y ornamentos planos">
+
+Seleccionar el equipo adecuado es crucial para aumentar el daño. Aunque hay nuevos conjuntos disponibles, sigue siendo flexible con el equipamiento antiguo, lo que te permite reutilizar piezas con buenas estadísticas que ya poseas.
+
+| Tipo de equipo | Conjunto recomendado | Prioridad de estadísticas clave |
+| :--- | :--- | :--- |
+| Conjunto de reliquias | Navegante | Prob. de crítico / Daño crítico |
+| Ornamento plano | Anclaje de la estrella caída | ATQ % / Daño de Fuego |
+| Torso | Prob. de crítico | Prob. de crítico > Daño crítico |
+| Botas | ATQ % | ATQ % > Velocidad |
+
+<CardGrid cols={3}>
+  <Card title="Navegante">
+    Óptimo para maximizar el daño de la habilidad y de la definitiva con un alto tiempo de actividad.
+  </Card>
+  <Card title="Anclaje de la estrella caída">
+    Proporciona mejoras esenciales de probabilidad de crítico y daño cuando se empareja con la Tripulación del Expreso.
+  </Card>
+  <Card title="Genio / Yermo">
+    Alternativas sólidas si tienes mejores estadísticas secundarias en estos conjuntos más antiguos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimización de estadísticas">
+Apunta a un 100% de probabilidad de crítico. Dado que tus soportes la saturarán con daño crítico, prioriza la consistencia para asegurar que cada habilidad de asistencia golpee con el máximo valor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación del equipo paso a paso">
+
+El ajuste de velocidad es la diferencia entre un rendimiento bueno y uno excelente. Al alinear a Himeko Nova con personajes como Sunday y Sparkle, puedes activar habilidades de asistencia en casi cada turno.
+
+<Steps>
+  <Step num="1" title="Configuración inicial">
+    Comienza la batalla usando la técnica de Himeko para asegurar que la mejora de su habilidad esté activa de inmediato.
+  </Step>
+  <Step num="2" title="Adelantar acción">
+    Usa a Sparkle para adelantar la acción de Himeko, asegurando que actúe tantas veces como sea posible para generar energía.
+  </Step>
+  <Step num="3" title="Activación de la habilidad de asistencia">
+    Sincroniza el turno de tus aliados (especialmente los miembros de la Tripulación del Expreso) para activar la carga de la habilidad de asistencia.
+  </Step>
+  <Step num="4" title="Ejecución de la definitiva">
+    Una vez que la energía llegue a 150, activa su habilidad definitiva para restablecer las cargas y causar un enorme daño en área.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de conos de luz">
+
+No todos los conos de luz son iguales. Aunque la opción de firma es la ideal, las alternativas gratuitas (F2P) siguen siendo viables para la mayor parte del contenido.
+
+| Cono de luz | Rango | Beneficio clave |
+| :--- | :--- | :--- |
+| Una estrella que ilumina la noche | S+ | Regeneración de energía + Ignorar DEF |
+| Hoy es otro día pacífico | A | Aumento de daño constante |
+| La seriedad del desayuno | B | Opción F2P accesible |
+| Cálculo eterno | B | Escalado de estadísticas confiable |
+
+<Callout type="warning" title="Advertencia de energía">
+Los conos de luz que no son de firma carecen del bono de regeneración de energía. Si no estás usando el de firma, debes compensarlo con un enlace de regeneración de energía o un soporte de batería dedicado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión">
+
+Sigue esta lista de verificación para asegurarte de que tu Himeko Nova esté optimizada para los desafíos de final de juego.
+
+<Checklist
+  id="himeko-build-goals"
+  title="Hitos de la build:"
+  items={[
+    "Subir de nivel el Talento a la máxima prioridad",
+    "Alcanzar el 100% de probabilidad de crítico con mejoras",
+    "Ajustar la velocidad de los soportes a 160+ para un ciclo de turnos óptimo",
+    "Desbloquear el E2 para obtener el doble de capacidad de carga de la habilidad de asistencia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena armar a Himeko Nova para jugadores F2P?",
+    answer: "Sí, es muy efectiva incluso sin su cono de luz de firma, siempre que tengas un equipo bien optimizado con miembros de la Tripulación del Expreso."
+  },
+  {
+    question: "¿Cuál es el mejor equipo para Himeko Nova?",
+    answer: "El consenso para un rendimiento óptimo es Himeko Nova, Sunday, Sparkle y Dan Heng, lo que permite un ciclo de habilidades de asistencia casi infinito."
+  },
+  {
+    question: "¿Qué tan importantes son los Eidolones?",
+    answer: "Sus E1 y E2 cambian las reglas del juego, proporcionando aumentos masivos de daño y mejoras de calidad de vida para las cargas de su habilidad de asistencia."
+  }
+]} />
+
+</Section>

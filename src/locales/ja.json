@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "build": "ビルド",
+    "teams": "チーム",
+    "materials": "素材",
+    "weapons": "武器"
+  }
+}

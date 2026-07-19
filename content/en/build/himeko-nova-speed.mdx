@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "himeko nova speed: Optimal Stats & Turn Order Setup Guide",
+  description: "Master himeko nova speed requirements and turn order strategies for 2026. Learn about SPD breakpoints, ATK boots vs SPD boots, and team rotations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Speed+Guide",
+  date: "2026-07-20",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **himeko nova speed** is highly dependent on her team composition, specifically whether you use Action Advance units like Sunday or Sparkle.
+- **Base Speed** is often preferred when paired with Sunday or RMC, allowing for a pure ATK% focus on boots and rope.
+- **134/135 SPD** is the recommended breakpoint for teams without Action Advance to ensure multiple actions in the first cycle.
+- **Trailblaze Companions** must act before Himeko Nova to trigger her Verdict or Decimation states immediately.
+- **E2 Investment** significantly reduces speed pressure by allowing more flexible Assist Skill triggers from any ally.
+</Callout>
+
+<Section icon={Map} title="Understanding himeko nova speed Mechanics">
+
+Himeko Nova introduces a sophisticated dual-mode playstyle centered around her Starblazer Territory and Assist Skills. Managing **himeko nova speed** is not just about how often she moves, but how her turns align with her Trailblaze Companions. When a companion uses an Assist Skill, Himeko enters either the Verdict or Decimation state, providing massive damage and Crit buffs. Because her Assist Skill charges reset at the start of her turn, her speed determines the frequency of these resets and the overall rhythm of the team's offensive pressure.
+
+**Video Highlights:**
+- Detailed breakdown of the Assist Skill mechanic and Starblazer Territory.
+- Comparison between Verdict (Single Target/Ultimate focus) and Decimation (AoE focus).
+- Analysis of why Trailblaze Companions are mandatory for optimal performance.
+- Showcase of E1 and E2 power spikes regarding Assist Skill frequency.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="The BEST Guide to Himeko Nova! | Best Builds, Relics, Teams" />
+
+<Callout type="tip" title="State Management">
+Always ensure at least one Trailblaze Companion (Sunday, Dan PT, Welt, or RMC) acts before Himeko Nova in the first wave. This allows her to enter a boosted state before she takes her first action or uses her Ultimate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Speed Breakpoints and Stat Priorities">
+
+When building for **himeko nova speed**, players must choose between a "Fast" build (SPD Boots) and a "Slow" build (ATK Boots). In the 2026 meta, the slow build is increasingly popular due to the prevalence of powerful Harmony units that manipulate turn order. However, understanding the specific breakpoints is essential for players who do not have access to premium advance-forward supports.
+
+| Build Type | Recommended SPD | Main Boot Stat | Best Support Synergy |
+| :--- | :--- | :--- | :--- |
+| **Slow Build** | **Base (90-105)** | **ATK%** | Sunday, Sparkle, RMC |
+| **Standard Breakpoint** | **134 / 135** | **SPD** | Welt, Blade, Sustain teams |
+| **High Speed** | **160+** | **SPD** | Specialized 0-cycle clears |
+| **E2 Optimization** | **Base** | **ATK%** | Any high-speed teammates |
+
+<Callout type="warning" title="Energy Requirements">
+Running a slow Himeko Nova can sometimes lead to energy droughts if the battle lasts many cycles. If you find your Ultimate uptime is low, consider an Energy Regeneration Rate rope even if you are using ATK% boots.
+</Callout>
+
+Beyond speed, her secondary stats are crucial for maximizing the damage output of her Particle Beams and Annihilation Pulses.
+
+| Stat | Priority | Target Goal (In-Combat) |
+| :--- | :--- | :--- |
+| **Crit Rate** | **High** | 90% - 100% |
+| **Crit DMG** | **Medium** | 130% - 150%+ (Base) |
+| **ATK** | **High** | 3,500 - 4,000+ |
+| **DEF/HP** | **Low** | Survival thresholds |
+
+</Section>
+
+<Section icon={Swords} title="Best Build: Relics and Planar Ornaments">
+
+To complement your **himeko nova speed** tuning, you must select the correct gear. The "Navigator" set is her undisputed best-in-slot for 2026, as it rewards her frequent use of Skills and Assist Skills with massive DMG% multipliers.
+
+<CardGrid cols={3}>
+  <Card title="Navigator Set">
+    - **54% DMG** on Skill/Ult
+    - **12% ATK** bonus
+    - Easiest stack maintenance
+  </Card>
+  <Card title="Fallen Star">
+    - **8% Crit Rate**
+    - **32% Crit DMG**
+    - Requires Trailblaze allies
+  </Card>
+  <Card title="S1 Light Cone">
+    - **32% DEF Ignore**
+    - **6 Energy** per Assist
+    - Massive Assist/Ult DMG
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Light Cone Versatility">
+While her signature S1 is the strongest, Erudition characters have access to great alternatives like the Herta Store cone from Amphoreus. If you have E2, the Light Cone becomes slightly less critical than the extra turn mechanics.
+</Callout>
+
+| Set Type | Name | Key Benefit |
+| :--- | :--- | :--- |
+| **Relic (4pc)** | **Navigator Isee Sees It** | Best overall DPS increase |
+| **Planar (2pc)** | **Fallen Star** | High Crit Value for Companion teams |
+| **Planar (2pc)** | **Bananamusement** | Consistent Crit DMG for Dan PT teams |
+| **Planar (2pc)** | **Rutilant Arena** | Strong for Decimation/Skill focus |
+
+</Section>
+
+<Section icon={Sparkles} title="Team Rotations and Turn Order">
+
+The effectiveness of **himeko nova speed** is realized through precise team rotations. Since Trailblaze Companions grant her the Verdict or Decimation states, their positioning in the Action Bar is paramount.
+
+<Steps>
+  <Step num="1" title="Initial Wave Setup">
+    Use Himeko Nova's Technique to auto-cast her Skill at the start of the wave. This generates immediate energy and sets her Assist Skill count to 1.
+  </Step>
+  <Step num="2" title="Companion Activation">
+    A fast Trailblaze Companion (like Sunday or Dan PT at 160 SPD) acts first. They use the Assist Skill button, triggering Himeko's state and gaining an extra turn.
+  </Step>
+  <Step num="3" title="State Stacking">
+    Depending on the state (Verdict needs Ults, Decimation needs hits), the team performs actions to generate free Assist Skill uses for Himeko before her actual turn.
+  </Step>
+  <Step num="4" title="Himeko's Turn">
+    Himeko acts, using her Assist Skill (which doesn't consume a charge on her turn) to deal massive damage and reset the ally usage count.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dual State Strategy">
+In complex fights, you can bring both a Verdict ally (Dan PT) and a Decimation ally (Welt). Start in Decimation for AoE clearing, then swap to Verdict right before Himeko's Ultimate to maximize single-target nuke damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Use this checklist to ensure your Himeko Nova is optimized for the current 2026 endgame content.
+
+<Checklist
+  id="himeko-optimization"
+  title="Optimization Milestones:"
+  items={[
+    "Reach 3,500+ ATK with ATK% Boots (if using Sunday/Sparkle)",
+    "Secure a 4pc Navigator Relic set with correct main stats",
+    "Tune Trailblaze Companions to act before Himeko Nova",
+    "Unlock A6 Trace for the Source Energy Ultimate buff",
+    "Achieve 100% In-Combat Crit Rate through buffs"
+  ]}
+/>
+
+<Callout type="tip" title="E2 Power Spike">
+If you reach E2, your speed tuning becomes much easier. Any ally can now trigger the extra turn from Assist Skills, meaning you are no longer strictly tethered to the Trailblaze Companion faction for turn manipulation.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is himeko nova speed more important than ATK?",
+    answer: "Generally, no. Because her best supports (Sunday/Sparkle) provide Action Advance, she gains more value from ATK% boots. Only prioritize SPD if you are running her with sustain units like Huohuo without an advancer."
+  },
+  {
+    question: "Do I need 134 SPD for Pure Fiction?",
+    answer: "In Pure Fiction, Decimation state is king. Since you hit many enemies, you get free Assist Skills frequently. 134 SPD is helpful but not mandatory if your teammates are fast enough to trigger the 9-hit requirement for Decimation."
+  },
+  {
+    question: "How does her E1 affect speed requirements?",
+    answer: "E1 increases the number of extra Assist Skills she can launch per Ultimate. This indirectly lowers speed pressure because she generates more energy and damage per cycle regardless of her own turn frequency."
+  },
+  {
+    question: "Which Trailblaze Companion is best for a slow Himeko?",
+    answer: "Sunday is the premier choice. His ability to pull Himeko forward and provide massive DMG buffs perfectly compensates for her low base speed while maximizing her ATK-heavy build."
+  }
+]} />
+
+</Section>

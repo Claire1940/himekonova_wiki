@@ -38,14 +38,13 @@ export async function DetailPage({
   // 服务端加载翻译
   const t = await getTranslations();
 
-  // 内容类型翻译映射
+  // 内容类型翻译映射（与 navigation.ts NAVIGATION_CONFIG key 一一对应）
   const contentTypeLabels: Record<string, string> = {
-    guides: t("nav.guides"),
-    crafting: t("nav.crafting"),
-    items: t("nav.items"),
-    biomes: t("nav.biomes"),
-    building: t("nav.building"),
-    support: t("nav.support"),
+    guide: t("nav.guide"),
+    build: t("nav.build"),
+    teams: t("nav.teams"),
+    materials: t("nav.materials"),
+    weapons: t("nav.weapons"),
   };
 
   // 提取图片元数据
