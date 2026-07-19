@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Himeko Nova Wiki - Builds, Skills & Lore",
+  "short_name": "Himeko Nova",
+  "description": "Himeko Nova Wiki covers character builds, skills, lore, weapons, team guides and updates for Himeko Nova players across Honkai Impact 3rd tips.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#e43f25",
   "background_color": "#0a0a0a",
   "icons": [
     {
