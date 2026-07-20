@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "히메코 노바 빌드: 2026 최적화 및 파티 시너지 가이드",
+  description: "2026년 메타에 맞춘 유물 세트, 광추 선택, 최적의 파티 조합에 대한 전문가 가이드로 히메코 노바 빌드를 마스터하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Build",
+  date: "2026-07-20",
+  author: "히메코 노바 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **히메코 노바 빌드**의 성공은 파티 시너지를 통해 지원 스킬 발동 빈도를 극대화하는 데 달려 있습니다.
+- 전투 중 일관되게 높은 피해를 출력할 수 있도록 **특성과 필살기** 레벨을 우선적으로 올리세요.
+- **은하열차 승무원** 멤버를 활용하여 특별한 효과를 발동시키고 피해 버프를 유지하세요.
+- 그녀의 스킬셋은 치명타 피해를 충분히 제공하므로, 보조 능력치로는 항상 **치명타 확률 100%**를 목표로 하세요.
+- **전용 광추**는 그녀의 에너지 관리에 있어 가장 중요한 편의성 업그레이드입니다.
+</Callout>
+
+<Section icon={Sparkles} title="캐릭터 개요 및 전투 메커니즘">
+
+히메코 노바는 시너지의 힘을 바탕으로 활약하는 독특한 딜러로 돋보집니다. 그녀의 핵심 플레이 스타일은 아군의 특정 조건에 따라 발동하는 강력한 도구인 "지원 스킬"을 중심으로 돌아갑니다.
+
+**동영상 하이라이트:**
+- 판결(Verdict) 및 파멸(Decimation) 특수 효과에 대한 상세 설명.
+- 턴제 피해를 위한 효율적인 속도 튜닝 방법.
+- 전용 광추가 최우선 순위인 이유에 대한 통찰.
+
+<YouTubeEmbed videoId="W7z8yJo2384" title="그녀를 막을 수 없습니다! 최고의 히메코 노바 가이드 및 빌드" />
+
+그녀를 마스터하려면 두 가지 고유한 모드인 **판결**(은하열차 승무원 버프)과 **파멸**(고위험 고수익 스케일링)을 이해해야 합니다. 적절한 타이밍에 지원 스킬 버튼을 누르지 못하면 상당한 DPS 손실이 발생할 수 있으므로, 지원 스킬을 선택 사항이 아닌 핵심 리듬 메커니즘으로 취급하세요.
+
+<Callout type="tip" title="프로 팁">
+전투에 진입하기 전에 항상 비술을 사용하여 스킬을 즉시 갱신하고 초기 지원 스킬 충전을 획득하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="추천 유물 및 차원 장신구">
+
+피해량을 늘리기 위해서는 올바른 장비를 선택하는 것이 중요합니다. 새로운 세트가 출시되었지만, 그녀는 기존 장비와도 잘 어울리므로 이미 보유하고 있는 능력치가 높은 기존 장비를 재활용할 수 있습니다.
+
+| 장비 유형 | 추천 세트 | 주요 능력치 우선순위 |
+| :--- | :--- | :--- |
+| 유물 세트 | 네비게이터로서 (As Navigator) | 치명타 확률/피해 |
+| 차원 장신구 | 떨어진 별의 정박지 (Fallen Star Anchorage) | 공격력 % / 화염 속성 피해 |
+| 바디 | 치명타 확률 | 치명타 확률 > 치명타 피해 |
+| 신발 | 공격력 % | 공격력 % > 속도 |
+
+<CardGrid cols={3}>
+  <Card title="네비게이터로서 (As Navigator)">
+    높은 가동률로 스킬 및 필살기 피해를 극대화하는 데 최적입니다.
+  </Card>
+  <Card title="떨어진 별의 정박지 (Fallen Star Anchorage)">
+    은하열차 승무원과 함께 편성했을 때 필수적인 치명타 확률 및 피해 버프를 제공합니다.
+  </Card>
+  <Card title="천재/황야인 (Genius/Wastelander)">
+    이러한 기존 세트에 더 우수한 부옵션이 있는 경우 훌륭한 대안이 됩니다.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="능력치 최적화">
+치명타 확률 100%를 목표로 하세요. 서포터들이 그녀에게 치명타 피해를 과포화 상태로 제공할 것이므로, 모든 지원 스킬이 최대 가치로 적중할 수 있도록 일관성을 우선시하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="단계별 파티 로테이션">
+
+속도 튜닝은 평범한 성능과 뛰어난 성능의 차이를 만들어 냅니다. 히메코 노바를 선데이, 스파클과 같은 캐릭터와 정렬하면 거의 매 턴마다 지원 스킬을 발동할 수 있습니다.
+
+<Steps>
+  <Step num="1" title="초기 설정">
+    히메코의 비술을 사용하여 전투를 시작함으로써 스킬 버프가 즉시 활성화되도록 합니다.
+  </Step>
+  <Step num="2" title="행동 게이지 증가">
+    스파클을 사용하여 히메코의 행동을 당겨와, 에너지를 생성하기 위해 가능한 한 많은 턴을 갖도록 합니다.
+  </Step>
+  <Step num="3" title="지원 스킬 발동">
+    아군(특히 은하열차 승무원 멤버)의 턴에 맞춰 지원 스킬 충전을 발동합니다.
+  </Step>
+  <Step num="4" title="필살기 시전">
+    에너지가 150에 도달하면 필살기를 활성화하여 충전을 초기화하고 강력한 광역 피해를 입힙니다.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="광추 비교">
+
+모든 광추가 동일한 효율을 내는 것은 아닙니다. 전용 광추가 가장 이상적이지만, 대부분의 콘텐츠에서는 무소과금(F2P) 대체 광추도 여전히 유효합니다.
+
+| 광추 | 티어 | 핵심 효과 |
+| :--- | :--- | :--- |
+| 밤하늘을 밝히는 별 (A Star That Lights the Night) | S+ | 에너지 회복 + 방어력 무시 |
+| 오늘도 평화로운 하루 (Today Is Another Peaceful Day) | A | 일관된 피해 증가 |
+| 아침 식사의 중요성 (The Seriousness of Breakfast) | B | 획득하기 쉬운 F2P 옵션 |
+| 끝없는 연산 (Eternal Calculus) | B | 안정적인 능력치 스케일링 |
+
+<Callout type="warning" title="에너지 경고">
+전용 광추가 아닌 경우 에너지 회복 보너스가 부족합니다. 전용 광추를 사용하지 않는 경우, 에너지 회복 연결 매듭이나 전용 배터리 서포터로 이를 보완해야 합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="육성 체크리스트">
+
+이 체크리스트를 따라 히메코 노바가 엔드게임 콘텐츠에 최적화되었는지 확인하세요.
+
+<Checklist
+  id="himeko-build-goals"
+  title="육성 이정표:"
+  items={[
+    "특성 레벨업을 최우선으로 진행",
+    "버프 포함 치명타 확률 100% 달성",
+    "최적의 턴 순환을 위해 서포터 속도를 160 이상으로 조율",
+    "지원 스킬 충전 용량 2회를 위해 성혼 2단계(E2) 해제"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "히메코 노바는 무소과금(F2P) 유저가 육성할 가치가 있나요?",
+    answer: "네, 잘 최적화된 은하열차 승무원 파티가 있다면 전용 광추가 없어도 매우 효과적입니다."
+  },
+  {
+    question: "히메코 노바에게 가장 좋은 파티 조합은 무엇인가요?",
+    answer: "최고의 성능을 내는 조합으로 히메코 노바, 선데이, 스파클, 단항이 꼽히며, 이 조합은 거의 무한에 가까운 지원 스킬 순환을 가능하게 합니다."
+  },
+  {
+    question: "성혼(돌파)은 얼마나 중요한가요?",
+    answer: "그녀의 성혼 1단계(E1)와 2단계(E2)는 큰 변화를 가져다주며, 엄청난 피해량 증가와 지원 스킬 충전 편의성 개선을 제공합니다."
+  }
+]} />
+
+</Section>

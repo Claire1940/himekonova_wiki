@@ -190,6 +190,14 @@
         "file": "himeko-nova-crit-rate"
       },
       {
+        "slug": "himeko-nova-planar-set",
+        "file": "himeko-nova-planar-set"
+      },
+      {
+        "slug": "himeko-nova-relic-set",
+        "file": "himeko-nova-relic-set"
+      },
+      {
         "slug": "himeko-nova-relics",
         "file": "himeko-nova-relics"
       },
@@ -319,6 +327,20 @@
         "slug": "himeko-nova-welt-team",
         "file": "himeko-nova-welt-team"
       }
+    ],
+    "weapons": [
+      {
+        "slug": "himeko-nova-best-light-cone",
+        "file": "himeko-nova-best-light-cone"
+      },
+      {
+        "slug": "himeko-nova-light-cone-options",
+        "file": "himeko-nova-light-cone-options"
+      },
+      {
+        "slug": "himeko-nova-light-cone",
+        "file": "himeko-nova-light-cone"
+      }
     ]
   },
   "ja": {
@@ -336,8 +358,20 @@
         "file": "himeko-nova-crit-damage"
       },
       {
+        "slug": "himeko-nova-crit-rate",
+        "file": "himeko-nova-crit-rate"
+      },
+      {
+        "slug": "himeko-nova-planar-set",
+        "file": "himeko-nova-planar-set"
+      },
+      {
         "slug": "himeko-nova-relic-set",
         "file": "himeko-nova-relic-set"
+      },
+      {
+        "slug": "himeko-nova-relics",
+        "file": "himeko-nova-relics"
       },
       {
         "slug": "himeko-nova-speed",
@@ -446,6 +480,10 @@
         "file": "himeko-nova-hypercarry-team"
       },
       {
+        "slug": "himeko-nova-premium-team",
+        "file": "himeko-nova-premium-team"
+      },
+      {
         "slug": "himeko-nova-sunday-team",
         "file": "himeko-nova-sunday-team"
       },
@@ -460,6 +498,192 @@
       {
         "slug": "himeko-nova-welt-team",
         "file": "himeko-nova-welt-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "himeko-nova-best-light-cone",
+        "file": "himeko-nova-best-light-cone"
+      },
+      {
+        "slug": "himeko-nova-light-cone-options",
+        "file": "himeko-nova-light-cone-options"
+      },
+      {
+        "slug": "himeko-nova-light-cone",
+        "file": "himeko-nova-light-cone"
+      }
+    ]
+  },
+  "ko": {
+    "build": [
+      {
+        "slug": "himeko-nova-best-build",
+        "file": "himeko-nova-best-build"
+      },
+      {
+        "slug": "himeko-nova-build",
+        "file": "himeko-nova-build"
+      },
+      {
+        "slug": "himeko-nova-crit-damage",
+        "file": "himeko-nova-crit-damage"
+      },
+      {
+        "slug": "himeko-nova-crit-rate",
+        "file": "himeko-nova-crit-rate"
+      },
+      {
+        "slug": "himeko-nova-planar-set",
+        "file": "himeko-nova-planar-set"
+      },
+      {
+        "slug": "himeko-nova-relic-set",
+        "file": "himeko-nova-relic-set"
+      },
+      {
+        "slug": "himeko-nova-relics",
+        "file": "himeko-nova-relics"
+      },
+      {
+        "slug": "himeko-nova-speed",
+        "file": "himeko-nova-speed"
+      },
+      {
+        "slug": "himeko-nova-stats",
+        "file": "himeko-nova-stats"
+      },
+      {
+        "slug": "himeko-nova-traces",
+        "file": "himeko-nova-traces"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "himeko-nova-beginner-guide",
+        "file": "himeko-nova-beginner-guide"
+      },
+      {
+        "slug": "himeko-nova-build-guide",
+        "file": "himeko-nova-build-guide"
+      },
+      {
+        "slug": "himeko-nova-full-kit",
+        "file": "himeko-nova-full-kit"
+      },
+      {
+        "slug": "himeko-nova-gameplay",
+        "file": "himeko-nova-gameplay"
+      },
+      {
+        "slug": "himeko-nova-guide",
+        "file": "himeko-nova-guide"
+      },
+      {
+        "slug": "himeko-nova-how-to-play",
+        "file": "himeko-nova-how-to-play"
+      },
+      {
+        "slug": "himeko-nova-investment",
+        "file": "himeko-nova-investment"
+      },
+      {
+        "slug": "himeko-nova-kit-explained",
+        "file": "himeko-nova-kit-explained"
+      },
+      {
+        "slug": "himeko-nova-review",
+        "file": "himeko-nova-review"
+      },
+      {
+        "slug": "himeko-nova-worth-it",
+        "file": "himeko-nova-worth-it"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "himeko-nova-ascension-materials",
+        "file": "himeko-nova-ascension-materials"
+      },
+      {
+        "slug": "himeko-nova-farming-materials",
+        "file": "himeko-nova-farming-materials"
+      },
+      {
+        "slug": "himeko-nova-materials",
+        "file": "himeko-nova-materials"
+      },
+      {
+        "slug": "himeko-nova-prefarm",
+        "file": "himeko-nova-prefarm"
+      },
+      {
+        "slug": "himeko-nova-trace-materials",
+        "file": "himeko-nova-trace-materials"
+      },
+      {
+        "slug": "himeko-nova-upgrade-materials",
+        "file": "himeko-nova-upgrade-materials"
+      },
+      {
+        "slug": "himeko-nova-weekly-boss-material",
+        "file": "himeko-nova-weekly-boss-material"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "himeko-nova-best-team",
+        "file": "himeko-nova-best-team"
+      },
+      {
+        "slug": "himeko-nova-blade-team",
+        "file": "himeko-nova-blade-team"
+      },
+      {
+        "slug": "himeko-nova-evernight-team",
+        "file": "himeko-nova-evernight-team"
+      },
+      {
+        "slug": "himeko-nova-f2p-team",
+        "file": "himeko-nova-f2p-team"
+      },
+      {
+        "slug": "himeko-nova-hypercarry-team",
+        "file": "himeko-nova-hypercarry-team"
+      },
+      {
+        "slug": "himeko-nova-premium-team",
+        "file": "himeko-nova-premium-team"
+      },
+      {
+        "slug": "himeko-nova-sunday-team",
+        "file": "himeko-nova-sunday-team"
+      },
+      {
+        "slug": "himeko-nova-team-comp",
+        "file": "himeko-nova-team-comp"
+      },
+      {
+        "slug": "himeko-nova-teams",
+        "file": "himeko-nova-teams"
+      },
+      {
+        "slug": "himeko-nova-welt-team",
+        "file": "himeko-nova-welt-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "himeko-nova-best-light-cone",
+        "file": "himeko-nova-best-light-cone"
+      },
+      {
+        "slug": "himeko-nova-light-cone-options",
+        "file": "himeko-nova-light-cone-options"
+      },
+      {
+        "slug": "himeko-nova-light-cone",
+        "file": "himeko-nova-light-cone"
       }
     ]
   }
