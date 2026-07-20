@@ -1,9 +1,522 @@
 {
+  "seo": {
+    "home": {
+      "title": "히메코 노바 위키 - 빌드, 스킬 & 스토리",
+      "description": "히메코 노바 위키는 붕괴3rd 플레이어들을 위한 히메코 노바의 캐릭터 빌드, 스킬, 스토리, 무기, 팀 가이드 및 업데이트 정보를 제공합니다.",
+      "keywords": "히메코 노바, 붕괴3rd, 빌드, 스킬, 스토리, 무기, 가이드",
+      "ogTitle": "히메코 노바 위키 - 빌드, 스킬 & 스토리",
+      "ogDescription": "히메코 노바 위키는 붕괴3rd 플레이어들을 위한 히메코 노바의 캐릭터 빌드, 스킬, 스토리, 무기, 팀 가이드 및 업데이트 정보를 제공합니다.",
+      "twitterTitle": "히메코 노바 위키 - 빌드, 스킬 & 스토리",
+      "twitterDescription": "히메코 노바 위키는 붕괴3rd 플레이어들을 위한 캐릭터 빌드, 스킬, 스토리, 무기 및 팀 가이드 정보를 제공합니다."
+    }
+  },
   "nav": {
     "guide": "가이드",
     "build": "빌드",
     "teams": "팀",
     "materials": "재료",
     "weapons": "무기"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "붕괴3rd 플레이하기",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 글",
+    "readMore": "자세히 보기",
+    "articlesComingSoon": "관련 글이 곧 추가됩니다"
+  },
+  "hero": {
+    "badge": "애니메이션 SF 캐릭터 가이드",
+    "title": "히메코 노바 위키",
+    "description": "붕괴3rd 플레이어들을 위한 스킬, 빌드, 무기, 스토리, 팀 조합, 육성 재료 및 플레이 팁이 담긴 히메코 노바 캐릭터 종합 가이드.",
+    "getFreeCodesCTA": "무료 코드 받기",
+    "playOnSteamCTA": "붕괴3rd 플레이하기",
+    "stats": {
+      "stat1": {
+        "value": "1,000만+",
+        "label": "붕괴3rd 플레이어"
+      },
+      "stat2": {
+        "value": "다양한",
+        "label": "히메코 빌드"
+      },
+      "stat3": {
+        "value": "사용 가능한",
+        "label": "리딤 코드"
+      },
+      "stat4": {
+        "value": "정기적인",
+        "label": "게임 업데이트"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "히메코 노바 게임플레이",
+    "description": "붕괴3rd의 SF 전장에서 히메코 노바의 화염 속성 대검 전투, 폭발적인 딜 사이클, 그리고 팀 시너지를 마스터하세요."
+  },
+  "tools": {
+    "title": "---",
+    "titleHighlight": "Himeko Nova",
+    "subtitle": "리소스",
+    "cards": [
+      {
+        "icon": "Honkai Impact 3rd에서 Himeko Nova를 마스터하기 위해 필요한 모든 것",
+        "title": "유저",
+        "description": "Himeko Nova 캐릭터"
+      },
+      {
+        "icon": "정체성, 전투 역할 및 스토리 배경",
+        "title": "화염",
+        "description": "Himeko Nova 스킬"
+      },
+      {
+        "icon": "능력, 메커니즘 및 버스트 로테이션",
+        "title": "망치",
+        "description": "Himeko Nova 빌드"
+      },
+      {
+        "icon": "장비, 강화 및 파티 시너지",
+        "title": "트로피",
+        "description": "Himeko Nova 티어표"
+      },
+      {
+        "icon": "성능 순위 및 투자 가치",
+        "title": "펼쳐진 책",
+        "description": "Himeko Nova 초보자 가이드"
+      },
+      {
+        "icon": "획득, 강화 및 초기 진행 방법",
+        "title": "두루마리",
+        "description": "Himeko Nova 로어"
+      },
+      {
+        "icon": "스토리, 배경 및 캐릭터 관계",
+        "title": "시계",
+        "description": "Himeko Nova 업데이트"
+      },
+      {
+        "icon": "출시, 이벤트 및 밸런스 조정",
+        "title": "선물",
+        "description": "Himeko Nova 코드"
+      }
+    ]
+  },
+  "modules": {
+    "himekoNovaCharacterGuide": {
+      "title": "리딤 코드, 이벤트 및 보상",
+      "eyebrow": "Himeko Nova 캐릭터 가이드",
+      "intro": "캐릭터 개요",
+      "cards": [
+        {
+          "name": "Honkai Impact 3rd에서의 Himeko Nova의 정체성, 전투 역할, 배경 및 게임 플레이 내 위치에 대해 알아보세요. 이 가이드는 캐릭터 프로필, 전투 정체성 및 서사적 역할을 소개하여 플레이어가 왜 그녀가 Honkai Impact 3rd 팬들 사이에서 인기 있는 Valkyrja인지 빠르게 이해할 수 있도록 돕습니다.",
+          "value": "캐릭터 이름",
+          "description": "Himeko Nova"
+        },
+        {
+          "name": "Honkai 세계관 내의 강력한 전투와 영웅적인 이야기에 초점을 맞춘 Himeko 기반의 캐릭터 정체성입니다.",
+          "value": "캐릭터 역할",
+          "description": "화염 데미지 전문가"
+        },
+        {
+          "name": "Himeko 캐릭터들은 묵직한 공격, 강력한 폭발적인 데미지, 근거리 전투 스타일로 잘 알려져 있습니다.",
+          "value": "전투 정체성",
+          "description": "대검 전사"
+        },
+        {
+          "name": "Himeko의 게임 플레이 정체성은 대검 전투, 강력한 공격 능력 및 임팩트 있는 타격감을 중심으로 구축되었습니다.",
+          "value": "---",
+          "description": "발키리 대장"
+        }
+      ]
+    },
+    "himekoNovaSkillsGuide": {
+      "title": "히메코는 붕괴3rd 스토리라인의 핵심 인물 중 한 명으로, 그녀의 리더십과 희생정신, 그리고 소중한 것을 지키려는 결연한 의지로 잘 알려져 있습니다.",
+      "eyebrow": "히메코 노바 스킬 가이드",
+      "intro": "스킬 및 전투",
+      "cards": [
+        {
+          "name": "히메코 노바의 전투 메커니즘, 능력 및 추천 전투 활용법을 알아보세요. 이 섹션에서는 공격 패턴, 폭발적인 스킬, 다양한 전투 상황에서의 이점을 포함한 핵심 게임플레이 특징을 설명합니다.",
+          "value": "기본 공격",
+          "description": "대검 전투"
+        },
+        {
+          "name": "강력한 피해량과 중화기 메커니즘을 기반으로 설계된 강력한 근접 공격을 구사합니다.",
+          "value": "필살기",
+          "description": "높은 폭발적 피해"
+        },
+        {
+          "name": "히메코의 필살기는 폭발적인 딜링 타임과 전장에서의 강력한 영향력에 집중되어 있습니다.",
+          "value": "전투 메커니즘",
+          "description": "근거리 대미지 사이클"
+        },
+        {
+          "name": "플레이어는 공격 타이밍, 스킬 및 필살기 사용을 관리하여 히메코의 게임플레이를 최적화할 수 있습니다.",
+          "value": "추천 활용법",
+          "description": "보스 및 엘리트 적 전투"
+        }
+      ]
+    },
+    "himekoNovaBuildGuide": {
+      "title": "그녀의 강력한 공격은 높은 피해량이 필요한 전투 상황에 적합합니다.",
+      "eyebrow": "히메코 노바 빌드 가이드",
+      "intro": "빌드 진행 가이드",
+      "steps": [
+        {
+          "title": "장비, 강화 및 파티 최적화를 위한 추천 단계를 따르세요. 이 빌드 가이드는 장비 선택, 캐릭터 강화 및 효과적인 파티 구성 전략을 통해 히메코 노바의 전투 성능을 높이는 데 중점을 둡니다.",
+          "description": "캐릭터 레벨 업"
+        },
+        {
+          "title": "캐릭터 성장을 우선시하여 더 강력한 전투 성능과 스킬 강화를 잠금 해제하세요.",
+          "description": "장비 개선"
+        },
+        {
+          "title": "피해 잠재력을 높이고 그녀의 전투 스타일에 맞는 적절한 무기와 성흔 세트를 사용하세요.",
+          "description": "파티 시너지 구축"
+        },
+        {
+          "title": "유용한 서포트 효과를 제공하고 전반적인 대미지 사이클을 개선하는 캐릭터들과 히메코를 조합하세요.",
+          "description": "자원 관리"
+        }
+      ],
+      "quickTips": [
+        "투자 효율을 극대화하기 위해 중요한 강화 재료를 우선적으로 관리하세요.",
+        "무기와 성흔을 선택할 때 화염 피해 보너스에 집중하세요.",
+        "최대 폭발력을 내기 위해 파티 버프 지속 시간 동안 필살기를 사용하세요.",
+        "일관된 위력을 위해 치명타 확률과 원소 피해의 균형을 맞추세요."
+      ]
+    },
+    "himekoNovaTierList": {
+      "title": "폭발적인 피해를 증폭시키는 스킬 레벨에 먼저 투자하세요.",
+      "eyebrow": "히메코 노바 티어표",
+      "intro": "캐릭터 랭킹",
+      "tiers": [
+        {
+          "tier": "플레이 가능한 캐릭터들 사이에서 히메코 노바의 성능과 투자 가치를 비교해 보세요. 이 티어 개요는 캐릭터를 선택하고 강화할 때 그녀의 전반적인 전투 위치, 강점 및 가치를 이해하는 데 도움이 됩니다.",
+          "rank": "DPS",
+          "description": "높은 피해 잠재력"
+        },
+        {
+          "tier": "히메코 캐릭터들은 강력한 공격 능력과 박력 있는 공격 모션으로 잘 알려져 있습니다.",
+          "rank": "초보자 가치",
+          "description": "직관적인 근접 전투 스타일 덕분에 많은 플레이어가 그녀를 더 쉽게 이해할 수 있습니다."
+        },
+        {
+          "tier": "엔드게임 활용도",
+          "rank": "파티 조합 의존도",
+          "description": "성능은 장비 투자, 파티 조합, 그리고 현재의 게임 밸런스에 따라 달라집니다."
+        },
+        {
+          "tier": "투자 우선순위",
+          "rank": "캐릭터 선호도",
+          "description": "Himeko의 플레이 스타일과 스토리에서의 역할을 좋아하는 플레이어들은 종종 그녀의 육성을 우선시합니다."
+        }
+      ]
+    },
+    "himekoNovaBeginnerGuide": {
+      "title": "Himeko Nova 초보자 가이드",
+      "eyebrow": "초보자 가이드",
+      "intro": "Himeko Nova의 획득, 업그레이드, 장비 선택 및 초반 전투 전략을 다루는 초보자 친화적인 육성 가이드입니다. 다음 단계들을 따라 효율적으로 캐릭터를 해금하고 육성하며, 흔히 발생하는 육성 실수를 방지하세요.",
+      "steps": [
+        {
+          "title": "Himeko Nova 획득하기",
+          "description": "공식 캐릭터 보급, 이벤트 또는 이용 가능한 경우 게임별 모집 시스템을 통해 Himeko Nova를 획득하세요. 한정 캐릭터가 출시되기 전에는 유료 재화를 모아두는 것이 좋습니다."
+        },
+        {
+          "title": "캐릭터 및 핵심 능력치 레벨업",
+          "description": "Himeko Nova의 캐릭터 레벨, 무기 레벨 및 주요 전투 속성을 높이는 것을 우선시하세요. 레벨이 높을수록 생존력과 데미지 출력이 향상됩니다."
+        },
+        {
+          "title": "핵심 스킬 우선 강화",
+          "description": "화염 데미지와 전장 성능을 향상시키는 액티브 전투 스킬, 필살기, 패시브 특성에 자원을 집중하세요."
+        },
+        {
+          "title": "초보자용 장비 선택",
+          "description": "공격력, 원소 데미지, 스킬 효율을 높여주는 화염 데미지 중심의 무기와 성흔을 사용하세요."
+        },
+        {
+          "title": "효율적인 자원 관리",
+          "description": "임시 장비에 강화 재료를 낭비하지 마세요. 보조 캐릭터에 과하게 투자하기 전에 Himeko Nova의 메인 세팅을 우선적으로 완료하세요."
+        },
+        {
+          "title": "흔한 초보자 실수 방지",
+          "description": "파티 시너지, 원소 보너스 또는 강화 우선순위를 무시하지 마세요. 균형 잡힌 파티를 구성하는 것이 Himeko Nova의 전반적인 성능을 향상시킵니다."
+        }
+      ],
+      "quickTips": [
+        "Himeko Nova가 포함된 한정 보급을 위해 유료 재화를 아껴두세요.",
+        "무기와 성흔 보너스를 그녀의 화염 데미지 특성에 맞추세요.",
+        "폭발적인 데미지 구간을 증폭시킬 수 있는 서포터 캐릭터를 육성하세요.",
+        "재료를 분산투자하지 말고 명확한 강화 우선순위를 따르세요."
+      ]
+    },
+    "himekoNovaStoryAndLore": {
+      "title": "Himeko Nova 스토리 및 설정",
+      "eyebrow": "캐릭터 설정",
+      "intro": "Himeko Nova의 캐릭터 정체성, 서사적 역할, 관계성 및 Honkai 세계관 내에서의 위치를 탐구해 보세요. 이 설정 섹션에서는 성격, 전투 스타일, 소속 단체 및 주요 스토리 테마를 포함한 주요 캐릭터 정보를 다룹니다.",
+      "items": [
+        {
+          "title": "캐릭터 정체성",
+          "content": "Himeko Nova는 Honkai 세계관 내에서 붉은 머리, 첨단 전투 장비, 강력한 전장 장악력으로 상징되는 강력한 화염 속성 전사의 전형을 보여줍니다."
+        },
+        {
+          "title": "성격 및 가치관",
+          "content": "Himeko 캐릭터들은 일반적으로 자신감이 넘치고 책임감이 강하며, 개인적인 짐을 짊어지면서도 동료들을 보호하고 지원하는 단호한 인물로 묘사됩니다."
+        },
+        {
+          "title": "화염 전사의 유산",
+          "content": "Himeko Nova는 강력한 공격과 리더십, 그리고 감동적인 서사가 결합된 시리즈 전통의 화염 중심 전투원 계보를 잇습니다."
+        },
+        {
+          "title": "Honkai 세계관과의 연결성",
+          "content": "그녀의 스토리는 고도의 기술, 파괴적인 힘에 맞선 전투, 그리고 인류와 미지의 위협 사이의 갈등을 포함하는 거대한 Honkai 세계관과 연결됩니다."
+        },
+        {
+          "title": "서사 속 전투 역할",
+          "content": "Himeko Nova는 최전방의 투사이자 힘의 상징으로서, 주요 갈등 상황 속에서 용기를 대변하는 역할을 합니다."
+        },
+        {
+          "title": "캐릭터 관계",
+          "content": "다른 붕괴 캐릭터들과의 상호작용은 멘토십, 팀워크, 우정, 그리고 희생이라는 주제를 강조합니다."
+        }
+      ]
+    },
+    "himekoNovaReleaseAndUpdates": {
+      "title": "히메코 노바 출시 및 업데이트",
+      "eyebrow": "업데이트",
+      "intro": "히메코 노바와 관련된 중요한 캐릭터 출시, 이벤트, 밸런스 조정 및 공식 공지사항을 확인하세요. 이 타임라인은 캐릭터 획득 가능 여부, 게임플레이 개선, 이벤트, 커뮤니티 마일스톤을 포함한 주요 업데이트 카테고리를 요약합니다.",
+      "entries": [
+        {
+          "version": "캐릭터 소개",
+          "date": "공식 출시 기간",
+          "description": "히메코 노바는 독특한 능력과 특화된 전투 메커니즘을 특징으로 하는 화염 속성 전투 캐릭터로 소개되었습니다."
+        },
+        {
+          "version": "캐릭터 보급 출시",
+          "date": "한정 캐릭터 이벤트",
+          "description": "플레이어는 공식 보급 또는 이벤트 기반 캐릭터 획득 시스템을 통해 캐릭터를 획득할 수 있었습니다."
+        },
+        {
+          "version": "게임플레이 조정",
+          "date": "밸런스 업데이트 기간",
+          "description": "캐릭터 밸런스 업데이트는 히메코 노바의 경쟁력을 유지하기 위해 스킬 수치, 전투 성능 및 게임플레이 상호작용을 조정합니다."
+        },
+        {
+          "version": "관련 이벤트",
+          "date": "시즌 및 스토리 이벤트",
+          "description": "특별 이벤트를 통해 히메코 노바의 캐릭터 등장, 보상, 육성 재료 및 추가 스토리 콘텐츠가 제공됩니다."
+        },
+        {
+          "version": "커뮤니티 마일스톤",
+          "date": "공식 공지사항",
+          "description": "개발자 공지와 커뮤니티 활동을 통해 캐릭터의 인기와 향후 콘텐츠에 대한 정보를 공유합니다."
+        }
+      ]
+    },
+    "himekoNovaCodesAndRewards": {
+      "title": "히메코 노바 코드 및 보상",
+      "eyebrow": "보상",
+      "intro": "히메코 노바 및 붕괴3rd와 관련된 리딤 코드, 이벤트 보상, 공식 보너스 시스템을 확인하세요. 이 섹션은 리딤 코드, 로그인 보너스, 이벤트 보상, 마일스톤 선물을 포함한 일반적인 보상 획득처를 정리합니다.",
+      "rewards": [
+        {
+          "code": "HONKAI",
+          "reward": "수정 및 골드",
+          "status": "리딤 코드",
+          "description": "프리미엄 재화와 기본 자원 보상을 제공하는 붕괴3rd 리딤 코드입니다."
+        },
+        {
+          "code": "NOVA",
+          "reward": "육성 재료 및 보석",
+          "status": "리딤 코드",
+          "description": "캐릭터 육성 재료를 제공하는 히메코 노바 테마의 보상 코드입니다."
+        },
+        {
+          "code": "REDEMPTION",
+          "reward": "골드 및 강화 아이템",
+          "status": "리딤 코드",
+          "description": "자원 보상과 관련된 일반 이벤트 리딤 코드입니다."
+        },
+        {
+          "code": "EVENT",
+          "reward": "재료 및 선물 아이템",
+          "status": "리딤 코드",
+          "description": "기간 한정 보너스를 제공하는 프로모션 이벤트 코드입니다."
+        },
+        {
+          "rewardType": "로그인 보상",
+          "reward": "수정, 육성 재료 및 일일 자원",
+          "status": "이벤트 기간 동안 이용 가능",
+          "description": "일일 및 누적 로그인 시스템은 활성 플레이어에게 지속적인 자원을 제공합니다."
+        },
+        {
+          "rewardType": "특별 이벤트",
+          "reward": "캐릭터, 재료 및 유료 재화",
+          "status": "기간 한정 활동",
+          "description": "공식 이벤트는 스토리 업데이트나 기념행사와 연계된 추가 보상을 제공합니다."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "Himeko Nova에 대해 알아야 할 모든 것",
+    "questions": [
+      {
+        "question": "Honkai Impact 3rd의 Himeko Nova는 누구인가요?",
+        "answer": "Himeko Nova는 Honkai Impact 3rd의 화염 속성 Valkyrja 캐릭터로, 붉은 머리, 대검 전투, 그리고 전방 DPS로서의 강력한 폭발적인 대미지로 잘 알려져 있습니다."
+      },
+      {
+        "question": "최적의 Himeko Nova 빌드는 무엇인가요?",
+        "answer": "최적의 Himeko Nova 빌드는 화염 대미지, 대검 무기, 원소 대미지를 높여주는 stigmata 세트에 집중하며, 그녀의 폭발적인 딜링 타임을 증폭시킬 수 있는 팀원들과 조합하는 것입니다."
+      },
+      {
+        "question": "Himeko Nova는 어떻게 획득하나요?",
+        "answer": "Himeko Nova가 Honkai Impact 3rd에 등장할 때 공식 캐릭터 배너, 기간 한정 모집 이벤트 또는 게임 내 특정 획득 시스템을 통해 얻을 수 있습니다."
+      },
+      {
+        "question": "Himeko Nova는 초보자에게 적합한가요?",
+        "answer": "네. Himeko Nova는 초보자도 쉽게 익힐 수 있는 직관적인 근접 전투 스타일을 갖추고 있으며, 숙련된 플레이어가 로테이션을 마스터하면 높은 대미지 잠재력을 발휘할 수 있습니다."
+      },
+      {
+        "question": "Himeko Nova 코드는 어디서 찾을 수 있나요?",
+        "answer": "Himeko Nova 코드와 보상은 리딤 코드, 로그인 이벤트, HoYoLAB의 기간 한정 특별 이벤트 등 Honkai Impact 3rd의 공식 채널을 통해 배포됩니다."
+      },
+      {
+        "question": "Himeko Nova는 어떤 속성을 사용하나요?",
+        "answer": "Himeko Nova는 Honkai Impact 3rd의 화염 속성 캐릭터로, 화염 테마의 공격과 폭발적인 대미지, 그리고 근거리 대검 전투를 전문으로 합니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Himeko Nova를 마스터할 준비가 되셨나요?",
+    "description": "HoYoLAB과 Reddit의 Honkai Impact 3rd 커뮤니티에 참여하여 Himeko Nova 빌드, 업데이트 및 토론을 확인해 보세요!",
+    "joinCommunity": "커뮤니티 가입하기",
+    "joinGame": "Honkai Impact 3rd 플레이하기"
+  },
+  "footer": {
+    "title": "Himeko Nova 위키",
+    "description": "Honkai Impact 3rd의 Himeko Nova 캐릭터 빌드, 스킬, 무기, 설정 및 팀 가이드를 위한 종합 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "HoYoLAB",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "공식 사이트",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 Himeko Nova Wiki. HoYoverse 또는 Honkai Impact 3rd 개발사와는 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+  },
+  "pages": {
+    "guide": {
+      "title": "히메코 노바 가이드",
+      "description": "초보자 기초부터 심화 전략까지 히메코 노바의 모든 게임플레이 가이드. 그녀의 스킬 구성, 메커니즘, 전투 로테이션을 마스터하세요.",
+      "metaTitle": "히메코 노바 가이드 - 초보자부터 심화 전략까지",
+      "metaDescription": "화염 DPS 캐릭터를 마스터하기 위한 초보자 팁, 스킬 메커니즘, 빌드 전략, 전문가 전술을 아우르는 히메코 노바 가이드 완벽 정리.",
+      "categoryLabel": "게임 가이드",
+      "whatIs": "가이드란 무엇인가요?",
+      "whatIsDescription": "히메코 노바의 게임플레이 메커니즘, 전투 전략, 스킬 사용법을 다루는 종합 가이드. 기초 단계부터 고급 기술까지 모든 것을 배워보세요.",
+      "why": "가이드를 읽어야 하는 이유",
+      "whySteps": {
+        "step1Title": "핵심 메커니즘 학습",
+        "step1Description": "히메코 노바의 스킬 구성을 이해하고 흔히 하는 초보자의 실수를 방지하세요",
+        "step2Title": "빠른 성장",
+        "step2Description": "검증된 경로를 따라 히메코 노바를 효율적으로 육성하고 업그레이드하세요",
+        "step3Title": "전략 마스터",
+        "step3Description": "전투, 버스트 로테이션, 팀 플레이를 위한 고급 전술을 개발하세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드"
+    },
+    "build": {
+      "title": "히메코 노바 빌드",
+      "description": "최대 화염 피해를 위한 추천 유물, 차원 장신구 세트, 능력치 우선순위, 행적 업그레이드 경로로 히메코 노바 빌드를 마스터하세요.",
+      "metaTitle": "히메코 노바 빌드 - 유물, 능력치 및 행적 우선순위",
+      "metaDescription": "최대 화염 피해 출력을 위한 추천 유물 세트, 차원 장신구, 능력치 우선순위, 행적 업그레이드 경로로 히메코 노바 빌드를 마스터하세요.",
+      "categoryLabel": "빌드 및 세팅",
+      "whatIs": "빌드란 무엇인가요?",
+      "whatIsDescription": "히메코 노바의 화염 피해 아이덴티티에 맞춘 유물 세트, 차원 장신구, 주옵션, 부옵션, 행적 우선순위를 다루는 빌드 가이드.",
+      "why": "빌드를 따라야 하는 이유",
+      "whySteps": {
+        "step1Title": "장비 최적화",
+        "step1Description": "히메코 노바의 화염 피해를 증폭시키는 유물과 차원 장신구 세트를 선택하세요",
+        "step2Title": "목표 능력치 달성",
+        "step2Description": "적절한 속도, 치명타 확률, 치명타 피해 목표에 도달하세요",
+        "step3Title": "행적 우선순위 지정",
+        "step3Description": "가장 큰 성능 향상을 제공하는 곳에 행적 재료를 투자하세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 빌드"
+    },
+    "teams": {
+      "title": "히메코 노바 팀",
+      "description": "프리미엄, F2P, 하이퍼캐리 옵션으로 최고의 히메코 노바 팀 조합을 구성해 보세요. 모든 모드에 적합한 이상적인 서포터와 시너지 파트너를 찾아보세요.",
+      "metaTitle": "히메코 노바 팀 - 최고의 팀 조합 및 시너지",
+      "metaDescription": "팀 조합",
+      "categoryLabel": "팀이란 무엇인가요?",
+      "whatIs": "웰트, 블레이드, 선데이, 에버나이트와 같은 서포터와의 시너지를 비롯해 프리미엄, F2P, 하이퍼캐리 라인업을 다루는 히메코 노바 팀 조합 가이드.",
+      "whatIsDescription": "팀을 계획해야 하는 이유",
+      "why": "Why plan teams?",
+      "whySteps": {
+        "step1Title": "시너지 극대화",
+        "step1Description": "Himeko Nova의 폭발적인 데미지 구간을 연장해 줄 서포터를 조합하세요",
+        "step2Title": "모든 모드 완벽 대응",
+        "step2Description": "망각의 정원, 종말의 환영 및 엔드게임 콘텐츠에 맞는 최적의 조합을 사용하세요",
+        "step3Title": "무과금 친화적 선택지",
+        "step3Description": "유료 캐릭터에 의존하지 않고도 효율적인 팀을 구성하세요"
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 팀 조합"
+    },
+    "materials": {
+      "title": "Himeko Nova 재료",
+      "description": "Himeko Nova의 모든 승급 및 행적 재료, 파밍 경로, 사전 파밍 리스트, 최대 강화를 위한 주간 보스 드랍 아이템을 확인하세요.",
+      "metaTitle": "Himeko Nova 재료 - 승급, 행적 및 파밍 가이드",
+      "metaDescription": "승급 재료, 행적 재료, 강화 비용, 파밍 경로, 사전 파밍 리스트, 주간 보스 드랍 아이템을 포함한 Himeko Nova 재료 가이드입니다.",
+      "categoryLabel": "재료 및 파밍",
+      "whatIs": "재료란 무엇인가요?",
+      "whatIsDescription": "Himeko Nova를 위한 승급 재료, 행적 재료, 강화 비용, 효율적인 파밍 경로, 사전 파밍 계획, 주간 보스 드랍 아이템 안내입니다.",
+      "why": "왜 재료를 추적해야 하나요?",
+      "whySteps": {
+        "step1Title": "미리 계획하기",
+        "step1Description": "Himeko Nova 배너가 시작되기 전에 재료를 미리 파밍하세요",
+        "step2Title": "효율적인 파밍",
+        "step2Description": "최적화된 경로를 따라 개척력과 시간을 절약하세요",
+        "step3Title": "캐릭터 최대 강화",
+        "step3Description": "주간 보스 드랍 아이템을 모아 행적과 승급을 완벽하게 마무리하세요"
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 재료"
+    },
+    "weapons": {
+      "title": "Himeko Nova 무기",
+      "description": "전용 광추를 포함한 Himeko Nova 최고의 광추, 무과금 대체제, 데미지 극대화를 위한 시너지 순위를 비교해 보세요.",
+      "metaTitle": "Himeko Nova 광추 - 최고의 무기 및 선택지",
+      "metaDescription": "전용 광추, 최고의 무과금 대체제, 화염 속성 데미지 극대화를 위한 광추 순위를 확인하세요.",
+      "categoryLabel": "광추",
+      "whatIs": "무기란 무엇인가요?",
+      "whatIsDescription": "전용 광추, 최적의 무과금 대체제, 시너지 및 데미지 고점에 따른 순위별 Himeko Nova 광추 가이드입니다.",
+      "why": "왜 신중하게 선택해야 하나요?",
+      "whySteps": {
+        "step1Title": "데미지 고점 해제",
+        "step1Description": "전용 광추는 가장 높은 잠재 데미지를 제공합니다",
+        "step2Title": "강력한 무과금 옵션",
+        "step2Description": "획득하기 쉬운 무료 광추들도 Himeko Nova의 경쟁력을 유지해 줍니다",
+        "step3Title": "빌드에 맞추기",
+        "step3Description": "유물 및 팀 구성에 적합한 광추를 선택하세요"
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 무기"
+    }
   }
 }

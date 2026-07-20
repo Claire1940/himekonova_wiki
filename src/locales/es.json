@@ -1,9 +1,522 @@
 {
+  "seo": {
+    "home": {
+      "title": "Himeko Nova Wiki - Builds, Habilidades y Lore",
+      "description": "Himeko Nova Wiki cubre builds de personajes, habilidades, lore, armas, guías de equipo y actualizaciones para jugadores de Himeko Nova con consejos de Honkai Impact 3rd.",
+      "keywords": "Himeko Nova, Honkai Impact 3rd, builds, habilidades, lore, armas, guías",
+      "ogTitle": "Himeko Nova Wiki - Builds, Habilidades y Lore",
+      "ogDescription": "Himeko Nova Wiki cubre builds de personajes, habilidades, lore, armas, guías de equipo y actualizaciones para jugadores de Himeko Nova con consejos de Honkai Impact 3rd.",
+      "twitterTitle": "Himeko Nova Wiki - Builds, Habilidades y Lore",
+      "twitterDescription": "Himeko Nova Wiki cubre builds de personajes, habilidades, lore, armas y guías de equipo para jugadores de Honkai Impact 3rd."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "build": "Build",
     "teams": "Equipos",
     "materials": "Materiales",
     "weapons": "Armas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Juega en Honkai Impact 3rd",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Guía de personajes de anime y ciencia ficción",
+    "title": "Himeko Nova Wiki",
+    "description": "Guía completa del personaje Himeko Nova con habilidades, builds, armas, lore, composiciones de equipo, materiales de mejora y consejos de juego para jugadores de Honkai Impact 3rd.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnSteamCTA": "Juega en Honkai Impact 3rd",
+    "stats": {
+      "stat1": {
+        "value": "10M+",
+        "label": "Jugadores de Honkai Impact 3rd"
+      },
+      "stat2": {
+        "value": "Múltiples",
+        "label": "Builds de Himeko"
+      },
+      "stat3": {
+        "value": "Activos",
+        "label": "Canjear códigos"
+      },
+      "stat4": {
+        "value": "Regulares",
+        "label": "Actualizaciones del juego"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Himeko Nova",
+    "description": "Domina el combate con mandoble de fuego de Himeko Nova, sus rotaciones de daño explosivo y sinergias de equipo en los campos de batalla de ciencia ficción de Honkai Impact 3rd."
+  },
+  "tools": {
+    "title": "Himeko Nova",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para dominar a Himeko Nova en Honkai Impact 3rd",
+    "cards": [
+      {
+        "icon": "Usuarios",
+        "title": "Personaje Himeko Nova",
+        "description": "Identidad, rol de combate y trasfondo de la historia"
+      },
+      {
+        "icon": "Llama",
+        "title": "Habilidades de Himeko Nova",
+        "description": "Habilidades, mecánicas y rotaciones de ráfaga"
+      },
+      {
+        "icon": "Martillo",
+        "title": "Builds de Himeko Nova",
+        "description": "Equipamiento, mejoras y sinergia de equipo"
+      },
+      {
+        "icon": "Trofeo",
+        "title": "Tier List de Himeko Nova",
+        "description": "Clasificación de rendimiento y valor de inversión"
+      },
+      {
+        "icon": "Libro abierto",
+        "title": "Himeko Nova para principiantes",
+        "description": "Desbloqueo, mejora y progresión inicial"
+      },
+      {
+        "icon": "Pergamino",
+        "title": "Lore de Himeko Nova",
+        "description": "Historia, trasfondo y conexiones del personaje"
+      },
+      {
+        "icon": "Reloj",
+        "title": "Actualizaciones de Himeko Nova",
+        "description": "Lanzamientos, eventos y cambios de equilibrio"
+      },
+      {
+        "icon": "Regalo",
+        "title": "Códigos de Himeko Nova",
+        "description": "Códigos de canje, eventos y recompensas"
+      }
+    ]
+  },
+  "modules": {
+    "himekoNovaCharacterGuide": {
+      "title": "Guía de personaje de Himeko Nova",
+      "eyebrow": "Resumen del personaje",
+      "intro": "Aprende sobre la identidad, el rol de combate, el trasfondo y la posición de juego de Himeko Nova en Honkai Impact 3rd. Esta guía presenta su perfil de personaje, identidad de combate y rol narrativo para que los jugadores puedan entender rápidamente por qué es una Valkyrja tan popular entre los fans de Honkai Impact 3rd.",
+      "cards": [
+        {
+          "name": "Nombre del personaje",
+          "value": "Himeko Nova",
+          "description": "Una identidad de personaje basada en Himeko centrada en batallas poderosas e historias heroicas dentro del universo de Honkai."
+        },
+        {
+          "name": "Rol del personaje",
+          "value": "Especialista en daño de fuego",
+          "description": "Los personajes de Himeko son conocidos por sus ataques pesados, su poderoso daño de ráfaga y sus estilos de combate a corta distancia."
+        },
+        {
+          "name": "Identidad de combate",
+          "value": "Luchadora con armas pesadas",
+          "description": "La identidad de juego de Himeko se basa en el combate con mandoble, fuertes habilidades ofensivas y ataques de gran impacto."
+        },
+        {
+          "name": "Trasfondo de la historia",
+          "value": "Capitán Valkyrja",
+          "description": "Himeko es una de las figuras importantes en la historia de Honkai Impact 3rd, conocida por su liderazgo, sacrificio y voluntad protectora."
+        }
+      ]
+    },
+    "himekoNovaSkillsGuide": {
+      "title": "Guía de Habilidades de Himeko Nova",
+      "eyebrow": "Habilidades y Combate",
+      "intro": "Comprende las mecánicas de combate, habilidades y uso recomendado en batalla de Himeko Nova. Esta sección explica sus características principales de juego, incluidos patrones de ataque, habilidades de ráfaga y ventajas tácticas para diferentes situaciones de combate.",
+      "cards": [
+        {
+          "name": "Ataques Básicos",
+          "value": "Combate con Mandoble",
+          "description": "Utiliza poderosos ataques cuerpo a cuerpo diseñados en torno a un alto daño y mecánicas de armas pesadas."
+        },
+        {
+          "name": "Habilidad Definitiva",
+          "value": "Daño de Ráfaga Elevado",
+          "description": "Las habilidades definitivas de Himeko se centran en ventanas de daño explosivo y un fuerte impacto en el campo de batalla."
+        },
+        {
+          "name": "Mecánicas de Combate",
+          "value": "Rotación de Daño a Corta Distancia",
+          "description": "Los jugadores optimizan el estilo de juego de Himeko gestionando los tiempos de ataque, las habilidades y el uso de la definitiva."
+        },
+        {
+          "name": "Uso Recomendado",
+          "value": "Batallas contra Jefes y Enemigos de Élite",
+          "description": "Sus poderosos ataques la hacen adecuada para encuentros que requieren una alta producción de daño."
+        }
+      ]
+    },
+    "himekoNovaBuildGuide": {
+      "title": "Guía de Build de Himeko Nova",
+      "eyebrow": "Progresión de la Build",
+      "intro": "Sigue los pasos de progresión recomendados para equipo, mejoras y optimización de equipo. Esta guía de build se enfoca en mejorar el rendimiento en combate de Himeko Nova mediante la elección de equipo, mejoras de personaje y estrategias efectivas de formación de equipos.",
+      "steps": [
+        {
+          "title": "Subir Nivel de Personaje",
+          "description": "Prioriza la progresión del personaje para desbloquear un rendimiento de combate más fuerte y mejoras de habilidades."
+        },
+        {
+          "title": "Mejorar Equipo",
+          "description": "Usa armas adecuadas y sets de estigmas que aumenten el potencial de daño y se ajusten a su estilo de combate."
+        },
+        {
+          "title": "Crear Sinergia de Equipo",
+          "description": "Empareja a Himeko con personajes que proporcionen efectos de apoyo útiles y mejoren la rotación de daño general."
+        },
+        {
+          "title": "Gestionar Recursos",
+          "description": "Prioriza los materiales de mejora importantes para maximizar la eficiencia de la inversión."
+        }
+      ],
+      "quickTips": [
+        "Prioriza los bonos de daño de fuego al seleccionar armas y estigmas.",
+        "Sincroniza tu definitiva durante las ventanas de potenciadores de equipo para obtener el máximo daño de ráfaga.",
+        "Equilibra la tasa de crítico y el daño elemental para un rendimiento constante.",
+        "Invierte primero en niveles de habilidad que amplifiquen el daño de ráfaga."
+      ]
+    },
+    "himekoNovaTierList": {
+      "title": "Tier List de Himeko Nova",
+      "eyebrow": "Clasificación de Personajes",
+      "intro": "Compara el rendimiento y el valor de inversión de Himeko Nova entre los personajes jugables. Este resumen de tier ayuda a los jugadores a entender su posición general en combate, sus fortalezas y su valor al elegir personajes para mejorar.",
+      "tiers": [
+        {
+          "tier": "DPS",
+          "rank": "Alto Potencial de Daño",
+          "description": "Los personajes de Himeko son reconocidos por sus fuertes habilidades ofensivas y poderosas animaciones de ataque."
+        },
+        {
+          "tier": "Valor para Principiantes",
+          "rank": "Jugabilidad Accesible",
+          "description": "---"
+        },
+        {
+          "tier": "Su estilo de combate cuerpo a cuerpo directo hace que sea más fácil de entender para muchos jugadores.",
+          "rank": "Uso en el endgame",
+          "description": "Dependiente del equipo"
+        },
+        {
+          "tier": "El rendimiento escala con la inversión en equipo, la composición del equipo y el equilibrio actual del juego.",
+          "rank": "Prioridad de inversión",
+          "description": "Preferencia de personaje"
+        }
+      ]
+    },
+    "himekoNovaBeginnerGuide": {
+      "title": "Los jugadores que disfrutan del estilo de juego y el papel en la historia de Himeko suelen priorizar su desarrollo.",
+      "eyebrow": "Guía para principiantes de Himeko Nova",
+      "intro": "Guía para principiantes",
+      "steps": [
+        {
+          "title": "Una guía de progresión apta para principiantes que cubre la obtención, mejoras, elección de equipo y estrategias de combate iniciales para Himeko Nova. Sigue estos pasos para desbloquearla y desarrollarla eficazmente evitando errores comunes de progresión.",
+          "description": "Obtener a Himeko Nova"
+        },
+        {
+          "title": "Obtén a Himeko Nova a través de los banners oficiales de personajes, eventos o sistemas de reclutamiento específicos del juego cuando estén disponibles. Ahorra divisa premium antes de los lanzamientos de personajes limitados.",
+          "description": "Subir de nivel al personaje y sus estadísticas base"
+        },
+        {
+          "title": "Prioriza aumentar el nivel de personaje de Himeko Nova, el nivel de arma y los atributos de combate importantes. Los niveles más altos mejoran la supervivencia y el daño infligido.",
+          "description": "Mejorar primero las habilidades clave"
+        },
+        {
+          "title": "Centra los recursos en las habilidades de combate activas, habilidades definitivas y talentos pasivos que mejoren el daño de fuego y el rendimiento en el campo de batalla.",
+          "description": "Elegir equipo para principiantes"
+        },
+        {
+          "title": "Usa armas y estigmas enfocados en el daño de fuego que aumenten el poder de ataque, el daño elemental y la efectividad de las habilidades.",
+          "description": "Gestionar los recursos eficientemente"
+        },
+        {
+          "title": "Evita gastar materiales de mejora en equipo temporal. Prioriza la build principal de Himeko Nova antes de invertir demasiado en personajes secundarios.",
+          "description": "Evitar errores comunes de principiante"
+        }
+      ],
+      "quickTips": [
+        "No ignores la sinergia del equipo, los bonos elementales o las prioridades de mejora. Crear equipos equilibrados mejora el rendimiento general de Himeko Nova.",
+        "Ahorra divisa premium para los banners limitados que incluyan a Himeko Nova.",
+        "Haz coincidir los bonos de armas y estigmas con su identidad de daño de fuego.",
+        "Desarrolla personajes de apoyo que amplifiquen las ventanas de daño de ráfaga."
+      ]
+    },
+    "himekoNovaStoryAndLore": {
+      "title": "Sigue una prioridad de mejora clara en lugar de dispersar los materiales.",
+      "eyebrow": "Historia y trasfondo de Himeko Nova",
+      "intro": "Trasfondo del personaje",
+      "items": [
+        {
+          "title": "Explora la identidad de Himeko Nova, su papel narrativo, sus relaciones y su lugar en el universo Honkai. Esta sección de trasfondo recopila información relevante del personaje, incluyendo rasgos de personalidad, identidad de combate, conexiones organizacionales y temas importantes de la historia.",
+          "content": "Identidad del personaje"
+        },
+        {
+          "title": "Himeko Nova representa un poderoso arquetipo de guerrera de fuego dentro del universo Honkai, conocida por su cabello rojo, equipo de combate avanzado y una fuerte presencia en el campo de batalla.",
+          "content": "Personalidad y valores"
+        },
+        {
+          "title": "Los personajes de Himeko suelen ser representados como figuras seguras de sí mismas, responsables, protectoras y decididas que apoyan a sus aliados mientras cargan con sus propios problemas.",
+          "content": "Legado de la guerrera de fuego"
+        },
+        {
+          "title": "Himeko Nova sigue la tradición de la serie de combatientes centrados en el fuego que combinan ataques poderosos con liderazgo y una narrativa emocional.",
+          "content": "Conexión con el mundo de Honkai"
+        },
+        {
+          "title": "Su historia conecta con el entorno más amplio de Honkai, que involucra tecnología avanzada, batallas contra fuerzas destructivas y conflictos entre la humanidad y amenazas desconocidas.",
+          "content": "Papel de combate en la narrativa"
+        },
+        {
+          "title": "Himeko Nova sirve tanto como luchadora de primera línea como símbolo de fuerza, representando el coraje durante los conflictos principales.",
+          "content": "Sus interacciones con otros personajes de Honkai resaltan temas de mentoría, trabajo en equipo, amistad y sacrificio."
+        }
+      ]
+    },
+    "himekoNovaReleaseAndUpdates": {
+      "title": "Lanzamiento y actualizaciones de Himeko Nova",
+      "eyebrow": "Actualizaciones",
+      "intro": "Sigue los lanzamientos de personajes importantes, eventos, cambios de equilibrio y anuncios oficiales relacionados con Himeko Nova. Esta cronología resume las principales categorías de actualización, incluyendo disponibilidad de personajes, mejoras de jugabilidad, eventos e hitos de la comunidad.",
+      "entries": [
+        {
+          "version": "Introducción del personaje",
+          "date": "Periodo de lanzamiento oficial",
+          "description": "Himeko Nova fue presentada como un personaje de combate centrado en el fuego con habilidades únicas y mecánicas de batalla especializadas."
+        },
+        {
+          "version": "Lanzamiento del banner del personaje",
+          "date": "Evento de personaje limitado",
+          "description": "Los jugadores podían obtener al personaje a través del reclutamiento oficial o sistemas de adquisición de personajes basados en eventos."
+        },
+        {
+          "version": "Ajustes de jugabilidad",
+          "date": "Periodos de actualización de equilibrio",
+          "description": "Las actualizaciones de equilibrio del personaje ajustan los valores de las habilidades, el rendimiento en combate y las interacciones de jugabilidad para mantener a Himeko Nova competitiva."
+        },
+        {
+          "version": "Eventos relacionados",
+          "date": "Eventos estacionales y de historia",
+          "description": "Los eventos especiales ofrecen apariciones del personaje, recompensas, materiales de mejora y contenido de historia adicional para Himeko Nova."
+        },
+        {
+          "version": "Hitos de la comunidad",
+          "date": "Anuncios oficiales",
+          "description": "Los anuncios de los desarrolladores y las actividades de la comunidad comparten información sobre la popularidad del personaje y el contenido futuro."
+        }
+      ]
+    },
+    "himekoNovaCodesAndRewards": {
+      "title": "Códigos y recompensas de Himeko Nova",
+      "eyebrow": "Recompensas",
+      "intro": "Encuentra códigos de canje, recompensas de eventos y sistemas de bonificación oficiales relacionados con Himeko Nova y Honkai Impact 3rd. Esta sección organiza las fuentes de recompensas comunes, incluyendo códigos de canje, bonificaciones de inicio de sesión, recompensas de eventos y regalos por hitos.",
+      "rewards": [
+        {
+          "code": "HONKAI",
+          "reward": "Cristales y monedas",
+          "status": "Código de canje",
+          "description": "Un código de canje de Honkai Impact 3rd que otorga moneda premium y recompensas de recursos básicos."
+        },
+        {
+          "code": "NOVA",
+          "reward": "Materiales de mejora y gemas",
+          "status": "Código de canje",
+          "description": "Un código de recompensa temático de Himeko Nova que otorga materiales de desarrollo de personaje."
+        },
+        {
+          "code": "REDEMPTION",
+          "reward": "Monedas y objetos de mejora",
+          "status": "Código de canje",
+          "description": "Un código de canje de evento general asociado con recompensas de recursos."
+        },
+        {
+          "code": "EVENT",
+          "reward": "Materiales y objetos de regalo",
+          "status": "Código de canje",
+          "description": "Un código de evento promocional que otorga bonificaciones por tiempo limitado."
+        },
+        {
+          "rewardType": "Recompensas de inicio de sesión",
+          "reward": "Cristales, materiales de mejora y recursos diarios",
+          "status": "Disponible durante eventos",
+          "description": "Los sistemas de inicio de sesión diario y por hitos proporcionan recursos constantes para los jugadores activos."
+        },
+        {
+          "rewardType": "Eventos especiales",
+          "reward": "Personajes, materiales y moneda premium",
+          "status": "Actividades de tiempo limitado",
+          "description": "Los eventos oficiales otorgan recompensas adicionales vinculadas a actualizaciones de la historia o celebraciones."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Himeko Nova",
+    "questions": [
+      {
+        "question": "¿Quién es Himeko Nova en Honkai Impact 3rd?",
+        "answer": "Himeko Nova es un personaje Valkyrja de fuego en Honkai Impact 3rd, conocida por su cabello rojo, combate con mandoble y poderoso daño de ráfaga como luchadora DPS de primera línea."
+      },
+      {
+        "question": "¿Cuál es la mejor build para Himeko Nova?",
+        "answer": "La mejor build de Himeko Nova se centra en el daño de fuego, mandobles y sets de estigmas que potencian el daño elemental, junto con compañeros de equipo que amplifican sus ventanas de ráfaga."
+      },
+      {
+        "question": "¿Cómo obtengo a Himeko Nova?",
+        "answer": "Puedes obtener a Himeko Nova a través de banners oficiales de personajes, eventos de reclutamiento limitado o sistemas de obtención específicos del juego cuando aparece en Honkai Impact 3rd."
+      },
+      {
+        "question": "¿Es Himeko Nova buena para principiantes?",
+        "answer": "Sí. Himeko Nova cuenta con un estilo de juego cuerpo a cuerpo sencillo que es accesible para principiantes, mientras que su alto potencial de daño también recompensa a los jugadores experimentados que dominan su rotación."
+      },
+      {
+        "question": "¿Dónde puedo encontrar códigos de Himeko Nova?",
+        "answer": "Los códigos y recompensas de Himeko Nova se publican a través de los canales oficiales de Honkai Impact 3rd, incluyendo códigos de canje, eventos de inicio de sesión y eventos especiales de tiempo limitado en HoYoLAB."
+      },
+      {
+        "question": "¿Qué elemento usa Himeko Nova?",
+        "answer": "Himeko Nova es un personaje de elemento fuego, especializado en ataques de llamas, daño de ráfaga y combate a corta distancia con mandoble en Honkai Impact 3rd."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar a Himeko Nova?",
+    "description": "¡Únete a la comunidad de Honkai Impact 3rd en HoYoLAB y Reddit para ver builds, actualizaciones y discusiones sobre Himeko Nova!",
+    "joinCommunity": "Unirse a la comunidad",
+    "joinGame": "Jugar Honkai Impact 3rd"
+  },
+  "footer": {
+    "title": "Wiki de Himeko Nova",
+    "description": "Tu centro de recursos completo para builds de personajes, habilidades, armas, historia y guías de equipo de Himeko Nova en Honkai Impact 3rd.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "HoYoLAB",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Sitio oficial",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Himeko Nova Wiki. No afiliado con HoYoverse ni con los desarrolladores de Honkai Impact 3rd.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Himeko Nova",
+      "description": "Guías completas de juego de Himeko Nova, desde conceptos básicos para principiantes hasta estrategias avanzadas. Domina su kit, mecánicas y rotaciones de combate.",
+      "metaTitle": "Guías de Himeko Nova - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de Himeko Nova que cubren consejos para principiantes, mecánicas de su kit, estrategias de build y tácticas de expertos para dominar al personaje DPS de fuego.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías detalladas que cubren las mecánicas de juego, estrategias de combate y uso de habilidades de Himeko Nova. Aprende desde los primeros pasos hasta técnicas avanzadas.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el kit de Himeko Nova y evita los errores comunes de principiantes",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas comprobadas para armar y mejorar a Himeko Nova de manera eficiente",
+        "step3Title": "Domina estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para el combate, rotaciones de burst y juego en equipo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "build": {
+      "title": "Builds de Himeko Nova",
+      "description": "Domina las builds de Himeko Nova con artefactos recomendados, conjuntos planares, prioridad de estadísticas y rutas de mejora de rastros para el máximo daño de fuego.",
+      "metaTitle": "Builds de Himeko Nova - Artefactos, estadísticas y prioridad de rastros",
+      "metaDescription": "Domina las builds de Himeko Nova con conjuntos de artefactos recomendados, ornamentos planares, prioridades de estadísticas y rutas de mejora de rastros para el máximo daño de fuego.",
+      "categoryLabel": "BUILDS Y EQUIPAMIENTO",
+      "whatIs": "¿Qué son las builds?",
+      "whatIsDescription": "Guías de builds para Himeko Nova que cubren conjuntos de artefactos, ornamentos planares, estadísticas principales, subestadísticas y prioridades de rastros adaptadas a su identidad de daño de fuego.",
+      "why": "¿Por qué seguir builds?",
+      "whySteps": {
+        "step1Title": "Optimiza el equipamiento",
+        "step1Description": "Elige artefactos y conjuntos planares que amplifiquen el daño de fuego de Himeko Nova",
+        "step2Title": "Alcanza los umbrales de estadísticas",
+        "step2Description": "Alcanza los objetivos correctos de velocidad, probabilidad de crítico y daño crítico",
+        "step3Title": "Prioriza los rastros",
+        "step3Description": "Invierte materiales de rastros donde ofrezcan las mayores mejoras de rendimiento"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las builds"
+    },
+    "teams": {
+      "title": "Equipos de Himeko Nova",
+      "description": "Arma las mejores composiciones de equipo para Himeko Nova con opciones premium, F2P y hypercarry. Encuentra soportes ideales y compañeros de sinergia para cada modo.",
+      "metaTitle": "Equipos de Himeko Nova - Mejores composiciones y sinergia",
+      "metaDescription": "Descubre las mejores composiciones de equipo para Himeko Nova, incluyendo equipos premium, F2P y hypercarry con soportes ideales y sinergia para cada modo de juego.",
+      "categoryLabel": "COMPOSICIONES DE EQUIPO",
+      "whatIs": "¿Qué son los equipos?",
+      "whatIsDescription": "Guías de composición de equipos para Himeko Nova que cubren alineaciones premium, F2P y hypercarry, además de la sinergia con soportes como Welt, Blade, Sunday y Evernight.",
+      "why": "¿Por qué planificar equipos?",
+      "whySteps": {
+        "step1Title": "---",
+        "step1Description": "Maximizar sinergia",
+        "step2Title": "Usa soportes que extiendan las ventanas de daño de ráfaga de Himeko Nova",
+        "step2Description": "Cubre todos los modos",
+        "step3Title": "Usa la composición adecuada para Memory, Apocalyptic y contenido de endgame",
+        "step3Description": "Opciones aptas para F2P"
+      },
+      "featured": "Crea equipos efectivos sin depender de unidades exclusivamente premium",
+      "all": "Destacados y esenciales"
+    },
+    "materials": {
+      "title": "Todos los equipos",
+      "description": "Materiales de Himeko Nova",
+      "metaTitle": "Rastrea cada material de ascensión y de rastros de Himeko Nova, rutas de farmeo, listas de pre-farmeo y drops de jefes semanales necesarios para maximizar su kit.",
+      "metaDescription": "Materiales de Himeko Nova - Guía de ascensión, rastros y farmeo",
+      "categoryLabel": "Guía completa de materiales de Himeko Nova que cubre materiales de ascensión, materiales de rastros, costes de mejora, rutas de farmeo, listas de pre-farmeo y drops de jefes semanales.",
+      "whatIs": "MATERIALES Y FARMEO",
+      "whatIsDescription": "¿Qué son los materiales?",
+      "why": "Guías de materiales para Himeko Nova que incluyen materiales de ascensión, materiales de rastros, costes de mejora, rutas de farmeo eficientes, planes de pre-farmeo y drops de jefes semanales.",
+      "whySteps": {
+        "step1Title": "¿Por qué rastrear materiales?",
+        "step1Description": "Planifica con antelación",
+        "step2Title": "Pre-farmea materiales antes de que el banner de Himeko Nova esté disponible",
+        "step2Description": "Farmea eficientemente",
+        "step3Title": "Sigue rutas optimizadas para ahorrar estamina y tiempo",
+        "step3Description": "Maximiza su kit"
+      },
+      "featured": "Reúne drops de jefes semanales para mejorar al máximo sus rastros y ascensión",
+      "all": "Destacados y esenciales"
+    },
+    "weapons": {
+      "title": "Todos los materiales",
+      "description": "Armas de Himeko Nova",
+      "metaTitle": "Compara los mejores conos de luz para Himeko Nova, incluyendo su opción insignia, alternativas F2P y rankings de sinergia para el máximo daño.",
+      "metaDescription": "Conos de luz de Himeko Nova - Mejores armas y opciones",
+      "categoryLabel": "Encuentra los mejores conos de luz para Himeko Nova, incluyendo su arma insignia, las mejores alternativas F2P y opciones clasificadas para el máximo daño de fuego.",
+      "whatIs": "CONOS DE LUZ",
+      "whatIsDescription": "¿Qué son las armas?",
+      "why": "Guías de conos de luz para Himeko Nova que cubren su arma insignia, las mejores alternativas F2P y opciones clasificadas por sinergia y techo de daño.",
+      "whySteps": {
+        "step1Title": "¿Por qué elegir con cuidado?",
+        "step1Description": "Desbloquea el techo de daño",
+        "step2Title": "Su cono de luz insignia ofrece el mayor potencial de daño",
+        "step2Description": "Opciones F2P sólidas",
+        "step3Title": "Los conos de luz gratuitos y accesibles mantienen a Himeko Nova competitiva",
+        "step3Description": "Adapta tu build"
+      },
+      "featured": "Elige un cono de luz que se ajuste a tus reliquias y configuración de equipo",
+      "all": "Destacados y esenciales"
+    }
   }
 }

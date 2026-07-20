@@ -1,9 +1,522 @@
 {
+  "seo": {
+    "home": {
+      "title": "Himeko Nova Wiki - ビルド、スキル、設定",
+      "description": "Himeko Nova Wikiは、Honkai Impact 3rdのプレイヤー向けに、Himeko Novaのキャラクタービルド、スキル、設定、武器、チーム編成ガイド、および最新情報を提供しています。",
+      "keywords": "Himeko Nova, Honkai Impact 3rd, ビルド, スキル, 設定, 武器, ガイド",
+      "ogTitle": "Himeko Nova Wiki - ビルド、スキル、設定",
+      "ogDescription": "Himeko Nova Wikiは、Honkai Impact 3rdのプレイヤー向けに、Himeko Novaのキャラクタービルド、スキル、設定、武器、チーム編成ガイド、および最新情報を提供しています。",
+      "twitterTitle": "Himeko Nova Wiki - ビルド、スキル、設定",
+      "twitterDescription": "Himeko Nova Wikiは、Honkai Impact 3rdのプレイヤー向けに、Himeko Novaのキャラクタービルド、スキル、設定、武器、チーム編成ガイドを提供しています。"
+    }
+  },
   "nav": {
     "guide": "ガイド",
     "build": "ビルド",
     "teams": "チーム",
     "materials": "素材",
     "weapons": "武器"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Honkai Impact 3rdをプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "近日公開予定の記事"
+  },
+  "hero": {
+    "badge": "アニメ調SFキャラクターガイド",
+    "title": "Himeko Nova Wiki",
+    "description": "Honkai Impact 3rdのプレイヤー向けに、スキル、ビルド、武器、設定、チーム編成、強化素材、攻略のコツを網羅したHimeko Nova完全キャラクターガイド。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnSteamCTA": "Honkai Impact 3rdをプレイ",
+    "stats": {
+      "stat1": {
+        "value": "1,000万人以上",
+        "label": "Honkai Impact 3rdプレイヤー"
+      },
+      "stat2": {
+        "value": "複数",
+        "label": "Himekoのビルド"
+      },
+      "stat3": {
+        "value": "アクティブ",
+        "label": "コード引き換え"
+      },
+      "stat4": {
+        "value": "レギュラー",
+        "label": "ゲームアップデート"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Himeko Novaのゲームプレイ",
+    "description": "Honkai Impact 3rdのSF戦場を舞台に、Himeko Novaの炎属性大剣戦闘、バーストダメージのローテーション、チームシナジーを極めよう。"
+  },
+  "tools": {
+    "title": "Himeko Nova",
+    "titleHighlight": "リソース",
+    "subtitle": "Honkai Impact 3rdでHimeko Novaを使いこなすためのすべて",
+    "cards": [
+      {
+        "icon": "ユーザー",
+        "title": "Himeko Nova キャラクター",
+        "description": "特徴、戦闘スタイル、ストーリー背景"
+      },
+      {
+        "icon": "炎",
+        "title": "Himeko Novaのスキル",
+        "description": "アビリティ、メカニクス、必殺技ローテーション"
+      },
+      {
+        "icon": "ハンマー",
+        "title": "Himeko Novaのビルド",
+        "description": "装備、強化、チームシナジー"
+      },
+      {
+        "icon": "トロフィー",
+        "title": "Himeko Nova ティアリスト",
+        "description": "性能評価と育成優先度"
+      },
+      {
+        "icon": "ブックオープン",
+        "title": "Himeko Nova 初心者向け",
+        "description": "解放、強化、序盤の進め方"
+      },
+      {
+        "icon": "スクロール",
+        "title": "Himeko Novaの設定",
+        "description": "ストーリー、背景、キャラクターの繋がり"
+      },
+      {
+        "icon": "時計",
+        "title": "Himeko Nova アップデート",
+        "description": "リリース、イベント、バランス調整"
+      },
+      {
+        "icon": "ギフト",
+        "title": "Himeko Nova 交換コード",
+        "description": "交換コード、イベント、報酬"
+      }
+    ]
+  },
+  "modules": {
+    "himekoNovaCharacterGuide": {
+      "title": "Himeko Nova キャラクターガイド",
+      "eyebrow": "キャラクター概要",
+      "intro": "Honkai Impact 3rdにおけるHimeko Novaの特徴、戦闘スタイル、背景、そしてゲーム内での立ち位置について学びましょう。このガイドでは、彼女のプロフィール、戦闘における特徴、ストーリー上の役割を紹介し、プレイヤーがHonkai Impact 3rdファンの間でなぜ彼女が人気の戦乙女なのかをすぐに理解できるようにします。",
+      "cards": [
+        {
+          "name": "キャラクター名",
+          "value": "Himeko Nova",
+          "description": "Honkaiユニバースにおける強力な戦闘と英雄的なストーリーに焦点を当てた、姫子をベースにしたキャラクター。"
+        },
+        {
+          "name": "キャラクターの役割",
+          "value": "炎属性アタッカー",
+          "description": "姫子のキャラクターは、重い一撃、強力な瞬間火力、そして近接戦闘スタイルで知られています。"
+        },
+        {
+          "name": "戦闘スタイル",
+          "value": "重武器ファイター",
+          "description": "姫子のゲームプレイにおける特徴は、大剣による戦闘、強力な攻撃スキル、そして破壊力のある攻撃を中心に構築されています。"
+        },
+        {
+          "name": "ストーリー背景",
+          "value": "---",
+          "description": "戦乙女の隊長"
+        }
+      ]
+    },
+    "himekoNovaSkillsGuide": {
+      "title": "姫子は崩壊3rdの物語における重要人物の一人であり、そのリーダーシップ、自己犠牲、そして守り抜く決意で知られています。",
+      "eyebrow": "Himeko Nova スキルガイド",
+      "intro": "スキルと戦闘",
+      "cards": [
+        {
+          "name": "Himeko Novaの戦闘メカニズム、アビリティ、推奨される運用方法を理解しましょう。このセクションでは、攻撃パターン、必殺技、さまざまな戦況における優位性など、彼女の核となるゲームプレイの特徴を解説します。",
+          "value": "通常攻撃",
+          "description": "大剣戦闘"
+        },
+        {
+          "name": "高いダメージ出力と重武器のメカニズムに基づいた、強力な近接攻撃を繰り出します。",
+          "value": "必殺技",
+          "description": "高いバーストダメージ"
+        },
+        {
+          "name": "姫子の必殺技は、爆発的なダメージを与える瞬間と、戦場への強力な影響力に焦点を当てています。",
+          "value": "戦闘メカニズム",
+          "description": "近距離ダメージローテーション"
+        },
+        {
+          "name": "プレイヤーは攻撃のタイミング、スキル、必殺技の使用を管理することで、姫子のゲームプレイを最適化します。",
+          "value": "推奨される運用",
+          "description": "ボスおよびエリート敵との戦闘"
+        }
+      ]
+    },
+    "himekoNovaBuildGuide": {
+      "title": "彼女の強力な攻撃は、高いダメージ出力を必要とする遭遇戦に適しています。",
+      "eyebrow": "Himeko Nova ビルドガイド",
+      "intro": "ビルドの進行",
+      "steps": [
+        {
+          "title": "装備、強化、チームの最適化について、推奨される手順に従ってください。このビルドガイドでは、装備の選択、キャラクターの強化、効果的なチーム編成戦略を通じて、Himeko Novaの戦闘パフォーマンスを向上させることに焦点を当てています。",
+          "description": "キャラクターレベルの強化"
+        },
+        {
+          "title": "キャラクターの育成を優先して、より強力な戦闘パフォーマンスとスキルの向上を解放しましょう。",
+          "description": "装備の強化"
+        },
+        {
+          "title": "ダメージの可能性を高め、彼女の戦闘スタイルに合った適切な武器と聖痕セットを使用してください。",
+          "description": "チームシナジーの構築"
+        },
+        {
+          "title": "有益なサポート効果を提供し、全体のダメージローテーションを改善するキャラクターと姫子を組み合わせてください。",
+          "description": "リソースの管理"
+        }
+      ],
+      "quickTips": [
+        "投資効率を最大化するために、重要な強化素材を優先してください。",
+        "武器や聖痕を選択する際は、炎ダメージボーナスを重視してください。",
+        "バーストを最大化するために、チームのバフが有効なタイミングで必殺技を発動しましょう。",
+        "安定した出力を得るために、会心率と元素ダメージのバランスを調整してください。"
+      ]
+    },
+    "himekoNovaTierList": {
+      "title": "まずはバーストダメージを増幅させるスキルレベルに投資しましょう。",
+      "eyebrow": "Himeko Nova ティアリスト",
+      "intro": "キャラクターランキング",
+      "tiers": [
+        {
+          "tier": "プレイアブルキャラクターの中でのHimeko Novaの性能と投資価値を比較します。このティア概要は、プレイヤーが強化するキャラクターを選ぶ際に、彼女の一般的な戦闘ポジション、強み、価値を理解するのに役立ちます。",
+          "rank": "DPS",
+          "description": "高いダメージポテンシャル"
+        },
+        {
+          "tier": "姫子のキャラクターは、強力な攻撃能力と迫力のある攻撃アニメーションで知られています。",
+          "rank": "初心者への価値",
+          "description": "彼女のシンプルな近接戦闘スタイルは、多くのプレイヤーにとって扱いやすく、理解しやすいものです。"
+        },
+        {
+          "tier": "エンドゲームでの運用",
+          "rank": "編成依存",
+          "description": "性能は装備への投資、チーム編成、そして現在のゲームバランスによって変化します。"
+        },
+        {
+          "tier": "育成優先度",
+          "rank": "キャラクターの好み",
+          "description": "Himekoのプレイスタイルやストーリーでの役割が好きなプレイヤーは、彼女の育成を優先することが多いです。"
+        }
+      ]
+    },
+    "himekoNovaBeginnerGuide": {
+      "title": "Himeko Nova 初心者ガイド",
+      "eyebrow": "初心者ガイド",
+      "intro": "Himeko Novaの獲得、強化、装備の選択、および序盤の戦闘立ち回りなどをまとめた、初心者向けの育成ガイドです。一般的な育成ミスを避けつつ、効率的に彼女を解放・強化するために、以下の手順を進めましょう。",
+      "steps": [
+        {
+          "title": "Himeko Novaの獲得",
+          "description": "公式のキャラクターガチャ（補給）やイベント、または特定の入手システムが利用可能な際に、Himeko Novaを獲得しましょう。限定キャラクターの登場に備えて、プレミアム通貨を貯めておくのがおすすめです。"
+        },
+        {
+          "title": "キャラクターレベルと主要ステータスの強化",
+          "description": "Himeko Novaのキャラクターレベル、武器レベル、および重要な戦闘ステータスの上昇を最優先しましょう。レベルが高くなるほど、生存力と与ダメージが向上します。"
+        },
+        {
+          "title": "主要スキルの優先強化",
+          "description": "炎ダメージや戦場でのパフォーマンスを向上させるアクティブ戦闘スキル、必殺技、パッシブスキルにリソースを集中させましょう。"
+        },
+        {
+          "title": "初心者向け装備の選択",
+          "description": "攻撃力、元素ダメージ、およびスキルの効果を高める、入手可能な炎ダメージ特化の武器や聖痕を使用しましょう。"
+        },
+        {
+          "title": "効率的なリソース管理",
+          "description": "つなぎの装備（一時的な装備）に強化素材を使いすぎないようにしましょう。サブキャラクターに深く投資する前に、まずはHimeko Novaのメインビルドを最優先で完成させます。"
+        },
+        {
+          "title": "よくある初心者のミスを避ける",
+          "description": "チームシナジー、元素ボーナス、または強化の優先順位を軽視しないようにしましょう。バランスの取れたチームを編成することで、Himeko Novaの総合的な性能が向上します。"
+        }
+      ],
+      "quickTips": [
+        "Himeko Novaが登場する限定補給（ガチャ）のために、プレミアム通貨を貯めておきましょう。",
+        "武器や聖痕のボーナス効果を、彼女の特徴である炎ダメージに合わせて選択しましょう。",
+        "バーストダメージ（瞬間火力）を出せる時間帯を強化してくれるサポートキャラクターを育成しましょう。",
+        "素材を分散させず、明確な強化優先順位に従って育成しましょう。"
+      ]
+    },
+    "himekoNovaStoryAndLore": {
+      "title": "Himeko Novaのストーリーと設定",
+      "eyebrow": "キャラクター設定",
+      "intro": "Himeko Novaのキャラクター性、物語での役割、人間関係、およびHonkai世界における立ち位置を探ります。この設定セクションでは、性格の特徴、戦闘スタイル、所属組織、重要なストーリーテーマなど、主要なキャラクター情報をまとめています。",
+      "items": [
+        {
+          "title": "キャラクター性",
+          "content": "Himeko NovaはHonkai世界における強力な炎属性の戦士を象徴する存在であり、赤い髪、高度な戦闘装備、および戦場での圧倒的な存在感で知られています。"
+        },
+        {
+          "title": "性格と価値観",
+          "content": "Himekoのキャラクターは一般的に、自信に満ち、責任感が強く、仲間を守る包容力を持ち、自ら重荷を背負いながらも味方を支える強い決意を持った人物として描かれています。"
+        },
+        {
+          "title": "炎の戦士の系譜",
+          "content": "Himeko Novaは、強力な攻撃と優れたリーダーシップ、および感情を揺さぶるストーリー展開を併せ持つ、シリーズ伝統の炎属性アタッカーの流れを汲んでいます。"
+        },
+        {
+          "title": "Honkai世界との繋がり",
+          "content": "彼女のストーリーは、高度なテクノロジー、破滅的な力との戦い、および人類と未知の脅威との対立を描く、より大きなHonkai世界の設定と深く結びついています。"
+        },
+        {
+          "title": "物語における戦闘での役割",
+          "content": "Himeko Novaは前線の戦士であると同時に強さの象徴でもあり、重大な紛争における勇気を体現しています。"
+        },
+        {
+          "title": "キャラクターの人間関係",
+          "content": "他のHonkaiキャラクターとの交流は、師弟関係、チームワーク、友情、そして自己犠牲というテーマを際立たせています。"
+        }
+      ]
+    },
+    "himekoNovaReleaseAndUpdates": {
+      "title": "Himeko Novaのリリースとアップデート",
+      "eyebrow": "アップデート",
+      "intro": "Himeko Novaに関する重要なキャラクター実装、イベント、バランス調整、公式発表を確認できます。このタイムラインでは、キャラクターの入手方法、ゲームプレイの改善、イベント、コミュニティの節目など、主要なアップデートカテゴリをまとめています。",
+      "entries": [
+        {
+          "version": "キャラクター紹介",
+          "date": "公式リリース期間",
+          "description": "Himeko Novaは、独自の能力と特化した戦闘メカニズムを備えた、炎属性の戦闘キャラクターとして実装されました。"
+        },
+        {
+          "version": "キャラクター補給のリリース",
+          "date": "期間限定キャラクターイベント",
+          "description": "プレイヤーは公式の補給やイベントベースのキャラクター獲得システムを通じて、キャラクターを入手することができました。"
+        },
+        {
+          "version": "ゲームプレイの調整",
+          "date": "バランス調整期間",
+          "description": "キャラクターのバランス調整では、Himeko Novaの競争力を維持するために、スキル数値、戦闘パフォーマンス、ゲームプレイの相互作用が調整されます。"
+        },
+        {
+          "version": "関連イベント",
+          "date": "季節およびストーリーイベント",
+          "description": "特別イベントでは、Himeko Novaの登場シーン、報酬、育成素材、および追加のストーリーコンテンツが提供されます。"
+        },
+        {
+          "version": "コミュニティの節目",
+          "date": "公式発表",
+          "description": "開発者のお知らせやコミュニティ活動を通じて、キャラクターの人気や今後のコンテンツに関する情報が共有されます。"
+        }
+      ]
+    },
+    "himekoNovaCodesAndRewards": {
+      "title": "Himeko Novaのコードと報酬",
+      "eyebrow": "報酬",
+      "intro": "Himeko NovaおよびHonkai Impact 3rdに関連する交換コード、イベント報酬、公式ボーナスシステムを確認できます。このセクションでは、交換コード、ログインボーナス、イベント報酬、節目のギフトなど、一般的な報酬源を整理しています。",
+      "rewards": [
+        {
+          "code": "HONKAI",
+          "reward": "水晶とコイン",
+          "status": "交換コード",
+          "description": "希少通貨や基本リソースの報酬を獲得できるHonkai Impact 3rdの交換コードです。"
+        },
+        {
+          "code": "NOVA",
+          "reward": "育成素材とジェム",
+          "status": "交換コード",
+          "description": "キャラクター育成素材を獲得できるHimeko Novaテーマの報酬コードです。"
+        },
+        {
+          "code": "REDEMPTION",
+          "reward": "コインと強化アイテム",
+          "status": "交換コード",
+          "description": "リソース報酬に関連する一般的なイベント交換コードです。"
+        },
+        {
+          "code": "EVENT",
+          "reward": "素材とギフトアイテム",
+          "status": "交換コード",
+          "description": "期間限定のボーナスを獲得できるプロモーションイベントコードです。"
+        },
+        {
+          "rewardType": "ログイン報酬",
+          "reward": "水晶、育成素材、デイリーリソース",
+          "status": "イベント期間中に入手可能",
+          "description": "デイリーログインや累計ログイン報酬により、アクティブなプレイヤーは安定してリソースを獲得できます。"
+        },
+        {
+          "rewardType": "スペシャルイベント",
+          "reward": "キャラクター、素材、および有料通貨",
+          "status": "期間限定アクティビティ",
+          "description": "公式イベントでは、ストーリー更新や記念日に合わせて追加の報酬が提供されます。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Himeko Novaに関するすべての情報",
+    "questions": [
+      {
+        "question": "崩壊3rdにおけるHimeko Novaとは？",
+        "answer": "Himeko Novaは崩壊3rdの炎属性戦乙女で、赤い髪、大剣による戦闘、そして前線のアタッカーとしての強力な爆発ダメージが特徴です。"
+      },
+      {
+        "question": "Himeko Novaの最強ビルドは？",
+        "answer": "最適なHimeko Novaのビルドは、炎ダメージ、大剣武器、そして元素ダメージを強化する聖痕セットに焦点を当て、爆発力を高めるチーム編成と組み合わせることです。"
+      },
+      {
+        "question": "Himeko Novaの入手方法は？",
+        "answer": "崩壊3rdでピックアップされている際に、公式のキャラクター補給、期間限定イベント、または特定の入手システムを通じてHimeko Novaを獲得できます。"
+      },
+      {
+        "question": "Himeko Novaは初心者におすすめですか？",
+        "answer": "はい。Himeko Novaは初心者にも扱いやすいシンプルな近接プレイスタイルですが、高いダメージポテンシャルを持っており、スキル回しを極めた熟練プレイヤーにも適しています。"
+      },
+      {
+        "question": "Himeko Novaのコードはどこで見つかりますか？",
+        "answer": "Himeko Novaのシリアルコードや報酬は、交換コード、ログインイベント、HoYoLABでの期間限定イベントなど、崩壊3rdの公式チャンネルを通じて配布されます。"
+      },
+      {
+        "question": "Himeko Novaの属性は何ですか？",
+        "answer": "Himeko Novaは崩壊3rdの炎属性キャラクターで、炎をテーマにした攻撃、爆発ダメージ、および大剣による近接戦闘に特化しています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Himeko Novaを使いこなす準備はいいですか？",
+    "description": "HoYoLABやRedditの崩壊3rdコミュニティに参加して、Himeko Novaのビルド、アップデート、議論をチェックしましょう！",
+    "joinCommunity": "コミュニティに参加",
+    "joinGame": "崩壊3rdでプレイ"
+  },
+  "footer": {
+    "title": "Himeko Nova Wiki",
+    "description": "崩壊3rdにおけるHimeko Novaのビルド、スキル、武器、設定、チーム編成ガイドを網羅したリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "HoYoLAB",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "公式サイト",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Himeko Nova Wiki. HoYoverseおよび崩壊3rdの開発元とは提携していません。",
+    "disclaimer": "非公式のファンによるリソースサイトです。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Himeko Nova 攻略ガイド",
+      "description": "初心者向けの基本から上級者向けの戦略まで、Himeko Novaの完全プレイガイド。彼女のスキルセット、メカニクス、コンボをマスターしましょう。",
+      "metaTitle": "Himeko Nova 攻略ガイド - 初級から上級までの戦略",
+      "metaDescription": "初心者向けのヒント、スキル構成、ビルド戦略、そして炎属性アタッカーを使いこなすための専門的な戦術を網羅したHimeko Nova完全ガイド。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "ガイドとは？",
+      "whatIsDescription": "Himeko Novaのゲームプレイ、戦闘戦略、スキルの使い方を網羅した包括的なガイド。基本から応用テクニックまで、すべてを学びましょう。",
+      "why": "なぜガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "基本的な仕組みを学ぶ",
+        "step1Description": "Himeko Novaのスキル構成を理解し、初心者が陥りやすいミスを回避しましょう。",
+        "step2Title": "効率的な進行",
+        "step2Description": "実証済みのルートで、Himeko Novaを効率的に育成・強化しましょう。",
+        "step3Title": "戦略を極める",
+        "step3Description": "戦闘、バーストローテーション、チームプレイにおける高度な戦術を構築します。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのガイド"
+    },
+    "build": {
+      "title": "Himeko Nova ビルド",
+      "description": "炎ダメージを最大化するための推奨遺物、次元界オーナメント、ステータス優先度、軌跡の強化ルートを網羅したHimeko Novaビルドガイド。",
+      "metaTitle": "Himeko Nova ビルド - 遺物、ステータス、軌跡の優先度",
+      "metaDescription": "炎ダメージを最大化するために、推奨される遺物セット、次元界オーナメント、ステータス優先度、軌跡の強化ルートでHimeko Novaのビルドを極めましょう。",
+      "categoryLabel": "ビルド＆装備",
+      "whatIs": "ビルドとは？",
+      "whatIsDescription": "炎属性アタッカーとしての特性に合わせた、遺物セット、次元界オーナメント、メインステータス、サブステータス、軌跡の優先度を網羅したHimeko Novaのビルドガイド。",
+      "why": "なぜビルドを参考にするのか？",
+      "whySteps": {
+        "step1Title": "装備の最適化",
+        "step1Description": "Himeko Novaの炎ダメージを増幅させる遺物や次元界オーナメントを選択しましょう。",
+        "step2Title": "目標ステータスの達成",
+        "step2Description": "最適な速度、会心率、会心ダメージの目標値に到達させます。",
+        "step3Title": "軌跡の優先順位",
+        "step3Description": "最もパフォーマンスが向上する箇所に軌跡素材を投入しましょう。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのビルド"
+    },
+    "teams": {
+      "title": "Himeko Nova チーム編成",
+      "description": "理想的な編成から無課金、ハイパーキャリー構成まで、Himeko Novaの最強チームを構築。あらゆるモードで最適なサポートとシナジーを見つけましょう。",
+      "metaTitle": "Himeko Nova チーム編成 - 最強編成とシナジー",
+      "metaDescription": "あらゆるゲームモードに対応した、理想的なサポートとシナジーを持つ最強編成、無課金、ハイパーキャリーチームを含むHimeko Novaのベストチーム構成。",
+      "categoryLabel": "チーム編成",
+      "whatIs": "チーム編成とは？",
+      "whatIsDescription": "Himeko Novaの理想的な編成、無課金、ハイパーキャリー構成に加え、ヴェルト、刃、サンデー、エヴァーナイトといったサポートとのシナジーを網羅したチーム編成ガイド。",
+      "why": "なぜチームを計画するのか？",
+      "whySteps": {
+        "step1Title": "---",
+        "step1Description": "シナジーを最大化する",
+        "step2Title": "姫子 ノヴァのバーストダメージ時間を延ばすサポートを編成しましょう",
+        "step2Description": "全てのモードに対応",
+        "step3Title": "忘却の庭、末日の幻影、エンドコンテンツに最適な編成を使用しましょう",
+        "step3Description": "無課金向けの選択肢"
+      },
+      "featured": "限定キャラに頼らず、効果的なチームを構築しましょう",
+      "all": "おすすめ＆必須"
+    },
+    "materials": {
+      "title": "全てのチーム",
+      "description": "姫子 ノヴァの素材",
+      "metaTitle": "姫子 ノヴァの昇格・軌跡素材、周回ルート、事前準備リスト、週ボスドロップなど、育成に必要な全素材を網羅。",
+      "metaDescription": "姫子 ノヴァの素材 - 昇格・軌跡・周回ガイド",
+      "categoryLabel": "姫子 ノヴァの昇格素材、軌跡素材、育成コスト、周回ルート、事前準備リスト、週ボスドロップを網羅した完全ガイド。",
+      "whatIs": "素材＆周回",
+      "whatIsDescription": "素材とは？",
+      "why": "姫子 ノヴァの昇格素材、軌跡素材、育成コスト、効率的な周回ルート、事前準備計画、週ボスドロップを掲載した素材ガイド。",
+      "whySteps": {
+        "step1Title": "なぜ素材を管理するのか？",
+        "step1Description": "事前に計画を立てる",
+        "step2Title": "姫子 ノヴァの跳躍が始まる前に素材を事前準備しましょう",
+        "step2Description": "効率的に周回する",
+        "step3Title": "最適なルートでスタミナと時間を節約しましょう",
+        "step3Description": "スキルを最大化"
+      },
+      "featured": "週ボスドロップを集めて、軌跡と昇格を最大まで強化しましょう",
+      "all": "おすすめ＆必須"
+    },
+    "weapons": {
+      "title": "全ての素材",
+      "description": "姫子 ノヴァの武器",
+      "metaTitle": "姫子 ノヴァのモチーフ光円錐、無課金向けの代用、ダメージを最大化するシナジーランキングを比較。",
+      "metaDescription": "姫子 ノヴァの光円錐 - おすすめ武器と選択肢",
+      "categoryLabel": "姫子 ノヴァのモチーフ武器、優秀な無課金用代用、炎ダメージを最大化するランキング形式の選択肢を紹介。",
+      "whatIs": "光円錐",
+      "whatIsDescription": "武器とは？",
+      "why": "姫子 ノヴァのモチーフ武器、最適な無課金用代用、シナジーと最大ダメージに基づいたランキング形式の光円錐ガイド。",
+      "whySteps": {
+        "step1Title": "なぜ慎重に選ぶのか？",
+        "step1Description": "ダメージ上限を解放",
+        "step2Title": "モチーフ光円錐は最高のダメージポテンシャルを発揮します",
+        "step2Description": "優秀な無課金向けの選択肢",
+        "step3Title": "入手しやすい無課金光円錐でも、姫子 ノヴァを十分に活躍させられます",
+        "step3Description": "ビルドに合わせる"
+      },
+      "featured": "遺物やチーム編成に合った光円錐を選びましょう",
+      "all": "おすすめ＆必須"
+    }
   }
 }
