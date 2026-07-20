@@ -44,12 +44,28 @@
     ],
     "guide": [
       {
+        "slug": "himeko-nova-abilities",
+        "file": "himeko-nova-abilities"
+      },
+      {
+        "slug": "himeko-nova-banner",
+        "file": "himeko-nova-banner"
+      },
+      {
         "slug": "himeko-nova-beginner-guide",
         "file": "himeko-nova-beginner-guide"
       },
       {
         "slug": "himeko-nova-build-guide",
         "file": "himeko-nova-build-guide"
+      },
+      {
+        "slug": "himeko-nova-dps",
+        "file": "himeko-nova-dps"
+      },
+      {
+        "slug": "himeko-nova-eidolons",
+        "file": "himeko-nova-eidolons"
       },
       {
         "slug": "himeko-nova-full-kit",
@@ -76,8 +92,24 @@
         "file": "himeko-nova-kit-explained"
       },
       {
+        "slug": "himeko-nova-release-date",
+        "file": "himeko-nova-release-date"
+      },
+      {
+        "slug": "himeko-nova-relics",
+        "file": "himeko-nova-relics"
+      },
+      {
         "slug": "himeko-nova-review",
         "file": "himeko-nova-review"
+      },
+      {
+        "slug": "himeko-nova-stats",
+        "file": "himeko-nova-stats"
+      },
+      {
+        "slug": "himeko-nova-voice-actor",
+        "file": "himeko-nova-voice-actor"
       },
       {
         "slug": "himeko-nova-worth-it",
@@ -88,6 +120,10 @@
       {
         "slug": "himeko-nova-ascension-materials",
         "file": "himeko-nova-ascension-materials"
+      },
+      {
+        "slug": "himeko-nova-build-materials",
+        "file": "himeko-nova-build-materials"
       },
       {
         "slug": "himeko-nova-farming-materials",
@@ -216,12 +252,28 @@
     ],
     "guide": [
       {
+        "slug": "himeko-nova-abilities",
+        "file": "himeko-nova-abilities"
+      },
+      {
+        "slug": "himeko-nova-banner",
+        "file": "himeko-nova-banner"
+      },
+      {
         "slug": "himeko-nova-beginner-guide",
         "file": "himeko-nova-beginner-guide"
       },
       {
         "slug": "himeko-nova-build-guide",
         "file": "himeko-nova-build-guide"
+      },
+      {
+        "slug": "himeko-nova-dps",
+        "file": "himeko-nova-dps"
+      },
+      {
+        "slug": "himeko-nova-eidolons",
+        "file": "himeko-nova-eidolons"
       },
       {
         "slug": "himeko-nova-full-kit",
@@ -248,8 +300,16 @@
         "file": "himeko-nova-kit-explained"
       },
       {
+        "slug": "himeko-nova-release-date",
+        "file": "himeko-nova-release-date"
+      },
+      {
         "slug": "himeko-nova-review",
         "file": "himeko-nova-review"
+      },
+      {
+        "slug": "himeko-nova-voice-actor",
+        "file": "himeko-nova-voice-actor"
       },
       {
         "slug": "himeko-nova-worth-it",
@@ -260,6 +320,10 @@
       {
         "slug": "himeko-nova-ascension-materials",
         "file": "himeko-nova-ascension-materials"
+      },
+      {
+        "slug": "himeko-nova-build-materials",
+        "file": "himeko-nova-build-materials"
       },
       {
         "slug": "himeko-nova-farming-materials",
@@ -388,12 +452,28 @@
     ],
     "guide": [
       {
+        "slug": "himeko-nova-abilities",
+        "file": "himeko-nova-abilities"
+      },
+      {
+        "slug": "himeko-nova-banner",
+        "file": "himeko-nova-banner"
+      },
+      {
         "slug": "himeko-nova-beginner-guide",
         "file": "himeko-nova-beginner-guide"
       },
       {
         "slug": "himeko-nova-build-guide",
         "file": "himeko-nova-build-guide"
+      },
+      {
+        "slug": "himeko-nova-dps",
+        "file": "himeko-nova-dps"
+      },
+      {
+        "slug": "himeko-nova-eidolons",
+        "file": "himeko-nova-eidolons"
       },
       {
         "slug": "himeko-nova-full-kit",
@@ -420,8 +500,16 @@
         "file": "himeko-nova-kit-explained"
       },
       {
+        "slug": "himeko-nova-release-date",
+        "file": "himeko-nova-release-date"
+      },
+      {
         "slug": "himeko-nova-review",
         "file": "himeko-nova-review"
+      },
+      {
+        "slug": "himeko-nova-voice-actor",
+        "file": "himeko-nova-voice-actor"
       },
       {
         "slug": "himeko-nova-worth-it",
@@ -432,6 +520,10 @@
       {
         "slug": "himeko-nova-ascension-materials",
         "file": "himeko-nova-ascension-materials"
+      },
+      {
+        "slug": "himeko-nova-build-materials",
+        "file": "himeko-nova-build-materials"
       },
       {
         "slug": "himeko-nova-farming-materials",
@@ -560,12 +652,28 @@
     ],
     "guide": [
       {
+        "slug": "himeko-nova-abilities",
+        "file": "himeko-nova-abilities"
+      },
+      {
+        "slug": "himeko-nova-banner",
+        "file": "himeko-nova-banner"
+      },
+      {
         "slug": "himeko-nova-beginner-guide",
         "file": "himeko-nova-beginner-guide"
       },
       {
         "slug": "himeko-nova-build-guide",
         "file": "himeko-nova-build-guide"
+      },
+      {
+        "slug": "himeko-nova-dps",
+        "file": "himeko-nova-dps"
+      },
+      {
+        "slug": "himeko-nova-eidolons",
+        "file": "himeko-nova-eidolons"
       },
       {
         "slug": "himeko-nova-full-kit",
@@ -592,8 +700,16 @@
         "file": "himeko-nova-kit-explained"
       },
       {
+        "slug": "himeko-nova-release-date",
+        "file": "himeko-nova-release-date"
+      },
+      {
         "slug": "himeko-nova-review",
         "file": "himeko-nova-review"
+      },
+      {
+        "slug": "himeko-nova-voice-actor",
+        "file": "himeko-nova-voice-actor"
       },
       {
         "slug": "himeko-nova-worth-it",
@@ -604,6 +720,10 @@
       {
         "slug": "himeko-nova-ascension-materials",
         "file": "himeko-nova-ascension-materials"
+      },
+      {
+        "slug": "himeko-nova-build-materials",
+        "file": "himeko-nova-build-materials"
       },
       {
         "slug": "himeko-nova-farming-materials",

@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova: Guía de mejores builds, reliquias y composiciones de equipo",
+  description: "Domina a Himeko Nova con esta guía detallada de 2026 que cubre las mejores builds, conjuntos de reliquias y sinergias de equipo efectivas para maximizar el daño.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Himeko Nova"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Himeko Nova** destaca como un DPS de modo dual que utiliza la mecánica única de **Habilidad de Asistencia**.
+- Prioriza el conjunto de reliquias **Navegante Isee lo ve** (Navigator Isee Sees It) para obtener mejoras constantes de Daño y tiempo de actividad de la Habilidad.
+- Incluye siempre al menos un **Compañero Trazacaminos** para desbloquear los poderosos estados de Veredicto o Decimación.
+- El daño de su **Habilidad Definitiva** escala significativamente con la gestión de la Energía de la Fuente y la sincronización adecuada de la rotación.
+- La inversión en **E2** proporciona un aumento masivo de poder, lo que permite una mayor flexibilidad en la composición del equipo.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las mecánicas de Himeko Nova">
+
+Himeko Nova introduce un estilo de juego sofisticado de modo dual centrado en el territorio "Starblazer". Al gestionar los usos de su Habilidad de Asistencia y el cambio de estado, puedes dictar el flujo del combate.
+
+**Puntos destacados del video:**
+- Explicación simplificada de la mecánica de doble estado (Veredicto vs. Decimación).
+- Guía de rotación óptima para inversiones E0 frente a E2.
+- Análisis de por qué los Compañeros Trazacaminos son obligatorios para su kit.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="¡La MEJOR guía de Himeko Nova! | Mejores builds, reliquias y equipos" />
+
+El núcleo de su kit es la Habilidad de Asistencia. Cuando Himeko o un Compañero Trazacaminos la activan, ella entra en el estado de **Veredicto** (daño aumentado) o **Decimación** (Daño CRIT aumentado). Mantener estos estados es la clave para su rendimiento de alto nivel.
+
+| Estado | Mejora principal | Condición de activación | Mejor caso de uso |
+| :--- | :--- | :--- | :--- |
+| **Veredicto** | +100% Daño | Habilidad de Compañero Trazacaminos | Un solo objetivo / Jefes |
+| **Decimación** | +100% Daño CRIT | Habilidad de March/Welt/Himeko base | Pura Ficción / AdE |
+
+<Callout type="tip" title="Nota de estrategia">
+Asegúrate siempre de que Himeko use su Habilidad cada 3 turnos para renovar la mejora "Semáforo del Navegante", que proporciona aumentos de daño esenciales para todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores builds y equipamiento">
+
+Optimizar a Himeko Nova requiere prestar especial atención a sus conjuntos de reliquias y estadísticas principales. Dado que ella misma se otorga mejoras significativas de Daño CRIT, enfocarse en la Probabilidad de CRIT en tus subestadísticas o en la pieza del torso suele ser más eficiente.
+
+| Pieza | Objeto recomendado | Estadísticas prioritarias |
+| :--- | :--- | :--- |
+| **Conjunto de Reliquias** | Navegante Isee lo ve | ATQ% / Prob. CRIT |
+| **Conjunto de Ornamento** | Estrella Caída | Prob. CRIT / Daño% |
+| **Torso** | Prob. CRIT | Prob. CRIT > Daño CRIT |
+| **Botas** | VEL o ATQ% | VEL (134+) o ATQ% |
+
+<CardGrid cols={3}>
+  <Card title="Conjunto Navegante">
+    - **El mejor en su ranura** para el rendimiento de daño.
+    - 54% de aumento de Daño en Habilidad/Definitiva.
+    - Fácil de mantener las acumulaciones.
+  </Card>
+  <Card title="Estrella Caída">
+    - Opción de **alto valor de CRIT**.
+    - Requiere un Compañero Trazacaminos.
+    - Ideal para equipos especializados.
+  </Card>
+  <Card title="Arena Rutilante">
+    - **Alternativa confiable**.
+    - Buena para enfocarse en Decimación.
+    - Rendimiento constante.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Optimización de estadísticas">
+Evita acumular demasiado Daño CRIT. Dado que Himeko Nova se auto-mejora el Daño CRIT hasta en un 100%, prioriza la Probabilidad de CRIT para asegurar un rendimiento de daño constante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación y sinergia de equipo">
+
+La composición del equipo es fundamental para Himeko Nova. Necesitas unidades que puedan activar su Habilidad de Asistencia sin sacrificar su propia economía de turnos.
+
+<Steps>
+  <Step num="1" title="Configuración inicial">
+    Usa la Técnica para entrar en el estado "Crucero", asegurando que Himeko comience la oleada con un uso inmediato de la Habilidad.
+  </Step>
+  <Step num="2" title="Activación de estado">
+    Despliega un Compañero Trazacaminos para activar el estado principal (Veredicto o Decimación) temprano en la rotación.
+  </Step>
+  <Step num="3" title="Spam de Habilidad de Asistencia">
+    Cicla a través de los aliados para activar las Habilidades de Asistencia, restableciendo el contador con los propios turnos de Himeko.
+  </Step>
+  <Step num="4" title="Ráfaga Definitiva">
+    Ejecuta la secuencia Pulso-Rayo-Pulso cuando la Energía de la Fuente esté al máximo para un daño óptimo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recomendación de sinergia">
+Emparejar a Himeko Nova con **Sunday** y **Sparkle** es actualmente una de las configuraciones más efectivas, proporcionando tanto el avance de acción necesario como la amplificación de daño que ella requiere.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridades de inversión">
+
+Decidir cómo gastar tus recursos en Himeko Nova puede ser abrumador. La siguiente tabla ayuda a priorizar tus obtención de personajes (pulls) y mejoras.
+
+| Prioridad | Tipo de inversión | Razón |
+| :--- | :--- | :--- |
+| **1** | Eidolon E2 | Flexibilidad significativa y escalado de daño. |
+| **2** | Cono de luz característico | Beneficios masivos de energía y multiplicador de Daño. |
+| **3** | Eidolon E1 | Bucle de retroalimentación más rápido para las Definitivas. |
+| **4** | Nivel de Rastros | Esencial para el escalado de los multiplicadores principales. |
+
+<Checklist
+  id="himeko-nova-tasks"
+  title="Lista de progreso:"
+  items={[
+    "Farmear el conjunto completo de Navegante Isee lo ve",
+    "Alcanzar el umbral de 134 de VEL para rotaciones óptimas",
+    "Maximizar el nivel de la Habilidad Definitiva y el Talento",
+    "Adquirir al menos un soporte viable que sea Compañero Trazacaminos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Necesito llevar un equipo completo de Compañeros Trazacaminos?",
+    answer: "No. Solo necesitas un Compañero Trazacaminos para desbloquear los estados de Veredicto o Decimación. Llenar el equipo con demasiados puede limitar tus opciones de soporte."
+  },
+  {
+    question: "¿Es viable Himeko Nova en E0?",
+    answer: "Sí, Himeko Nova es perfectamente viable en E0, siempre que tengas un equipo que pueda soportar sus mecánicas de Habilidad de Asistencia y sus necesidades de energía."
+  },
+  {
+    question: "¿Qué estado es mejor: Veredicto o Decimación?",
+    answer: "Veredicto es superior para combates contra jefes de un solo objetivo debido a sus altos multiplicadores de Daño, mientras que Decimación destaca en Pura Ficción o escenarios con alta densidad de objetivos."
+  },
+  {
+    question: "¿Puedo usar a Himeko Nova sin un personaje que avance acciones?",
+    answer: "Puedes, pero es menos eficiente. Jugar con ella en builds lentas requiere una planificación cuidadosa para asegurar que sus Habilidades de Asistencia se activen con regularidad."
+  }
+]} />
+
+</Section>

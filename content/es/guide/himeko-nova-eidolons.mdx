@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Eidolones de Himeko Nova: Estrategia de HSR 2026 y Clasificación de Eidolones",
+  description: "Desbloquea el verdadero potencial de Himeko Nova. Aprende cómo sus Eidolones transforman su estilo de juego de modo dual, rotaciones de definitiva y sinergias de equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Himeko+Nova+Eidolons+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Himeko Nova",
+  keywords: "himeko nova, eidolones, honkai star rail, estrategia, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Los **eidolones de Himeko Nova** proporcionan multiplicadores de daño masivos, siendo el E2 su pico de poder temprano más impactante.
+- **Estado de Veredicto**: Activado por el Trazacaminos, Dan Heng o Sunday, otorga a Himeko un 100% de Daño (DMG) y un 100% de Daño de Habilidad Definitiva.
+- **Estado de Diezmado**: Activado por Siete de Marzo, Welt, Evernight o la propia Himeko, aumenta el Daño CRIT del equipo en un 100%.
+- **Reliquia Insignia**: El conjunto *El Navegante lo ve todo* sigue siendo indiscutible, ofreciendo hasta un 54% de DMG y un 12% de ATQ.
+- **Punto Óptimo de Inversión**: Detenerse en E2S1 ofrece la mejor relación rendimiento-costo para el contenido de alto nivel.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas de Combate Principales y Territorio Starblazer">
+
+Himeko Nova domina el campo de batalla como un personaje de Fuego de la Vía de la Erudición de primer nivel, utilizando un estilo de juego único de modo dual centrado en su Territorio Starblazer. Para maximizar su producción de daño, es esencial comprender la progresión de los **eidolones de Himeko Nova**. Su kit introduce un botón dedicado de "Habilidad de Asistencia", que permite a sus compañeros comandar a su invocación gigante, Starblazer, para lanzar devastadores ataques en área (AoE) y de rebote. La gestión de sus estados de territorio y la economía de energía forman la base de su rendimiento de alto nivel.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de las mecánicas de estado dual de Himeko Nova.
+- Análisis de por qué sus Eidolones ofrecen algunos de los valores más altos del juego.
+- Conjuntos de reliquias recomendados, ornamentos planares y objetivos de estadísticas.
+- Demostración de sus mejores composiciones de equipo para Veredicto y Diezmado.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="¡La MEJOR Guía de Himeko Nova! | Mejores Builds, Reliquias, Equipos" />
+
+Cuando Himeko Nova está en el campo, despliega el territorio *Visioscape de Starblazer*. Esto otorga a todos los aliados una carga de Habilidad de Asistencia. Activar esta Habilidad de Asistencia cuenta como si Himeko usara su propia Habilidad Básica, activando sus bonificaciones de reliquias e infligiendo daño de Fuego a todos los enemigos, seguido de tres ataques de rebote. El comportamiento de esta habilidad cambia drásticamente dependiendo de qué miembro de la facción la active, dividiendo su jugabilidad en dos estados distintos.
+
+| Estado | Facción Activadora | Bonificaciones Principales | Condición de Asistencia Gratuita |
+| :--- | :--- | :--- | :--- |
+| **Veredicto** | Trazacaminos, Dan Heng, Sunday | +100% DMG Himeko, +100% DMG Definitiva | Aliados usan Definitiva 2 veces |
+| **Diezmado** | Siete de Marzo, Welt, Evernight, Himeko Base | +100% Daño CRIT Equipo, +100% Daño CRIT Hab. Básica | Aliados golpean a 9 enemigos |
+
+Para mantener estos estados, Himeko debe usar su Habilidad Básica estándar una vez cada tres turnos para refrescar su bonificación de *Semáforo del Navegante*, que aumenta el daño de todos los aliados en un 25% y recupera automáticamente las cargas de Habilidad de Asistencia al comienzo de su turno.
+
+<Callout type="info" title="Sinergia de Rastro Pasivo">
+Su rastro A4 asegura que cuando un Compañero Trazacaminos usa una Habilidad de Asistencia, gana inmediatamente un turno extra. Esto permite integrar las Habilidades de Asistencia en tu rotación sin sacrificar la economía de acciones de tus soportes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desglose de Eidolones de Himeko Nova y Tier List">
+
+Invertir en los **eidolones de Himeko Nova** la transforma de una fuerte DPS regional en una fuerza imparable. Cada nivel de Eidolón aborda sus limitaciones de energía, relaja sus estrictos requisitos de formación de equipo o introduce multiplicadores de daño independientes y no diluidos.
+
+<CardGrid cols={3}>
+  <Card title="E1: El Catalizador de Rotación">
+    - **Reduce Requisitos de Estado**: Veredicto necesita 1 Definitiva; Diezmado necesita 6 golpes.
+    - **Habilidad de Asistencia Extra**: Aumenta los activadores gratuitos de Asistencia de 2 a 3.
+    - **Definitivas más Rápidas**: Acelera significativamente su ciclo de retroalimentación de energía.
+  </Card>
+  <Card title="E2: El Facilitador Universal">
+    - **Doble Carga de Asistencia**: Restablece 2 usos de Asistencia de aliados en cada turno de Himeko.
+    - **Turno Extra Universal**: Cualquier aliado activa el turno extra de A4, no solo los Trazacaminos.
+    - **Multiplicador No Diluido**: Aumento directo de 1.3x al daño de la Definitiva y Habilidades de Asistencia.
+  </Card>
+  <Card title="E6: El Ataque Nuclear Definitivo">
+    - **Energía de Origen Doble**: Límite aumentado a 6; los rayos generan 2 acumulaciones.
+    - **Integración de Asistencia**: Las Habilidades de Asistencia ahora generan Energía de Origen directamente.
+    - **Mejora de Pulso de Aniquilación**: Inflige un multiplicador AoE extra del 160% con el máximo de acumulaciones.
+  </Card>
+</CardGrid>
+
+Sus Eidolones de rango medio también proporcionan una utilidad significativa. El E4 extiende su bonificación de talento personal del 20% de PEN de RES a todos los tipos a todo el equipo, mientras le otorga a Himeko un 10% adicional de PEN de RES, lo que hace que las configuraciones de doble núcleo sean increíblemente potentes. El E3 y E5 elevan los niveles de su Habilidad Básica, Talento, Definitiva y Ataque Básico para escalar aún más sus multiplicadores brutos.
+
+| Eidolón | Mejora Clave | Aumento de DMG | Prioridad de Obtención |
+| :--- | :--- | :--- | :--- |
+| **E1** | Asistencia extra, activación de estado más rápida | ~15% | Alta |
+| **E2** | Turno extra universal, 2 cargas de Asistencia, mult. 1.3x | ~35% | Imprescindible (Alta Inversión) |
+| **E4** | PEN de RES compartida con todo el equipo | ~12% | Media |
+| **E6** | Definitiva de 6 acumulaciones, multiplicador masivo de Pulso | ~40% | Solo Ballenas |
+
+<Callout type="success" title="Recomendación de Estrategia">
+Para jugadores con presupuesto limitado, se recomienda encarecidamente E0S1 debido a la falta de Conos de Luz de Erudición F2P fuertes. Si tienes jades estelares adicionales, prioriza E2S1, que desbloquea una flexibilidad de equipo y un daño bruto inigualables.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Builds de Reliquias, Ornamentos Planares y Estadísticas">
+
+Para soportar los altos techos de daño desbloqueados por sus Eidolones, Himeko Nova requiere configuraciones de reliquias específicas. Debido a que ella misma aumenta extensamente su Daño CRIT y % de DMG a través de su talento y estados de territorio, tu objetivo principal es asegurar una alta Probabilidad de CRIT y estadísticas de Ataque.
+
+<Steps>
+  <Step num="1" title="Equipa El Navegante lo ve todo">
+    Este conjunto está hecho a medida para ella. Otorga un bono de DMG permanente del 54% a su Habilidad Básica y Definitiva, junto con un 12% de ATQ. Dado que las Habilidades de Asistencia se registran como Habilidades Básicas, Himeko mantiene las acumulaciones máximas sin esfuerzo.
+  </Step>
+  <Step num="2" title="Selecciona tus Ornamentos Planares">
+    Usa *Estrella Caída* (8% Prob. CRIT, 32% Daño CRIT cuando se empareja con otro Compañero Trazacaminos). Si usas a Dan PT, *Bananamusement* ofrece un valor idéntico. En equipos de Diezmado permanente, *Arena Rutilante* puede tomar la delantera debido a la alta saturación de Daño CRIT.
+  </Step>
+  <Step num="3" title="Equilibra tus Estadísticas de Combate">
+    Apunta a un 100% de Probabilidad de CRIT en combate. Debido a que su kit y sus compañeros proporcionan un Daño CRIT masivo, una pieza de torso de Probabilidad de CRIT es casi siempre obligatoria, a menos que uses soportes con grandes mejoras de Probabilidad de CRIT como Sunday.
+  </Step>
+</Steps>
+
+| Pieza de Equipo | Prioridad de Estad. Principal | Prioridad de Sub-estadísticas | Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Cuerpo** | Prob. CRIT (o Daño CRIT con Sunday) | Prob. CRIT, Daño CRIT, ATQ% | 90%+ Prob. CRIT (Fuera de combate) |
+| **Botas** | ATQ% (Build lenta) o VEL (134/135) | Prob. CRIT, Daño CRIT, ATQ%, VEL | 3500+ ATQ (con botas de ATQ) |
+| **Esfera** | Bono Daño Fuego% o ATQ% | Prob. CRIT, Daño CRIT, ATQ% | Según las mejoras del soporte |
+| **Cuerda** | ATQ% (o Recup. Energía para E0S0) | Prob. CRIT, Daño CRIT, ATQ%, VEL | 130% - 150% Daño CRIT |
+
+<Callout type="tip" title="Consejo para la Cuerda">
+Aunque la Cuerda de ATQ% produce los números de daño más altos, usar una Cuerda de Tasa de Regeneración de Energía (ERR) en E0S0 puede resolver umbrales de energía incómodos, asegurando que recuperes tu Definitiva a tiempo para restablecer el conteo de Habilidades de Asistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Composiciones de Equipo y Rotaciones">
+
+La formación de equipos para Himeko Nova depende de si quieres centrarte en un solo estado (Veredicto o Diezmado) o usar una composición de intercambio de estado dual.
+
+### Equipos de Veredicto (Objetivo Único y Jefes)
+Veredicto se centra en potenciar al máximo el daño personal de la Definitiva y la Asistencia de Himeko Nova. En E0, Sunday, Sparkle y Dan Heng PT representan su alineación más fuerte. Sparkle adelanta la acción de Himeko, Himeko actúa y restablece la carga de Asistencia, y Sunday usa su Habilidad de Asistencia para adelantar a Himeko nuevamente. Dan Heng PT es obligatorio aquí para evitar perder activaciones de Habilidades de Asistencia. En E2, puedes cambiar a Dan Heng PT por Huohuo, ya que cualquier personaje puede ahora activar el turno extra.
+
+### Equipos de Diezmado (Múltiples Objetivos y Pura Ficción)
+Diezmado brilla en escenarios AoE donde puedes golpear consistentemente a múltiples objetivos. Una alineación sin sustain que incluya a RMC (Trazacaminos del Recuerdo), Blade y Welt ofrece una seguridad y amplificación increíbles. Blade actúa como un tanque, Welt ralentiza y retrasa a los enemigos, y RMC proporciona mejoras masivas de CRIT y Daño Verdadero.
+
+<Checklist
+  id="team-building-checklist"
+  title="Lista de Verificación para Equipos:"
+  items={[
+    "Asegúrate de tener al menos 1 Compañero Trazacaminos en el equipo (en E0).",
+    "Equipa a los soportes con conjuntos planares de Vonwacq para una entrada de estado inmediata.",
+    "Ajusta la velocidad de los soportes para que actúen antes del primer turno de Himeko Nova.",
+    "En E2, siéntete libre de prescindir de los Compañeros Trazacaminos por unidades de armonía genéricas."
+  ]}
+/>
+
+| Arquetipo de Equipo | Alineación | Estado Principal | Sinergia Principal |
+| :--- | :--- | :--- | :--- |
+| **Hypercarry Veredicto** | Himeko Nova, Sunday, Sparkle, Dan PT | Veredicto | Máximo avance de acción, alto ráfaga individual |
+| **Diezmado sin Sustain** | Himeko Nova, RMC, Blade, Welt | Diezmado | Alta utilidad de congelación/ralentización, gran Daño CRIT |
+| **Intercambio Dual** | Himeko Nova, Welt, Dan PT, Huohuo | Intercambiable | Adaptable a cambios en el número de objetivos |
+
+<Callout type="warning" title="Advertencia de Velocidad">
+En equipos de Diezmado sin adelantadores de acción, asegúrate de que Himeko Nova tenga al menos 134 de VEL. De lo contrario, unidades rápidas como Welt la sobrepasarán constantemente, dejándolos sin cargas de Habilidad de Asistencia para usar en sus turnos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Cuál de los Eidolones de Himeko Nova es el más importante de obtener?",
+    answer: "El E2 es el Eidolón más importante. Duplica las cargas de Asistencia de tus aliados, elimina la restricción de Compañero Trazacaminos para los turnos extra y otorga un multiplicador de daño directo de 1.3x a su kit principal."
+  },
+  {
+    question: "¿Necesito llevar Compañeros Trazacaminos si tengo a Himeko Nova en E2?",
+    answer: "No. En E2, la mejora de su rastro A4 se aplica a todos los personajes. Esto te permite usar unidades de soporte de primer nivel como Sparkle, Huohuo o Tingyun sin perder los turnos extra gratuitos."
+  },
+  {
+    question: "¿Puedo usar el Cono de Luz insignia de la Himeko estándar en Himeko Nova?",
+    answer: "Puedes usar 'Noche en la Vía Láctea', especialmente en Pura Ficción. Sin embargo, su Cono de Luz insignia S1 es muy superior, ofreciendo un 32% de ignorar DEF, regeneración de energía y hasta un 60% de daño de Asistencia/Definitiva."
+  },
+  {
+    question: "¿Cómo funciona la estrategia de intercambio de estado dual?",
+    answer: "Comienzas la batalla en Diezmado para limpiar oleadas pequeñas y acumular cargas. Antes de lanzar la Definitiva de Himeko, activas una Habilidad de Asistencia con un personaje de Veredicto (como Sunday o Dan PT) para cambiar de estado, otorgando a su Definitiva un aumento masivo del 125% de DMG."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+Dominar a Himeko Nova requiere equilibrar sus estados de territorio y ajustar la velocidad de tus soportes. Aunque es un personaje completo en E0S1, desbloquear su E2 la eleva a una hypercarry universal capaz de trivializar todo el contenido final de 2026.
+</Callout>
+
+</Section>

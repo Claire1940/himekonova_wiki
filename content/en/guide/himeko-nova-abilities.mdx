@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova: Best Builds, Relics, and Team Comps Guide",
+  description: "Master Himeko Nova with this detailed 2026 guide covering optimal builds, relic sets, and effective team synergies for maximum damage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-21",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Himeko Nova** excels as a dual-mode DPS utilizing the unique **Assist Skill** mechanic.
+- Prioritize **Navigator Isee Sees It** relic set for consistent DMG buffs and Skill uptime.
+- Always include at least one **Trailblaze Companion** to unlock powerful Verdict or Decimation states.
+- Her **Ultimate** damage scales significantly with Source Energy management and proper rotation timing.
+- **E2** investment provides a massive power spike, allowing greater flexibility in team composition.
+</Callout>
+
+<Section icon={Map} title="Understanding Himeko Nova Mechanics">
+
+Himeko Nova introduces a sophisticated dual-mode playstyle centered around the "Starblazer" territory. By managing her Assist Skill uses and state-switching, you can dictate the flow of combat.
+
+**Video Highlights:**
+- Simplified explanation of the dual-state (Verdict vs. Decimation) mechanic.
+- Optimal rotation guide for E0 versus E2 investment.
+- Analysis of why Trailblaze Companions are mandatory for her kit.
+
+<YouTubeEmbed videoId="MZgIr1TSIyw" title="The BEST Guide to Himeko Nova! | Best Builds, Relics, Teams" />
+
+The core of her kit is the Assist Skill. When Himeko or a Trailblaze Companion triggers it, she enters either **Verdict** (increased DMG) or **Decimation** (increased CRIT DMG). Maintaining these states is the key to her high-end performance.
+
+| State | Primary Buff | Trigger Condition | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Verdict** | +100% DMG | Trailblaze Companion Skill | Single Target / Bosses |
+| **Decimation** | +100% CRIT DMG | March/Welt/Base Himeko Skill | Pure Fiction / AoE |
+
+<Callout type="tip" title="Strategy Note">
+Always ensure Himeko uses her Skill every 3 turns to refresh the "Navigator's Semaphore" buff, which provides essential team-wide DMG increases.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Builds and Gear">
+
+Optimizing Himeko Nova requires specific attention to her relic sets and main stats. Because she provides significant self-buffs to CRIT DMG, focusing on CRIT Rate in your substats or chest piece is often more efficient.
+
+| Slot | Recommended Item | Priority Stats |
+| :--- | :--- | :--- |
+| **Relic Set** | Navigator Isee Sees It | ATK% / CRIT Rate |
+| **Planar Set** | Fallen Star | CRIT Rate / DMG% |
+| **Chest** | CRIT Rate | CRIT Rate > CRIT DMG |
+| **Boots** | SPD or ATK% | SPD (134+) or ATK% |
+
+<CardGrid cols={3}>
+  <Card title="Navigator Set">
+    - **Best-in-slot** damage output.
+    - 54% DMG increase on Skill/Ult.
+    - Easy to maintain stacks.
+  </Card>
+  <Card title="Fallen Star">
+    - **High CRIT Value** option.
+    - Requires Trailblaze Companion.
+    - Ideal for specialized teams.
+  </Card>
+  <Card title="Rutilant Arena">
+    - **Reliable alternative**.
+    - Good for Decimation focus.
+    - Consistent performance.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Stat Optimization">
+Avoid over-stacking CRIT DMG. Since Himeko Nova self-buffs CRIT DMG by up to 100%, prioritize CRIT Rate to ensure consistent damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotation and Team Synergy">
+
+Team composition is critical for Himeko Nova. You need units that can trigger her Assist Skill without sacrificing their own turn economy.
+
+<Steps>
+  <Step num="1" title="Initial Setup">
+    Use Technique to enter the "Cruise" state, ensuring Himeko starts the wave with an immediate Skill usage.
+  </Step>
+  <Step num="2" title="State Activation">
+    Deploy a Trailblaze Companion to activate the primary state (Verdict or Decimation) early in the rotation.
+  </Step>
+  <Step num="3" title="Assist Skill Spam">
+    Cycle through allies to trigger Assist Skills, resetting the count with Himeko's own turns.
+  </Step>
+  <Step num="4" title="Ultimate Burst">
+    Execute the Pulse-Beam-Pulse sequence when Source Energy is maximized for optimal damage.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergy Recommendation">
+Pairing Himeko Nova with **Sunday** and **Sparkle** is currently one of the most effective setups, providing both the necessary action advancement and damage amplification she requires.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Investment Priorities">
+
+Deciding how to spend your resources on Himeko Nova can be daunting. The following table helps prioritize your pulls and upgrades.
+
+| Priority | Investment Type | Reason |
+| :--- | :--- | :--- |
+| **1** | E2 Eidolon | Significant flexibility and damage scaling. |
+| **2** | Signature Light Cone | Massive energy and DMG multiplier benefits. |
+| **3** | E1 Eidolon | Faster feedback loop for Ultimates. |
+| **4** | Trace Leveling | Essential for core multiplier scaling. |
+
+<Checklist
+  id="himeko-nova-tasks"
+  title="Progression Checklist:"
+  items={[
+    "Farm full Navigator Isee Sees It set",
+    "Reach 134 SPD breakpoint for optimal rotations",
+    "Level Ultimate and Talent to max",
+    "Acquire at least one viable Trailblaze Companion support"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need to run a full team of Trailblaze Companions?",
+    answer: "No. You only need one Trailblaze Companion to unlock the Verdict or Decimation states. Filling the team with too many can restrict your support options."
+  },
+  {
+    question: "Is Himeko Nova viable at E0?",
+    answer: "Yes, Himeko Nova is perfectly capable at E0, provided you have a team that can support her Assist Skill mechanics and energy needs."
+  },
+  {
+    question: "Which state is better: Verdict or Decimation?",
+    answer: "Verdict is superior for single-target boss fights due to its high DMG multipliers, while Decimation excels in Pure Fiction or high-target density scenarios."
+  },
+  {
+    question: "Can I use Himeko Nova without an advancer?",
+    answer: "You can, but it is less efficient. Running her with slow builds requires careful planning to ensure her Assist Skills are triggered regularly."
+  }
+]} />
+
+</Section>
