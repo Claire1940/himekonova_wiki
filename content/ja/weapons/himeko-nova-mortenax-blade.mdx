@@ -1,0 +1,99 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "姫子 ノヴァ ベストチーム - Honkai: Star Rail",
+  description: "姫子 ノヴァのベストチーム構成とキャラクタースイギリイをHonkai: Star Railで詳しく紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=姫子+ノヴァ+ベスト+チーム",
+  date: "2026-07-24",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **ベストシナジー**: Mortenax Blade, Remembrance Trailblazer, Sunday, Welt
+- **チーム構成**: Himeko • Nova, Remembrance Trailblazer, Welt, Dan Heng • Permansor Terrae
+- **エネルギーマネジメント**: エネルギー獲得を促進するキャラクターに注目
+- **ダメージ出力**: 相性の良いスキルで高ダメージ出力を最適化
+- **デバフ**: チーム戦闘でWeltの強力なデバフを活用
+</Callout>
+
+<Section icon={Map} title="紹介">
+Honkai: Star Railで姫子 • ノヴァのベストチームに関する詳細なガイドをご紹介します。このガイドでは、推奨されるチーム構成、キャラクタースイギリイ、チームの潜在能力を最大限に引き出すための戦略を説明します。
+</Section>
+
+<Section icon={Swords} title="姫子 ノヴァのベストシナジー">
+以下のキャラクターは、姫子 • ノヴァの能力を強化し、チームの全体性能に寄与するシナジーがあります：
+<Checklist
+  id="synergies"
+  title="推奨シナジー:"
+  items={[
+    "Mortenax Blade: ループとダメージ拡大を提供",
+    "Remembrance Trailblazer: 姫子のエネルギー獲得とアシストスキルを強化",
+    "Sunday: 強力なバフとエネルギー獲得",
+    "Welt: 強力なデバフを持つ滅びのスタンスの同盟者"
+  ]}
+/>
+</Section>
+
+<Section icon={Target} title="チーム構成">
+以下は、姫子 • ノヴァを特徴とするベストチーム構成の一部です：
+<CardGrid cols={3}>
+  <Card title="構成 1">
+    - Himeko • Nova
+    - Remembrance Trailblazer
+    - Welt
+    - Dan Heng • Permansor Terrae
+  </Card>
+  <Card title="構成 2">
+    - Himeko • Nova
+    - Sunday
+    - Sparkle
+    - Dan Heng • Permansor Terrae
+  </Card>
+  <Card title="構成 3">
+    - Himeko • Nova
+    - Sunday
+    - Mortenax Blade
+    - Dan Heng • Permansor Terrae
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Trophy} title="エネルギーマネジメント">
+適切なエネルギーマネジメントは、姫子 • ノヴァの効果を最大限に発揮するために不可欠です。エネルギーボスティングを提供するキャラクターに注目し、彼女の強力なスキルを使用するために十分なエネルギーを確保してください。
+<Callout type="tip" title="プロのヒント">
+Sundayのエネルギーボスティングを使用して、姫子 • ノヴァのエネルギーゲージを満タンに保ち、スキルの使用を最大化してください。
+</Callout>
+</Section>
+
+<Section icon={Shield} title="ダメージ出力">
+チームのダメージ出力を最適化するために、姫子 • ノヴァのスキルと相性の良いキャラクターを組み合わせてください。ダメージ拡大とクリティカルヒットの確率に注意して、ダメージ出力を最大化してください。
+</Section>
+
+<Section icon={Sparkles} title="デバフとコントロール">
+Weltの強力なデバフは、チーム戦闘に大きな影響を与えます。彼の能力を使用して、敵を弱め、チームが大量のダメージを与える機会を作るために活用してください。
+</Section>
+
+<Section icon={Map} title="FAQ">
+<FAQ items={[
+  {
+    question: "姫子 • ノヴァのスキルを最善の方法で使用する方法は何ですか？",
+    answer: "エネルギースキルの使用に焦点を当て、エネルギーを提供したり、彼女のダメージを強化するキャラクターと組み合わせます。"
+  },
+  {
+    question: "敵チームを効果的にどう対抗できますか？",
+    answer: "デバフとコントロールスキルを使用して、敵を弱め、チームが利点を活かす機会を作るために活用します。"
+  },
+  {
+    question: "姫子 • ノヴァとチームで避けるべきキャラクターは何ですか？",
+    answer: "姫子 • ノヴァと相性が悪いシナジーを持つキャラクターまたは彼女のプレイスタイルに合わないキャラクターを避けてください。"
+  }
+]} />
+</Section>

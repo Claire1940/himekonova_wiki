@@ -1,0 +1,106 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Himeko Nova: Ultimate Gameplay Guide",
+  description: "Discover the best strategies, tips, and tricks for Himeko Nova in our comprehensive guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-24",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Himeko Nova
+- **Key mechanic**: Master the unique abilities of Himeko Nova
+- **Best strategy**: Optimize your playstyle for maximum efficiency
+- **Critical tip**: Prioritize resource management and skill upgrades
+- **Top choice**: Build your character around the Elementalist class for versatile abilities
+</Callout>
+
+<Section icon={Map} title="Introduction to Himeko Nova">
+Himeko Nova is an engaging RPG that offers a rich world to explore. In this guide, we will cover everything you need to know to excel in the game.
+</Section>
+
+<Section icon={Swords} title="Character Builds">
+When creating your character, it's important to choose the right class. Here are some popular builds for Himeko Nova:
+
+<CardGrid cols={3}>
+  <Card title="Elementalist">
+    - Control the elements to deal massive damage
+    - Excellent for solo play and boss fights
+    - Requires good resource management
+  </Card>
+  <Card title="Warrior">
+    - High damage output with strong physical attacks
+    - Good for group play and tanking enemies
+    - Focuses on strength and endurance
+  </Card>
+  <Card title="Mage">
+    - Specialize in spells with area-of-effect damage
+    - Ideal for controlling the battlefield
+    - Requires precise timing and positioning
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Leveling Up">
+To level up quickly in Himeko Nova, follow these steps:
+
+<Steps>
+  <Step num="1" title="Complete Quests">
+    Quests provide experience and valuable items.
+  </Step>
+  <Step num="2" title="Collect Resources">
+    Resources are needed for crafting and upgrading gear.
+  </Step>
+  <Step num="3" title="Join Guilds">
+    Guilds offer additional benefits and challenges.
+  </Step>
+  <Step num="4" title="Participate in Events">
+    Events are a great way to earn extra rewards.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Achievements and Rewards">
+Unlocking achievements in Himeko Nova not only provides a sense of accomplishment but also rewards you with exclusive items and in-game bonuses.
+
+<Checklist
+  id="achievements"
+  title="Notable Achievements:"
+  items={[
+    "Complete all main quests",
+    "Reach level 50",
+    "Unlock all character abilities",
+    "Collect all in-game items"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "How do I unlock new abilities?",
+    answer: "Unlock abilities by leveling up and completing skill trees."
+  },
+  {
+    question: "Can I change my character's class after creation?",
+    answer: "Yes, you can change your character's class at any time by visiting the character menu."
+  },
+  {
+    question: "What is the best way to farm resources?",
+    answer: "Farming resources is most efficient by completing quests and participating in events."
+  }
+]} />
+</Section>
+
+<Section icon={Sparkles} title="Conclusion">
+Himeko Nova is a game that offers a deep and engaging experience. By following this guide, you'll be well on your way to mastering the game and achieving success.
+</Section>

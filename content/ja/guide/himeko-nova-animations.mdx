@@ -1,0 +1,106 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "姫子 ノヴァ: 完全ガイド",
+  description: "姫子 ノヴァのベスト戦略、ヒント、そしてトリックを詳しく解説するガイドをご覧ください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=姫子+ノヴァ+ガイド",
+  date: "2026-07-24",
+  author: "himeko nova Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: 姫子 ノヴァ
+- **重要メカニクス**: 姫子 ノヴァのユニークな能力をマスター
+- **ベスト戦略**: プレイスタイルを最大限の効率で最適化
+- **重要なヒント**: リソース管理とスキルアップを優先
+- **トップチョイス**: 多様な能力を持つためにエレメントalistクラスをベースにキャラクターを構築
+</Callout>
+
+<Section icon={Map} title="姫子 ノヴァの紹介">
+姫子 ノヴァは魅力的なRPGで、探検する豊かな世界を提供しています。このガイドでは、ゲームで優秀になるために必要なすべてのことを説明します。
+</Section>
+
+<Section icon={Swords} title="キャラクター構築">
+キャラクターを作成する際には、正しいクラスを選ぶことが重要です。以下は、姫子 ノヴァで人気のある構築例です：
+
+<CardGrid cols={3}>
+  <Card title="エレメントalist">
+    - 要素を制御して大量のダメージを与える
+    - ソロプレイやボスバトルに最適
+    - リソース管理が重要
+  </Card>
+  <Card title="戦士">
+    - 力強い物理攻撃で高いダメージを与える
+    - グループプレイや敵のタankingに最適
+    - 力と耐久力に焦点を当てています
+  </Card>
+  <Card title="マーゲ">
+    - エフェクト範囲ダメージの魔法に専門化
+    - 戦場を制御するのに最適
+    - 精確なタイミングと配置が必要
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Target} title="レベルアップのステップバイステップガイド">
+姫子 ノヴァで素早くレベルアップするには、以下の手順に従ってください：
+
+<Steps>
+  <Step num="1" title="クエストを完了">
+    クエストは経験値と価値のあるアイテムを提供します。
+  </Step>
+  <Step num="2" title="リソースを収集">
+    リソースは装備の作成とアップグレードに必要です。
+  </Step>
+  <Step num="3" title="ギルドに参加">
+    ギルドは追加の利点と挑戦を提供します。
+  </Step>
+  <Step num="4" title="イベントに参加">
+    イベントは追加の報酬を獲得する素晴らしい方法です。
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="アチーブメントと報酬">
+姫子 ノヴァでアチーブメントを解除することは、達成感を提供するだけでなく、特別なアイテムとゲーム内ボーナスを報酬としてもたらします。
+
+<Checklist
+  id="achievements"
+  title="注目のアチーブメント:"
+  items={[
+    "すべてのメインクエストを完了",
+    "レベル50に達成",
+    "すべてのキャラクター能力を解除",
+    "すべてのゲーム内アイテムを収集"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "新しい能力を解除する方法は何ですか？",
+    answer: "レベルアップしてスキルツリーを完了することで能力を解除できます。"
+  },
+  {
+    question: "キャラクターのクラスを作成後に変更できますか？",
+    answer: "はい、キャラクターのクラスを変更するには、キャラクターメニューにアクセスしてください。"
+  },
+  {
+    question: "リソースを収集する最善の方法は何ですか？",
+    answer: "クエストを完了してイベントに参加することでリソースを収集するのが最も効率的です。"
+  }
+]} />
+</Section>
+
+<Section icon={Sparkles} title="結論">
+姫子 ノヴァは深く魅力的な体験を提供するゲームです。このガイドに従うことで、ゲームをマスターし、成功に向けて一歩踏み進むことでしょう。
+</Section>

@@ -1,0 +1,106 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Himeko Nova: Guía de Juego Ultimate",
+  description: "Descubre las mejores estrategias, consejos y trucos para Himeko Nova en nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de Himeko Nova"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Himeko Nova
+- **Mecánica clave**: Dominar las habilidades únicas de Himeko Nova
+- **Mejor estrategia**: Optimiza tu estilo de juego para la mayor eficiencia
+- **Consejo crucial**: Prioriza la gestión de recursos y las mejoras de habilidades
+- **Elección superior**: Construye a tu personaje alrededor de la clase Elementalista para habilidades versátiles
+</Callout>
+
+<Section icon={Map} title="Introducción a Himeko Nova">
+Himeko Nova es un RPG apasionante que ofrece un mundo rico para explorar. En esta guía, cubriremos todo lo que necesitas saber para destacar en el juego.
+</Section>
+
+<Section icon={Swords} title="Construcciones de Personajes">
+Al crear a tu personaje, es importante elegir la clase adecuada. Aquí hay algunas construcciones populares para Himeko Nova:
+
+<CardGrid cols={3}>
+  <Card title="Elementalista">
+    - Controla los elementos para infligir daños masivos
+    - Excelente para el juego en solitario y las batallas contra jefes
+    - Requiere buena gestión de recursos
+  </Card>
+  <Card title="Guerrero">
+    - Alta salida de daño con ataques físicos fuertes
+    - Bueno para el juego en grupo y la tanqueada de enemigos
+    - Se enfoca en la fuerza y la resistencia
+  </Card>
+  <Card title="Mago">
+    - Especialízate en hechizos con daño de área de efecto
+    - Ideal para controlar el campo de batalla
+    - Requiere un tiempo y una posición precisos
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Subir de Nivel">
+Para subir de nivel rápidamente en Himeko Nova, sigue estos pasos:
+
+<Steps>
+  <Step num="1" title="Completa Misiones">
+    Las misiones proporcionan experiencia y objetos valiosos.
+  </Step>
+  <Step num="2" title="Recoge Recursos">
+    Los recursos son necesarios para la elaboración y la mejora de equipo.
+  </Step>
+  <Step num="3" title="Únete a Gremios">
+    Los gremios ofrecen beneficios adicionales y desafíos.
+  </Step>
+  <Step num="4" title="Participa en Eventos">
+    Los eventos son una gran manera de ganar recompensas adicionales.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Logros y Recompensas">
+Desbloquear logros en Himeko Nova no solo proporciona una sensación de logro, sino que también te recompensa con artículos exclusivos y bonificaciones en el juego.
+
+<Checklist
+  id="achievements"
+  title="Logros Notables:"
+  items={[
+    "Completa todas las misiones principales",
+    "Alcanza el nivel 50",
+    "Desbloquea todas las habilidades de personaje",
+    "Recoge todos los objetos del juego"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo nuevas habilidades?",
+    answer: "Desbloquea habilidades subiendo de nivel y completando los árboles de habilidades."
+  },
+  {
+    question: "¿Puedo cambiar la clase de mi personaje después de su creación?",
+    answer: "Sí, puedes cambiar la clase de tu personaje en cualquier momento visitando el menú de personaje."
+  },
+  {
+    question: "¿Cuál es la mejor manera de cultivar recursos?",
+    answer: "El cultivo de recursos es el más eficiente al completar misiones y participar en eventos."
+  }
+]} />
+</Section>
+
+<Section icon={Sparkles} title="Conclusión">
+Himeko Nova es un juego que ofrece una experiencia profunda y envolvente. Al seguir esta guía, estarás bien en el camino para dominar el juego y alcanzar el éxito.
+</Section>

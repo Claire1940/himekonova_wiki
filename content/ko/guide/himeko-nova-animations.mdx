@@ -1,0 +1,106 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "히메코 노바: 최종 게임 가이드",
+  description: "히메코 노바의 최고 전략, 팁, 그리고 기술을 comprehensive 가이드에서 발견하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=Himeko+Nova+Guide",
+  date: "2026-07-24",
+  author: "히메코 노바 위키 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 히메코 노바
+- **주요 메커니즘**: 히메코 노바의 독특한 능력을 마스터하세요
+- **최고 전략**: 플레이 스타일을 최대한 효율적으로 최적화하세요
+- **기본적인 팁**: 자원 관리와 스킬 업그레이드를 우선시하세요
+- **최고 선택**: 다양한 능력을 위한 엘리먼트alist 클래스를 중심으로 캐릭터를 구축하세요
+</Callout>
+
+<Section icon={Map} title="히메코 노바 소개">
+히메코 노바는 탐험할 수 있는 풍부한 세계를 제공하는 흥미로운 RPG입니다. 이 가이드에서는 게임에서 성공하기 위해 알아야 할 모든 것을 다루겠습니다.
+</Section>
+
+<Section icon={Swords} title="캐릭터 구성">
+캐릭터를 만들 때, 올바른 직업을 선택하는 것이 중요합니다. 히메코 노바의 인기 있는 구성은 다음과 같습니다:
+
+<CardGrid cols={3}>
+  <Card title="엘리먼트alist">
+    - 요소를 제어하여 대량의 데미지를 입혀줍니다
+    - 단独行동과 보스 전투에 최적화됨
+    - 자원 관리가 좋아야 합니다
+  </Card>
+  <Card title="워리어">
+    - 강력한 물리 공격으로 높은 데미지输出
+    - 그룹 플레이와 적 탱킹에 적합
+    - 강력함과 견뎌림에 중점을 둡니다
+  </Card>
+  <Card title="메이지">
+    - 영역 효과 데미지를 가진 마법에 전문화됨
+    - 전장을 통제하는 데 적합
+    - 정확한 시간과 위치 조정이 필요합니다
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Target} title="레벨업 단계별 가이드">
+히메코 노바에서 빠르게 레벨업하기 위해 다음 단계를 따르세요:
+
+<Steps>
+  <Step num="1" title="퀘스트 완료">
+    퀘스트는 경험치와 귀중한 아이템을 제공합니다.
+  </Step>
+  <Step num="2" title="자원 수집">
+    자원은 장비 제작 및 업그레이드에 필요합니다.
+  </Step>
+  <Step num="3" title="동맹회 가입">
+    동맹회는 추가적인 혜택과 도전을 제공합니다.
+  </Step>
+  <Step num="4" title="이벤트 참여">
+    이벤트는 추가 보상을 얻는 좋은 방법입니다.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="성취와 보상">
+히메코 노바에서 성취를 해제하면 성취감을 느끼고 독점 아이템 및 게임 보너스를 받을 수 있습니다.
+
+<Checklist
+  id="achievements"
+  title="유명한 성취:"
+  items={[
+    "모든 주요 퀘스트 완료",
+    "레벨 50에 도달",
+    "모든 캐릭터 능력 해제",
+    "게임 내 모든 아이템 수집"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "새로운 능력을 해제하는 방법은 무엇인가요?",
+    answer: "레벨업하고 스킬 트리를 완료하여 능력을 해제합니다."
+  },
+  {
+    question: "캐릭터의 직업을 생성 후 변경할 수 있나요?",
+    answer: "네, 캐릭터 메뉴에 방문하여 언제든지 직업을 변경할 수 있습니다."
+  },
+  {
+    question: "자원을 수집하는 가장 좋은 방법은 무엇인가요?",
+    answer: "퀘스트를 완료하고 이벤트에 참여하여 자원을 수집하는 것이 가장 효율적입니다."
+  }
+]} />
+</Section>
+
+<Section icon={Sparkles} title="결론">
+히메코 노바는 깊고 흥미로운 경험을 제공하는 게임입니다. 이 가이드를 따르면 게임을 마스터하고 성공을 이룰 길이 열립니다.
+</Section>

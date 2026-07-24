@@ -1,0 +1,99 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejores Equipos de Himeko Nova - Honkai: Star Rail",
+  description: "Descubre las mejores composiciones de equipo y sinergias de personajes para Himeko Nova en Honkai: Star Rail con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Mejores+Equipos+de+Himeko+Nova",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de Himeko Nova"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mejores Sinergias**: Mortenax Blade, Remembrance Trailblazer, Sunday, Welt
+- **Composiciones de Equipo**: Himeko • Nova, Remembrance Trailblazer, Welt, Dan Heng • Permansor Terrae
+- **Gestión de Energía**: Enfócate en personajes que aumenten la ganancia de energía de Himeko
+- **Producción de Daño**: Optimiza para una alta producción de daño con habilidades sinergéticas
+- **Debuffs**: Utiliza los debuffs fuertes de Welt en las batallas de equipo
+</Callout>
+
+<Section icon={Map} title="Introducción">
+Bienvenido a nuestra guía completa sobre los mejores equipos para Himeko • Nova en Honkai: Star Rail. Esta guía cubrirá composiciones de equipo recomendadas, sinergias de personajes y estrategias para maximizar el potencial de tu equipo.
+</Section>
+
+<Section icon={Swords} title="Mejores Sinergias para Himeko Nova">
+Los siguientes personajes se sinergizan bien con Himeko • Nova para mejorar sus habilidades y contribuir al rendimiento general del equipo:
+<Checklist
+  id="synergies"
+  title="Sinergias Recomendadas:"
+  items={[
+    "Mortenax Blade: Proporciona turnos y aumento de daño",
+    "Remembrance Trailblazer: Aumenta la ganancia de energía y habilidades de asistencia de Himeko",
+    "Sunday: Buffs fuertes y ganancia de energía",
+    "Welt: Aliado de postura de aniquilación con debuffs fuertes"
+  ]}
+/>
+</Section>
+
+<Section icon={Target} title="Composiciones de Equipo">
+Aquí hay algunas de las mejores composiciones de equipo que incluyen a Himeko • Nova:
+<CardGrid cols={3}>
+  <Card title="Composición 1">
+    - Himeko • Nova
+    - Remembrance Trailblazer
+    - Welt
+    - Dan Heng • Permansor Terrae
+  </Card>
+  <Card title="Composición 2">
+    - Himeko • Nova
+    - Sunday
+    - Sparkle
+    - Dan Heng • Permansor Terrae
+  </Card>
+  <Card title="Composición 3">
+    - Himeko • Nova
+    - Sunday
+    - Mortenax Blade
+    - Dan Heng • Permansor Terrae
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Trophy} title="Gestión de Energía">
+Una gestión adecuada de la energía es crucial para la efectividad de Himeko • Nova. Enfócate en personajes que proporcionen aumentos de energía y asegúrate de tener suficiente energía para utilizar sus habilidades poderosas.
+<Callout type="tip" title="Consejo Profesional">
+Utiliza el aumento de energía de Sunday para mantener el medidor de energía de Himeko • Nova lleno y maximizar el uso de sus habilidades.
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Producción de Daño">
+Optimiza la producción de daño de tu equipo al emparejar a Himeko • Nova con personajes que puedan sinergizar sus habilidades. Presta atención al aumento de daño y a las probabilidades de golpe crítico para maximizar la producción de daño.
+</Section>
+
+<Section icon={Sparkles} title="Debuffs y Control">
+Los debuffs fuertes de Welt pueden influir significativamente en las batallas de equipo. Usa sus habilidades para debilitar a los enemigos y crear oportunidades para que tu equipo cause daños masivos.
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de usar las habilidades de Himeko • Nova?",
+    answer: "Enfócate en usar sus habilidades basadas en energía y combínalas con personajes que puedan proporcionar energía o mejorar su daño."
+  },
+  {
+    question: "¿Cómo puedo contrarrestar eficazmente a los equipos enemigos?",
+    answer: "Utiliza debuffs y habilidades de control para debilitar a los enemigos y crear oportunidades para que tu equipo aproveche las ventajas."
+  },
+  {
+    question: "¿Qué personajes debería evitar en un equipo con Himeko • Nova?",
+    answer: "Evita a los personajes que tienen sinergias negativas con Himeko • Nova o que no complementan su estilo de juego."
+  }
+]} />
+</Section>
